@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -31881,7 +31881,7 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <part name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="JST-SMD" package3d_urn="urn:adsk.eagle:package:38075/1" value="3-PIN SMD"/>
 <part name="J5" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_06" device="1.27MM" package3d_urn="urn:adsk.eagle:package:38131/1" value="SPI"/>
 <part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04" device="JST-PTH" package3d_urn="urn:adsk.eagle:package:38101/1" value="GPIO"/>
-<part name="J20" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04" device="1.27MM" package3d_urn="urn:adsk.eagle:package:38086/1"/>
+<part name="J20" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04" device="1.27MM" package3d_urn="urn:adsk.eagle:package:38086/1" value="GPIO"/>
 </parts>
 <sheets>
 <sheet>
@@ -33739,8 +33739,8 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <junction x="162.56" y="205.74"/>
 <wire x1="172.72" y1="205.74" x2="180.34" y2="205.74" width="0.1524" layer="91"/>
 <junction x="172.72" y="205.74"/>
-<wire x1="180.34" y1="205.74" x2="180.34" y2="226.06" width="0.1524" layer="91"/>
-<label x="180.34" y="226.06" size="0.8128" layer="95" rot="R90" xref="yes"/>
+<wire x1="180.34" y1="205.74" x2="180.34" y2="231.14" width="0.1524" layer="91"/>
+<label x="180.34" y="231.14" size="0.8128" layer="95" rot="R90" xref="yes"/>
 <pinref part="VOR" gate="1" pin="P"/>
 </segment>
 <segment>
@@ -33753,8 +33753,8 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <segment>
 <pinref part="K1" gate="2" pin="S"/>
 <wire x1="175.26" y1="215.9" x2="177.8" y2="215.9" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="215.9" x2="177.8" y2="226.06" width="0.1524" layer="91"/>
-<label x="177.8" y="226.06" size="0.8128" layer="95" rot="R90" xref="yes"/>
+<wire x1="177.8" y1="215.9" x2="177.8" y2="231.14" width="0.1524" layer="91"/>
+<label x="177.8" y="231.14" size="0.8128" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
 <wire x1="96.52" y1="43.18" x2="99.06" y2="43.18" width="0.1524" layer="91"/>
