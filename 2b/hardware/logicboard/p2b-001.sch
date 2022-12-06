@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -34136,6 +34136,7 @@ CA 95125 (408)494-0330&lt;br&gt;
 <pinref part="JP5" gate="A" pin="3"/>
 <wire x1="33.02" y1="236.22" x2="45.72" y2="236.22" width="0.1524" layer="91"/>
 <label x="66.04" y="236.22" size="1.778" layer="95"/>
+<label x="66.04" y="200.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LED0A" class="0">
