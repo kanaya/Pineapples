@@ -32451,7 +32451,6 @@ CA 95125 (408)494-0330&lt;br&gt;
 <part name="IC2" library="40xx" library_urn="urn:adsk.eagle:library:80" deviceset="4066" device="N" package3d_urn="urn:adsk.eagle:package:16407/2"/>
 <part name="SUPPLY26" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY11" library="supply2" deviceset="GND" device=""/>
-<part name="SUPPLY28" library="supply2" deviceset="GND" device=""/>
 <part name="JP4" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2" value="RLYJMP"/>
 <part name="SUPPLY29" library="supply2" deviceset="GND" device=""/>
 <part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_05" device="JST" package3d_urn="urn:adsk.eagle:package:38120/1" value="MKR"/>
@@ -32512,7 +32511,6 @@ CA 95125 (408)494-0330&lt;br&gt;
 <part name="SUPPLY15" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="SUPPLY16" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY17" library="supply2" deviceset="GND" device=""/>
-<part name="SUPPLY18" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="SUPPLY19" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC/2" device=""/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC/2" device=""/>
@@ -32543,6 +32541,8 @@ CA 95125 (408)494-0330&lt;br&gt;
 <part name="J5" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_06" device="1.27MM" package3d_urn="urn:adsk.eagle:package:38131/1" value="SPI"/>
 <part name="J10" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="JST-PTH-VERT" package3d_urn="urn:adsk.eagle:package:38080/1" value="1-Wire"/>
 <part name="J20" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04" device="1.27MM" package3d_urn="urn:adsk.eagle:package:38086/1"/>
+<part name="X1" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="PAD-N" device=""/>
+<part name="X2" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="PAD-N" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -32585,13 +32585,13 @@ CA 95125 (408)494-0330&lt;br&gt;
 <attribute name="NAME" x="139.7" y="91.44" size="1.778" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="139.7" y="83.82" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="IC1" gate="B" x="134.62" y="38.1" smashed="yes">
-<attribute name="NAME" x="139.7" y="40.64" size="1.778" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="139.7" y="33.02" size="1.778" layer="96" align="bottom-center"/>
+<instance part="IC1" gate="B" x="127" y="38.1" smashed="yes">
+<attribute name="NAME" x="132.08" y="40.64" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="132.08" y="33.02" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="IC1" gate="C" x="134.62" y="25.4" smashed="yes">
-<attribute name="NAME" x="139.7" y="27.94" size="1.778" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="139.7" y="20.32" size="1.778" layer="96" align="bottom-center"/>
+<instance part="IC1" gate="C" x="127" y="25.4" smashed="yes">
+<attribute name="NAME" x="132.08" y="27.94" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="132.08" y="20.32" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="IC1" gate="D" x="157.48" y="88.9" smashed="yes">
 <attribute name="NAME" x="162.56" y="91.44" size="1.778" layer="95" align="bottom-center"/>
@@ -32654,7 +32654,6 @@ CA 95125 (408)494-0330&lt;br&gt;
 <attribute name="NAME" x="241.3" y="210.82" size="1.778" layer="95" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY11" gate="GND" x="241.3" y="198.12" smashed="yes"/>
-<instance part="SUPPLY28" gate="GND" x="203.2" y="198.12" smashed="yes"/>
 <instance part="JP4" gate="G$1" x="96.52" y="208.28" smashed="yes" rot="MR0">
 <attribute name="NAME" x="91.44" y="208.28" size="1.778" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="93.98" y="208.28" size="1.778" layer="96" rot="R90" align="bottom-center"/>
@@ -32928,9 +32927,6 @@ CA 95125 (408)494-0330&lt;br&gt;
 </instance>
 <instance part="SUPPLY16" gate="GND" x="259.08" y="48.26" smashed="yes"/>
 <instance part="SUPPLY17" gate="GND" x="292.1" y="48.26" smashed="yes"/>
-<instance part="SUPPLY18" gate="G$1" x="203.2" y="243.84" smashed="yes">
-<attribute name="VALUE" x="203.2" y="248.92" size="1.778" layer="96" align="bottom-center"/>
-</instance>
 <instance part="SUPPLY19" gate="G$1" x="167.64" y="170.18" smashed="yes">
 <attribute name="VALUE" x="167.64" y="175.26" size="1.778" layer="96" align="bottom-center"/>
 </instance>
@@ -32946,7 +32942,7 @@ CA 95125 (408)494-0330&lt;br&gt;
 </instance>
 <instance part="DISP1" gate="G$1" x="360.68" y="83.82" smashed="yes">
 <attribute name="NAME" x="363.22" y="93.98" size="1.778" layer="95"/>
-<attribute name="VALUE" x="363.22" y="71.12" size="1.778" layer="96"/>
+<attribute name="VALUE" x="355.6" y="71.12" size="1.778" layer="96"/>
 </instance>
 <instance part="R101" gate="G$1" x="269.24" y="83.82" smashed="yes" rot="R90">
 <attribute name="NAME" x="267.7414" y="80.01" size="1.778" layer="95" rot="R90"/>
@@ -33039,6 +33035,8 @@ CA 95125 (408)494-0330&lt;br&gt;
 <attribute name="VALUE" x="40.64" y="23.114" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="40.64" y="38.608" size="1.778" layer="95" font="vector"/>
 </instance>
+<instance part="X1" gate="G$1" x="50.8" y="30.48" smashed="yes"/>
+<instance part="X2" gate="G$1" x="50.8" y="27.94" smashed="yes"/>
 </instances>
 <busses>
 <bus name="ANLG[0..3]">
@@ -33070,11 +33068,6 @@ CA 95125 (408)494-0330&lt;br&gt;
 <pinref part="IC2" gate="P" pin="VSS"/>
 <pinref part="SUPPLY11" gate="GND" pin="GND"/>
 <wire x1="241.3" y1="203.2" x2="241.3" y2="200.66" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="200.66" y1="203.2" x2="203.2" y2="203.2" width="0.1524" layer="91"/>
-<pinref part="SUPPLY28" gate="GND" pin="GND"/>
-<wire x1="203.2" y1="203.2" x2="203.2" y2="200.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY29" gate="GND" pin="GND"/>
@@ -33312,11 +33305,6 @@ CA 95125 (408)494-0330&lt;br&gt;
 <wire x1="281.94" y1="223.52" x2="292.1" y2="223.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="200.66" y1="213.36" x2="203.2" y2="213.36" width="0.1524" layer="91"/>
-<pinref part="SUPPLY18" gate="G$1" pin="VCC"/>
-<wire x1="203.2" y1="213.36" x2="203.2" y2="241.3" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="J1" gate="G$1" pin="5"/>
 <wire x1="73.66" y1="68.58" x2="76.2" y2="68.58" width="0.1524" layer="91"/>
 <label x="76.2" y="68.58" size="0.8128" layer="95" xref="yes"/>
@@ -33340,6 +33328,7 @@ CA 95125 (408)494-0330&lt;br&gt;
 <wire x1="53.34" y1="233.68" x2="81.28" y2="233.68" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="241.3" x2="53.34" y2="233.68" width="0.1524" layer="91"/>
 <junction x="53.34" y="233.68"/>
+<label x="66.04" y="233.68" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="RN3" gate="1" pin="1"/>
@@ -33468,10 +33457,6 @@ CA 95125 (408)494-0330&lt;br&gt;
 <label x="340.36" y="127" size="0.8128" layer="95" rot="MR0" xref="yes"/>
 </segment>
 <segment>
-<wire x1="200.66" y1="208.28" x2="203.2" y2="208.28" width="0.1524" layer="91"/>
-<label x="203.2" y="208.28" size="0.8128" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="RN3" gate="1" pin="4"/>
 <wire x1="167.64" y1="142.24" x2="170.18" y2="142.24" width="0.1524" layer="91"/>
 <label x="170.18" y="142.24" size="0.8128" layer="95" xref="yes"/>
@@ -33590,14 +33575,14 @@ CA 95125 (408)494-0330&lt;br&gt;
 <label x="370.84" y="111.76" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="119.38" y1="38.1" x2="121.92" y2="38.1" width="0.1524" layer="91"/>
-<label x="119.38" y="38.1" size="0.8128" layer="95" rot="MR0" xref="yes"/>
+<wire x1="111.76" y1="38.1" x2="114.3" y2="38.1" width="0.1524" layer="91"/>
+<label x="111.76" y="38.1" size="0.8128" layer="95" rot="MR0" xref="yes"/>
 <pinref part="IC1" gate="B" pin="I"/>
-<wire x1="124.46" y1="38.1" x2="121.92" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="38.1" x2="114.3" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="C" pin="I"/>
-<wire x1="121.92" y1="25.4" x2="124.46" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="38.1" x2="121.92" y2="25.4" width="0.1524" layer="91"/>
-<junction x="121.92" y="38.1"/>
+<wire x1="114.3" y1="25.4" x2="116.84" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="38.1" x2="114.3" y2="25.4" width="0.1524" layer="91"/>
+<junction x="114.3" y="38.1"/>
 </segment>
 <segment>
 <pinref part="SV3" gate="A" pin="1"/>
@@ -33918,6 +33903,7 @@ CA 95125 (408)494-0330&lt;br&gt;
 <pinref part="JP1" gate="A" pin="2"/>
 <label x="116.84" y="236.22" size="0.8128" layer="95" xref="yes"/>
 <wire x1="88.9" y1="236.22" x2="116.84" y2="236.22" width="0.1524" layer="91"/>
+<label x="93.98" y="236.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VCC/2" class="4">
@@ -33931,6 +33917,7 @@ CA 95125 (408)494-0330&lt;br&gt;
 <wire x1="63.5" y1="241.3" x2="63.5" y2="231.14" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="5"/>
 <wire x1="81.28" y1="231.14" x2="63.5" y2="231.14" width="0.1524" layer="91"/>
+<label x="66.04" y="231.14" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="SV1" gate="-4" pin="S"/>
@@ -34058,6 +34045,8 @@ CA 95125 (408)494-0330&lt;br&gt;
 <junction x="114.3" y="233.68"/>
 <wire x1="114.3" y1="231.14" x2="114.3" y2="233.68" width="0.1524" layer="91"/>
 <junction x="114.3" y="231.14"/>
+<label x="93.98" y="233.68" size="1.778" layer="95"/>
+<label x="93.98" y="231.14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VOUTRAW" class="4">
@@ -34090,15 +34079,16 @@ CA 95125 (408)494-0330&lt;br&gt;
 <wire x1="124.46" y1="200.66" x2="132.08" y2="200.66" width="0.1524" layer="91"/>
 <junction x="124.46" y="200.66"/>
 <wire x1="132.08" y1="200.66" x2="132.08" y2="213.36" width="0.1524" layer="91"/>
-<label x="132.08" y="220.98" size="0.8128" layer="95" rot="R90" xref="yes"/>
+<label x="132.08" y="228.6" size="0.8128" layer="95" rot="R90" xref="yes"/>
 <pinref part="B" gate="1" pin="P"/>
-<wire x1="132.08" y1="213.36" x2="132.08" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="213.36" x2="132.08" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="215.9" x2="106.68" y2="208.28" width="0.1524" layer="91"/>
 <junction x="106.68" y="208.28"/>
 <pinref part="RZ3**" gate="G$1" pin="1"/>
 <wire x1="137.16" y1="213.36" x2="137.16" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="213.36" x2="132.08" y2="213.36" width="0.1524" layer="91"/>
 <junction x="132.08" y="213.36"/>
+<label x="104.14" y="200.66" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="96.52" y1="66.04" x2="101.6" y2="66.04" width="0.1524" layer="91"/>
@@ -34110,8 +34100,8 @@ CA 95125 (408)494-0330&lt;br&gt;
 <segment>
 <pinref part="K1" gate="2" pin="S"/>
 <wire x1="127" y1="210.82" x2="129.54" y2="210.82" width="0.1524" layer="91"/>
-<label x="129.54" y="220.98" size="0.8128" layer="95" rot="R90" xref="yes"/>
-<wire x1="129.54" y1="210.82" x2="129.54" y2="220.98" width="0.1524" layer="91"/>
+<label x="129.54" y="228.6" size="0.8128" layer="95" rot="R90" xref="yes"/>
+<wire x1="129.54" y1="210.82" x2="129.54" y2="228.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="119.38" y1="48.26" x2="121.92" y2="48.26" width="0.1524" layer="91"/>
@@ -34145,6 +34135,7 @@ CA 95125 (408)494-0330&lt;br&gt;
 <junction x="45.72" y="236.22"/>
 <pinref part="JP5" gate="A" pin="3"/>
 <wire x1="33.02" y1="236.22" x2="45.72" y2="236.22" width="0.1524" layer="91"/>
+<label x="66.04" y="236.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LED0A" class="0">
@@ -34285,8 +34276,8 @@ CA 95125 (408)494-0330&lt;br&gt;
 <segment>
 <pinref part="IC1" gate="B" pin="O"/>
 <pinref part="IC1" gate="E" pin="I"/>
-<wire x1="144.78" y1="38.1" x2="147.32" y2="38.1" width="0.1524" layer="91"/>
-<label x="144.78" y="40.64" size="0.8128" layer="95"/>
+<wire x1="137.16" y1="38.1" x2="147.32" y2="38.1" width="0.1524" layer="91"/>
+<label x="137.16" y="38.1" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="RN2" gate="1" pin="4"/>
@@ -34298,8 +34289,8 @@ CA 95125 (408)494-0330&lt;br&gt;
 <segment>
 <pinref part="IC1" gate="C" pin="O"/>
 <pinref part="IC1" gate="F" pin="I"/>
-<wire x1="144.78" y1="25.4" x2="147.32" y2="25.4" width="0.1524" layer="91"/>
-<label x="144.78" y="27.94" size="0.8128" layer="95"/>
+<wire x1="137.16" y1="25.4" x2="147.32" y2="25.4" width="0.1524" layer="91"/>
+<label x="137.16" y="25.4" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="RN2" gate="1" pin="5"/>
