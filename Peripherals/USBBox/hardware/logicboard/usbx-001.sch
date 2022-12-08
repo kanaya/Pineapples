@@ -8602,7 +8602,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <class number="1" name="gnd" width="0.3048" drill="0.1524">
 <clearance class="1" value="0.1524"/>
 </class>
-<class number="2" name="power" width="0.508" drill="0.1524">
+<class number="2" name="power" width="0.3048" drill="0.1524">
 <clearance class="2" value="0.1524"/>
 </class>
 <class number="3" name="analog" width="0.3048" drill="0.1524">
