@@ -32019,7 +32019,7 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <part name="J5" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_06" device="1.27MM" package3d_urn="urn:adsk.eagle:package:38131/1" value="SPI"/>
 <part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04" device="JST-PTH" package3d_urn="urn:adsk.eagle:package:38101/1" value="GPIO"/>
 <part name="J20" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04" device="1.27MM" package3d_urn="urn:adsk.eagle:package:38086/1" value="GPIO"/>
-<part name="JP4" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
+<part name="JP4" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2" value="LEDSW"/>
 </parts>
 <sheets>
 <sheet>
@@ -34163,8 +34163,6 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <approved hash="113,1,40.64,142.24,XJP2_3,,,,,"/>
 <approved hash="113,1,131.801,148.587,RX,,,,,"/>
 <approved hash="113,1,131.801,143.507,IN,,,,,"/>
-<approved hash="113,1,30.2006,184.147,V+,,,,,"/>
-<approved hash="113,1,30.2006,207.007,VIN,,,,,"/>
 <approved hash="113,1,157.201,217.167,VO,,,,,"/>
 <approved hash="113,1,157.201,212.087,VOR,,,,,"/>
 </errors>
