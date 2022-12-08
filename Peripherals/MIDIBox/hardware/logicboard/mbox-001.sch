@@ -8132,7 +8132,7 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 <wire x1="50.8" y1="109.22" x2="15.24" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="M1GND" class="2">
+<net name="M1SLV" class="2">
 <segment>
 <pinref part="J7" gate="G$1" pin="2"/>
 <wire x1="25.4" y1="149.86" x2="25.4" y2="152.4" width="0.1524" layer="91"/>
@@ -8142,7 +8142,7 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 <label x="93.98" y="152.4" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="M3GND" class="2">
+<net name="M3SLV" class="2">
 <segment>
 <pinref part="J9" gate="G$1" pin="2"/>
 <wire x1="25.4" y1="38.1" x2="25.4" y2="40.64" width="0.1524" layer="91"/>
@@ -8152,7 +8152,7 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 <label x="99.06" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="M2GND" class="2">
+<net name="M2SLV" class="2">
 <segment>
 <pinref part="J8" gate="G$1" pin="2"/>
 <wire x1="25.4" y1="96.52" x2="25.4" y2="99.06" width="0.1524" layer="91"/>
@@ -8170,7 +8170,7 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 <label x="35.56" y="144.78" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="M1RING" class="0">
+<net name="M1TIP" class="0">
 <segment>
 <pinref part="S1" gate="1" pin="O"/>
 <wire x1="60.96" y1="165.1" x2="73.66" y2="165.1" width="0.1524" layer="91"/>
@@ -8183,7 +8183,7 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 <junction x="73.66" y="142.24"/>
 </segment>
 </net>
-<net name="M1TIP" class="0">
+<net name="M1RNG" class="0">
 <segment>
 <pinref part="JJ7" gate="G$1" pin="RING"/>
 <wire x1="109.22" y1="149.86" x2="68.58" y2="149.86" width="0.1524" layer="91"/>
@@ -8205,7 +8205,7 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 <label x="35.56" y="91.44" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="M2RING" class="0">
+<net name="M2TIP" class="0">
 <segment>
 <pinref part="S2" gate="1" pin="O"/>
 <wire x1="60.96" y1="111.76" x2="73.66" y2="111.76" width="0.1524" layer="91"/>
@@ -8218,7 +8218,7 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 <label x="96.52" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="M2TIP" class="0">
+<net name="M2RNG" class="0">
 <segment>
 <pinref part="S2" gate="1" pin="S"/>
 <wire x1="60.96" y1="106.68" x2="68.58" y2="106.68" width="0.1524" layer="91"/>
@@ -8240,7 +8240,7 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 <label x="38.1" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="M3RING" class="0">
+<net name="M3TIP" class="0">
 <segment>
 <pinref part="S3" gate="1" pin="O"/>
 <wire x1="63.5" y1="53.34" x2="73.66" y2="53.34" width="0.1524" layer="91"/>
@@ -8253,7 +8253,7 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 <label x="99.06" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="M3TIP" class="0">
+<net name="M3RNG" class="0">
 <segment>
 <pinref part="S3" gate="1" pin="S"/>
 <wire x1="63.5" y1="48.26" x2="68.58" y2="48.26" width="0.1524" layer="91"/>
