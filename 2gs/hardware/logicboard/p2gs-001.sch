@@ -8778,12 +8778,45 @@ Low profile connectors, straight&lt;p&gt;
 <text x="-3.81" y="-2.921" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <text x="-3.81" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 </package>
+<package name="RN-9" urn="urn:adsk.eagle:footprint:24956/1" library_version="2">
+<description>&lt;b&gt;RESISTOR NETWORK&lt;/b&gt;</description>
+<wire x1="11.43" y1="-1.27" x2="11.43" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-11.43" y1="1.27" x2="-11.43" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-11.43" y1="-1.27" x2="-10.795" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-11.43" y1="1.27" x2="-10.795" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-8.89" y1="1.27" x2="-9.525" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="11.43" y1="1.27" x2="-8.89" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-8.89" y1="-1.27" x2="-9.525" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-11.43" y1="-1.27" x2="-8.89" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-8.89" y1="1.27" x2="-8.89" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-8.89" y1="1.27" x2="-11.43" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-8.89" y1="-1.27" x2="11.43" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-10.7696" y1="0.6096" x2="-9.5504" y2="-0.6096" width="0.1524" layer="51"/>
+<wire x1="-10.7696" y1="-0.6096" x2="-9.5504" y2="0.6096" width="0.1524" layer="51"/>
+<pad name="1" x="-10.16" y="0" drill="0.8128" shape="long" rot="R90"/>
+<pad name="2" x="-7.62" y="0" drill="0.8128" shape="long" rot="R90"/>
+<pad name="3" x="-5.08" y="0" drill="0.8128" shape="long" rot="R90"/>
+<pad name="4" x="-2.54" y="0" drill="0.8128" shape="long" rot="R90"/>
+<pad name="5" x="0" y="0" drill="0.8128" shape="long" rot="R90"/>
+<pad name="6" x="2.54" y="0" drill="0.8128" shape="long" rot="R90"/>
+<pad name="7" x="5.08" y="0" drill="0.8128" shape="long" rot="R90"/>
+<pad name="8" x="7.62" y="0" drill="0.8128" shape="long" rot="R90"/>
+<pad name="9" x="10.16" y="0" drill="0.8128" shape="long" rot="R90"/>
+<text x="-8.89" y="-3.175" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-8.89" y="1.905" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="RN-5" urn="urn:adsk.eagle:package:24976/1" type="box" library_version="1">
 <description>RESISTOR NETWORK</description>
 <packageinstances>
 <packageinstance name="RN-5"/>
+</packageinstances>
+</package3d>
+<package3d name="RN-9" urn="urn:adsk.eagle:package:24977/1" type="box" library_version="2">
+<description>RESISTOR NETWORK</description>
+<packageinstances>
+<packageinstance name="RN-9"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -8800,6 +8833,23 @@ Low profile connectors, straight&lt;p&gt;
 <pin name="3" x="10.16" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="4" x="15.24" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="5" x="20.32" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+<symbol name="RN08" urn="urn:adsk.eagle:symbol:24955/1" library_version="2">
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-1.27" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="-2.54" y2="1.27" width="0.254" layer="94"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-4.318" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="3" x="10.16" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="4" x="15.24" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="5" x="20.32" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="6" x="25.4" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="7" x="30.48" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="8" x="35.56" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="9" x="40.64" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -8826,6 +8876,39 @@ Low profile connectors, straight&lt;p&gt;
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RN08" urn="urn:adsk.eagle:component:25000/2" prefix="RN" uservalue="yes" library_version="2">
+<description>&lt;b&gt;RESISTOR NETWORK&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="RN08" x="5.08" y="0"/>
+</gates>
+<devices>
+<device name="" package="RN-9">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+<connect gate="1" pin="3" pad="3"/>
+<connect gate="1" pin="4" pad="4"/>
+<connect gate="1" pin="5" pad="5"/>
+<connect gate="1" pin="6" pad="6"/>
+<connect gate="1" pin="7" pad="7"/>
+<connect gate="1" pin="8" pad="8"/>
+<connect gate="1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:24977/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+<attribute name="POPULARITY" value="1" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -18265,6 +18348,10 @@ CA 95125 (408)494-0330&lt;br&gt;
 <part name="SUPPLY28" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY30" library="supply2" deviceset="GND" device=""/>
 <part name="JG1" library="Connector" deviceset="TWIG-4P-2.0" device="'90D'"/>
+<part name="RN1" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="RN08" device="" package3d_urn="urn:adsk.eagle:package:24977/1"/>
+<part name="RN2" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="RN08" device="" package3d_urn="urn:adsk.eagle:package:24977/1"/>
+<part name="SUPPLY31" library="supply2" deviceset="GND" device=""/>
+<part name="SUPPLY32" library="supply2" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -18662,6 +18749,16 @@ CA 95125 (408)494-0330&lt;br&gt;
 <attribute name="NAME" x="298.45" y="76.2" size="1.27" layer="95"/>
 <attribute name="VALUE" x="302.26" y="67.31" size="1.27" layer="96" rot="R90"/>
 </instance>
+<instance part="RN1" gate="1" x="231.14" y="139.7" smashed="yes" rot="R90">
+<attribute name="NAME" x="228.6" y="137.16" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="235.458" y="137.16" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="RN2" gate="1" x="246.38" y="139.7" smashed="yes" rot="R90">
+<attribute name="NAME" x="243.84" y="137.16" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="250.698" y="137.16" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SUPPLY31" gate="GND" x="231.14" y="127" smashed="yes"/>
+<instance part="SUPPLY32" gate="GND" x="246.38" y="127" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -18913,6 +19010,16 @@ CA 95125 (408)494-0330&lt;br&gt;
 <pinref part="JG1" gate="G$1" pin="4"/>
 <wire x1="295.91" y1="67.31" x2="289.56" y2="67.31" width="0.1524" layer="91"/>
 <label x="289.56" y="68.58" size="0.8128" layer="95"/>
+</segment>
+<segment>
+<pinref part="RN1" gate="1" pin="1"/>
+<wire x1="231.14" y1="134.62" x2="231.14" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="SUPPLY31" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="RN2" gate="1" pin="1"/>
+<wire x1="246.38" y1="134.62" x2="246.38" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="SUPPLY32" gate="GND" pin="GND"/>
 </segment>
 </net>
 <net name="VCC" class="2">
@@ -19605,6 +19712,11 @@ CA 95125 (408)494-0330&lt;br&gt;
 <wire x1="25.4" y1="154.94" x2="22.86" y2="154.94" width="0.1524" layer="91"/>
 <label x="22.86" y="154.94" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="RN1" gate="1" pin="2"/>
+<wire x1="231.14" y1="144.78" x2="226.06" y2="144.78" width="0.1524" layer="91"/>
+<label x="226.06" y="144.78" size="0.8128" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="PWM01" class="0">
 <segment>
@@ -19616,6 +19728,11 @@ CA 95125 (408)494-0330&lt;br&gt;
 <pinref part="Q2" gate="NMOS" pin="G"/>
 <wire x1="45.72" y1="154.94" x2="43.18" y2="154.94" width="0.1524" layer="91"/>
 <label x="43.18" y="154.94" size="0.8128" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="RN1" gate="1" pin="3"/>
+<wire x1="231.14" y1="149.86" x2="226.06" y2="149.86" width="0.1524" layer="91"/>
+<label x="226.06" y="149.86" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="PWM02" class="0">
@@ -19629,6 +19746,11 @@ CA 95125 (408)494-0330&lt;br&gt;
 <wire x1="66.04" y1="154.94" x2="63.5" y2="154.94" width="0.1524" layer="91"/>
 <label x="63.5" y="154.94" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="RN1" gate="1" pin="4"/>
+<wire x1="231.14" y1="154.94" x2="226.06" y2="154.94" width="0.1524" layer="91"/>
+<label x="226.06" y="154.94" size="0.8128" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="PWM03" class="0">
 <segment>
@@ -19640,6 +19762,11 @@ CA 95125 (408)494-0330&lt;br&gt;
 <pinref part="Q4" gate="NMOS" pin="G"/>
 <wire x1="86.36" y1="154.94" x2="83.82" y2="154.94" width="0.1524" layer="91"/>
 <label x="83.82" y="154.94" size="0.8128" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="RN1" gate="1" pin="5"/>
+<wire x1="231.14" y1="160.02" x2="226.06" y2="160.02" width="0.1524" layer="91"/>
+<label x="226.06" y="160.02" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="PWM04" class="0">
@@ -19653,6 +19780,11 @@ CA 95125 (408)494-0330&lt;br&gt;
 <wire x1="106.68" y1="154.94" x2="104.14" y2="154.94" width="0.1524" layer="91"/>
 <label x="104.14" y="154.94" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="RN1" gate="1" pin="6"/>
+<wire x1="231.14" y1="165.1" x2="226.06" y2="165.1" width="0.1524" layer="91"/>
+<label x="226.06" y="165.1" size="0.8128" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="PWM05" class="0">
 <segment>
@@ -19664,6 +19796,11 @@ CA 95125 (408)494-0330&lt;br&gt;
 <pinref part="Q6" gate="NMOS" pin="G"/>
 <wire x1="127" y1="154.94" x2="124.46" y2="154.94" width="0.1524" layer="91"/>
 <label x="124.46" y="154.94" size="0.8128" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="RN1" gate="1" pin="7"/>
+<wire x1="231.14" y1="170.18" x2="226.06" y2="170.18" width="0.1524" layer="91"/>
+<label x="226.06" y="170.18" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="PWM06" class="0">
@@ -19677,6 +19814,11 @@ CA 95125 (408)494-0330&lt;br&gt;
 <wire x1="147.32" y1="154.94" x2="144.78" y2="154.94" width="0.1524" layer="91"/>
 <label x="144.78" y="154.94" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="RN1" gate="1" pin="8"/>
+<wire x1="231.14" y1="175.26" x2="226.06" y2="175.26" width="0.1524" layer="91"/>
+<label x="226.06" y="175.26" size="0.8128" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="PWM07" class="0">
 <segment>
@@ -19688,6 +19830,11 @@ CA 95125 (408)494-0330&lt;br&gt;
 <pinref part="Q8" gate="NMOS" pin="G"/>
 <wire x1="167.64" y1="154.94" x2="165.1" y2="154.94" width="0.1524" layer="91"/>
 <label x="165.1" y="154.94" size="0.8128" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="RN1" gate="1" pin="9"/>
+<wire x1="231.14" y1="180.34" x2="226.06" y2="180.34" width="0.1524" layer="91"/>
+<label x="226.06" y="180.34" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="PWM08" class="0">
@@ -19701,6 +19848,11 @@ CA 95125 (408)494-0330&lt;br&gt;
 <wire x1="25.4" y1="114.3" x2="22.86" y2="114.3" width="0.1524" layer="91"/>
 <label x="22.86" y="114.3" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="RN2" gate="1" pin="2"/>
+<wire x1="246.38" y1="144.78" x2="241.3" y2="144.78" width="0.1524" layer="91"/>
+<label x="241.3" y="144.78" size="0.8128" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="PWM09" class="0">
 <segment>
@@ -19712,6 +19864,11 @@ CA 95125 (408)494-0330&lt;br&gt;
 <pinref part="Q10" gate="NMOS" pin="G"/>
 <wire x1="45.72" y1="114.3" x2="43.18" y2="114.3" width="0.1524" layer="91"/>
 <label x="43.18" y="114.3" size="0.8128" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="RN2" gate="1" pin="3"/>
+<wire x1="246.38" y1="149.86" x2="241.3" y2="149.86" width="0.1524" layer="91"/>
+<label x="241.3" y="149.86" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="PWM10" class="0">
@@ -19725,6 +19882,11 @@ CA 95125 (408)494-0330&lt;br&gt;
 <wire x1="66.04" y1="114.3" x2="63.5" y2="114.3" width="0.1524" layer="91"/>
 <label x="63.5" y="114.3" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="RN2" gate="1" pin="4"/>
+<wire x1="246.38" y1="154.94" x2="241.3" y2="154.94" width="0.1524" layer="91"/>
+<label x="241.3" y="154.94" size="0.8128" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="PWM11" class="0">
 <segment>
@@ -19736,6 +19898,11 @@ CA 95125 (408)494-0330&lt;br&gt;
 <pinref part="Q12" gate="NMOS" pin="G"/>
 <wire x1="86.36" y1="114.3" x2="83.82" y2="114.3" width="0.1524" layer="91"/>
 <label x="83.82" y="114.3" size="0.8128" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="RN2" gate="1" pin="5"/>
+<wire x1="246.38" y1="160.02" x2="241.3" y2="160.02" width="0.1524" layer="91"/>
+<label x="241.3" y="160.02" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="PWM12" class="0">
@@ -19749,6 +19916,11 @@ CA 95125 (408)494-0330&lt;br&gt;
 <wire x1="106.68" y1="114.3" x2="104.14" y2="114.3" width="0.1524" layer="91"/>
 <label x="104.14" y="114.3" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="RN2" gate="1" pin="6"/>
+<wire x1="246.38" y1="165.1" x2="241.3" y2="165.1" width="0.1524" layer="91"/>
+<label x="241.3" y="165.1" size="0.8128" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="PWM13" class="0">
 <segment>
@@ -19760,6 +19932,11 @@ CA 95125 (408)494-0330&lt;br&gt;
 <pinref part="Q14" gate="NMOS" pin="G"/>
 <wire x1="127" y1="114.3" x2="124.46" y2="114.3" width="0.1524" layer="91"/>
 <label x="124.46" y="114.3" size="0.8128" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="RN2" gate="1" pin="7"/>
+<wire x1="246.38" y1="170.18" x2="241.3" y2="170.18" width="0.1524" layer="91"/>
+<label x="241.3" y="170.18" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="PWM14" class="0">
@@ -19773,6 +19950,11 @@ CA 95125 (408)494-0330&lt;br&gt;
 <wire x1="147.32" y1="114.3" x2="144.78" y2="114.3" width="0.1524" layer="91"/>
 <label x="144.78" y="114.3" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="RN2" gate="1" pin="8"/>
+<wire x1="246.38" y1="175.26" x2="241.3" y2="175.26" width="0.1524" layer="91"/>
+<label x="241.3" y="175.26" size="0.8128" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="PWM15" class="0">
 <segment>
@@ -19784,6 +19966,11 @@ CA 95125 (408)494-0330&lt;br&gt;
 <pinref part="Q16" gate="NMOS" pin="G"/>
 <wire x1="167.64" y1="114.3" x2="165.1" y2="114.3" width="0.1524" layer="91"/>
 <label x="165.1" y="114.3" size="0.8128" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="RN2" gate="1" pin="9"/>
+<wire x1="246.38" y1="180.34" x2="241.3" y2="180.34" width="0.1524" layer="91"/>
+<label x="241.3" y="180.34" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="LD00" class="0">
