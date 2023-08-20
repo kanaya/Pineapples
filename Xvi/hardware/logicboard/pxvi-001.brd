@@ -175,7 +175,7 @@
 <circle x="14.5" y="76" radius="2.6" width="0.2" layer="41"/>
 <circle x="76.5" y="76" radius="2.6" width="0.2" layer="41"/>
 <circle x="76.5" y="14" radius="2.6" width="0.2" layer="41"/>
-<text x="49.5" y="15" size="1.27" layer="25" align="center">Pineapple IIgs 0.0.1-X</text>
+<text x="49.5" y="15" size="1.27" layer="25" align="center">Pineapple Ix 0.0.1-X</text>
 <wire x1="79" y1="80" x2="80.5" y2="78.5" width="0" layer="20" curve="90"/>
 <wire x1="12" y1="80" x2="10.5" y2="78.5" width="0" layer="20" curve="-90"/>
 <wire x1="79" y1="10" x2="80.5" y2="11.5" width="0" layer="20" curve="-90"/>
