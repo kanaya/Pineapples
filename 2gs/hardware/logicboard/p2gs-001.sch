@@ -18347,11 +18347,12 @@ CA 95125 (408)494-0330&lt;br&gt;
 <part name="SUPPLY27" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY28" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY30" library="supply2" deviceset="GND" device=""/>
-<part name="JG1" library="Connector" deviceset="TWIG-4P-2.0" device="'90D'"/>
-<part name="RN1" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="RN08" device="" package3d_urn="urn:adsk.eagle:package:24977/1"/>
-<part name="RN2" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="RN08" device="" package3d_urn="urn:adsk.eagle:package:24977/1"/>
+<part name="JG1" library="Connector" deviceset="TWIG-4P-2.0" device="'90D'" value="Grove/1"/>
+<part name="RN1" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="RN08" device="" package3d_urn="urn:adsk.eagle:package:24977/1" value="10k"/>
+<part name="RN2" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="RN08" device="" package3d_urn="urn:adsk.eagle:package:24977/1" value="10k"/>
 <part name="SUPPLY31" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY32" library="supply2" deviceset="GND" device=""/>
+<part name="JG2" library="Connector" deviceset="TWIG-4P-2.0" device="'90D'" value="Grove/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -18745,9 +18746,9 @@ CA 95125 (408)494-0330&lt;br&gt;
 <instance part="SUPPLY27" gate="GND" x="134.62" y="106.68" smashed="yes"/>
 <instance part="SUPPLY28" gate="GND" x="154.94" y="106.68" smashed="yes"/>
 <instance part="SUPPLY30" gate="GND" x="175.26" y="106.68" smashed="yes"/>
-<instance part="JG1" gate="G$1" x="299.72" y="71.12" smashed="yes">
-<attribute name="NAME" x="298.45" y="76.2" size="1.27" layer="95"/>
-<attribute name="VALUE" x="302.26" y="67.31" size="1.27" layer="96" rot="R90"/>
+<instance part="JG1" gate="G$1" x="266.7" y="68.58" smashed="yes">
+<attribute name="NAME" x="265.43" y="73.66" size="1.27" layer="95"/>
+<attribute name="VALUE" x="269.24" y="64.77" size="1.27" layer="96" rot="R90"/>
 </instance>
 <instance part="RN1" gate="1" x="231.14" y="139.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="228.6" y="137.16" size="1.778" layer="95" rot="R90"/>
@@ -18759,6 +18760,10 @@ CA 95125 (408)494-0330&lt;br&gt;
 </instance>
 <instance part="SUPPLY31" gate="GND" x="231.14" y="127" smashed="yes"/>
 <instance part="SUPPLY32" gate="GND" x="246.38" y="127" smashed="yes"/>
+<instance part="JG2" gate="G$1" x="289.56" y="68.58" smashed="yes">
+<attribute name="NAME" x="288.29" y="73.66" size="1.27" layer="95"/>
+<attribute name="VALUE" x="292.1" y="64.77" size="1.27" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -19008,8 +19013,8 @@ CA 95125 (408)494-0330&lt;br&gt;
 </segment>
 <segment>
 <pinref part="JG1" gate="G$1" pin="4"/>
-<wire x1="295.91" y1="67.31" x2="289.56" y2="67.31" width="0.1524" layer="91"/>
-<label x="289.56" y="68.58" size="0.8128" layer="95"/>
+<wire x1="262.89" y1="64.77" x2="256.54" y2="64.77" width="0.1524" layer="91"/>
+<label x="256.54" y="66.04" size="0.8128" layer="95"/>
 </segment>
 <segment>
 <pinref part="RN1" gate="1" pin="1"/>
@@ -19020,6 +19025,11 @@ CA 95125 (408)494-0330&lt;br&gt;
 <pinref part="RN2" gate="1" pin="1"/>
 <wire x1="246.38" y1="134.62" x2="246.38" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="SUPPLY32" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="JG2" gate="G$1" pin="4"/>
+<wire x1="285.75" y1="64.77" x2="279.4" y2="64.77" width="0.1524" layer="91"/>
+<label x="279.4" y="66.04" size="0.8128" layer="95"/>
 </segment>
 </net>
 <net name="VCC" class="2">
@@ -19082,8 +19092,13 @@ CA 95125 (408)494-0330&lt;br&gt;
 </segment>
 <segment>
 <pinref part="JG1" gate="G$1" pin="3"/>
-<wire x1="295.91" y1="69.85" x2="289.56" y2="69.85" width="0.1524" layer="91"/>
-<label x="284.48" y="71.12" size="0.8128" layer="95"/>
+<wire x1="262.89" y1="67.31" x2="256.54" y2="67.31" width="0.1524" layer="91"/>
+<label x="251.46" y="68.58" size="0.8128" layer="95"/>
+</segment>
+<segment>
+<pinref part="JG2" gate="G$1" pin="3"/>
+<wire x1="285.75" y1="67.31" x2="279.4" y2="67.31" width="0.1524" layer="91"/>
+<label x="274.32" y="68.58" size="0.8128" layer="95"/>
 </segment>
 </net>
 <net name="MIDIINSND" class="0">
@@ -19220,8 +19235,13 @@ CA 95125 (408)494-0330&lt;br&gt;
 </segment>
 <segment>
 <pinref part="JG1" gate="G$1" pin="2"/>
-<wire x1="295.91" y1="72.39" x2="289.56" y2="72.39" width="0.1524" layer="91"/>
-<label x="289.56" y="73.66" size="0.8128" layer="95"/>
+<wire x1="262.89" y1="69.85" x2="256.54" y2="69.85" width="0.1524" layer="91"/>
+<label x="256.54" y="71.12" size="0.8128" layer="95"/>
+</segment>
+<segment>
+<pinref part="JG2" gate="G$1" pin="2"/>
+<wire x1="285.75" y1="69.85" x2="279.4" y2="69.85" width="0.1524" layer="91"/>
+<label x="279.4" y="71.12" size="0.8128" layer="95"/>
 </segment>
 </net>
 <net name="RLY" class="0">
@@ -19697,8 +19717,13 @@ CA 95125 (408)494-0330&lt;br&gt;
 </segment>
 <segment>
 <pinref part="JG1" gate="G$1" pin="1"/>
-<wire x1="295.91" y1="74.93" x2="289.56" y2="74.93" width="0.1524" layer="91"/>
-<label x="289.56" y="76.2" size="0.8128" layer="95"/>
+<wire x1="262.89" y1="72.39" x2="256.54" y2="72.39" width="0.1524" layer="91"/>
+<label x="256.54" y="73.66" size="0.8128" layer="95"/>
+</segment>
+<segment>
+<pinref part="JG2" gate="G$1" pin="1"/>
+<wire x1="285.75" y1="72.39" x2="279.4" y2="72.39" width="0.1524" layer="91"/>
+<label x="279.4" y="73.66" size="0.8128" layer="95"/>
 </segment>
 </net>
 <net name="PWM00" class="0">
