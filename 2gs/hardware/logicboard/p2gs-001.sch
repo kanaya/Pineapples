@@ -18179,7 +18179,7 @@ CA 95125 (408)494-0330&lt;br&gt;
 </classes>
 <parts>
 <part name="MC1" library="adafruit" deviceset="ARDUINOMICRO" device=""/>
-<part name="D20" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE" device="-1N4148" package3d_urn="urn:adsk.eagle:package:38452/1" value=""/>
+<part name="D0" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE" device="-1N4148" package3d_urn="urn:adsk.eagle:package:38452/1" value=""/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S-COPPER" value="OSHW-LOGOS-COPPER"/>
 <part name="U$1" library="pineapple" deviceset="PINEAPPLE450_SILK" device=""/>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
@@ -18264,7 +18264,7 @@ CA 95125 (408)494-0330&lt;br&gt;
 <part name="SUPPLY27" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY28" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY30" library="supply2" deviceset="GND" device=""/>
-<part name="J2" library="Connector" deviceset="TWIG-4P-2.0" device="'90D'"/>
+<part name="JG1" library="Connector" deviceset="TWIG-4P-2.0" device="'90D'"/>
 </parts>
 <sheets>
 <sheet>
@@ -18278,7 +18278,7 @@ CA 95125 (408)494-0330&lt;br&gt;
 </plain>
 <instances>
 <instance part="MC1" gate="G$1" x="355.6" y="127" smashed="yes" rot="R270"/>
-<instance part="D20" gate="G$1" x="360.68" y="88.9" smashed="yes" rot="R180">
+<instance part="D0" gate="G$1" x="360.68" y="88.9" smashed="yes" rot="R180">
 <attribute name="NAME" x="360.68" y="83.82" size="1.778" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="363.22" y="90.932" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
 </instance>
@@ -18658,7 +18658,7 @@ CA 95125 (408)494-0330&lt;br&gt;
 <instance part="SUPPLY27" gate="GND" x="134.62" y="106.68" smashed="yes"/>
 <instance part="SUPPLY28" gate="GND" x="154.94" y="106.68" smashed="yes"/>
 <instance part="SUPPLY30" gate="GND" x="175.26" y="106.68" smashed="yes"/>
-<instance part="J2" gate="G$1" x="299.72" y="71.12" smashed="yes">
+<instance part="JG1" gate="G$1" x="299.72" y="71.12" smashed="yes">
 <attribute name="NAME" x="298.45" y="76.2" size="1.27" layer="95"/>
 <attribute name="VALUE" x="302.26" y="67.31" size="1.27" layer="96" rot="R90"/>
 </instance>
@@ -18910,7 +18910,7 @@ CA 95125 (408)494-0330&lt;br&gt;
 <wire x1="33.02" y1="111.76" x2="33.02" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="4"/>
+<pinref part="JG1" gate="G$1" pin="4"/>
 <wire x1="295.91" y1="67.31" x2="289.56" y2="67.31" width="0.1524" layer="91"/>
 <label x="289.56" y="68.58" size="0.8128" layer="95"/>
 </segment>
@@ -18974,7 +18974,7 @@ CA 95125 (408)494-0330&lt;br&gt;
 <label x="35.56" y="215.9" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="3"/>
+<pinref part="JG1" gate="G$1" pin="3"/>
 <wire x1="295.91" y1="69.85" x2="289.56" y2="69.85" width="0.1524" layer="91"/>
 <label x="284.48" y="71.12" size="0.8128" layer="95"/>
 </segment>
@@ -18982,7 +18982,7 @@ CA 95125 (408)494-0330&lt;br&gt;
 <net name="MIDIINSND" class="0">
 <segment>
 <wire x1="353.06" y1="93.98" x2="353.06" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="D20" gate="G$1" pin="C"/>
+<pinref part="D0" gate="G$1" pin="C"/>
 <wire x1="353.06" y1="91.44" x2="353.06" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="353.06" y1="88.9" x2="358.14" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="355.6" y1="93.98" x2="353.06" y2="93.98" width="0.1524" layer="91"/>
@@ -19112,7 +19112,7 @@ CA 95125 (408)494-0330&lt;br&gt;
 <label x="35.56" y="218.44" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="2"/>
+<pinref part="JG1" gate="G$1" pin="2"/>
 <wire x1="295.91" y1="72.39" x2="289.56" y2="72.39" width="0.1524" layer="91"/>
 <label x="289.56" y="73.66" size="0.8128" layer="95"/>
 </segment>
@@ -19515,7 +19515,7 @@ CA 95125 (408)494-0330&lt;br&gt;
 </net>
 <net name="MIRTN" class="0">
 <segment>
-<pinref part="D20" gate="G$1" pin="A"/>
+<pinref part="D0" gate="G$1" pin="A"/>
 <wire x1="363.22" y1="88.9" x2="365.76" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="365.76" y1="88.9" x2="365.76" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="365.76" y1="86.36" x2="347.98" y2="86.36" width="0.1524" layer="91"/>
@@ -19589,7 +19589,7 @@ CA 95125 (408)494-0330&lt;br&gt;
 <label x="35.56" y="220.98" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="1"/>
+<pinref part="JG1" gate="G$1" pin="1"/>
 <wire x1="295.91" y1="74.93" x2="289.56" y2="74.93" width="0.1524" layer="91"/>
 <label x="289.56" y="76.2" size="0.8128" layer="95"/>
 </segment>
