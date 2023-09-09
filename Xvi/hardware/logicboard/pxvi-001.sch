@@ -19998,7 +19998,7 @@ CA 95125 (408)494-0330&lt;br&gt;
 <label x="241.3" y="180.34" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="LD00" class="1">
+<net name="LD00" class="2">
 <segment>
 <pinref part="Q1" gate="NMOS" pin="D"/>
 <wire x1="33.02" y1="162.56" x2="33.02" y2="165.1" width="0.1524" layer="91"/>
@@ -20015,7 +20015,7 @@ CA 95125 (408)494-0330&lt;br&gt;
 <label x="27.94" y="96.52" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="LD01" class="1">
+<net name="LD01" class="2">
 <segment>
 <pinref part="Q2" gate="NMOS" pin="D"/>
 <wire x1="53.34" y1="162.56" x2="53.34" y2="165.1" width="0.1524" layer="91"/>
@@ -20032,7 +20032,7 @@ CA 95125 (408)494-0330&lt;br&gt;
 <label x="27.94" y="86.36" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="LD02" class="1">
+<net name="LD02" class="2">
 <segment>
 <pinref part="Q3" gate="NMOS" pin="D"/>
 <wire x1="73.66" y1="162.56" x2="73.66" y2="165.1" width="0.1524" layer="91"/>
@@ -20049,7 +20049,7 @@ CA 95125 (408)494-0330&lt;br&gt;
 <label x="27.94" y="76.2" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="LD03" class="1">
+<net name="LD03" class="2">
 <segment>
 <pinref part="Q4" gate="NMOS" pin="D"/>
 <wire x1="93.98" y1="162.56" x2="93.98" y2="165.1" width="0.1524" layer="91"/>
@@ -20066,7 +20066,7 @@ CA 95125 (408)494-0330&lt;br&gt;
 <label x="27.94" y="66.04" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="LD04" class="1">
+<net name="LD04" class="2">
 <segment>
 <pinref part="Q5" gate="NMOS" pin="D"/>
 <wire x1="114.3" y1="162.56" x2="114.3" y2="165.1" width="0.1524" layer="91"/>
@@ -20083,7 +20083,7 @@ CA 95125 (408)494-0330&lt;br&gt;
 <label x="27.94" y="55.88" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="LD05" class="1">
+<net name="LD05" class="2">
 <segment>
 <pinref part="Q6" gate="NMOS" pin="D"/>
 <wire x1="134.62" y1="162.56" x2="134.62" y2="165.1" width="0.1524" layer="91"/>
@@ -20100,7 +20100,7 @@ CA 95125 (408)494-0330&lt;br&gt;
 <label x="27.94" y="45.72" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="LD06" class="1">
+<net name="LD06" class="2">
 <segment>
 <pinref part="Q7" gate="NMOS" pin="D"/>
 <wire x1="154.94" y1="162.56" x2="154.94" y2="165.1" width="0.1524" layer="91"/>
@@ -20117,7 +20117,7 @@ CA 95125 (408)494-0330&lt;br&gt;
 <label x="27.94" y="35.56" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="LD07" class="1">
+<net name="LD07" class="2">
 <segment>
 <pinref part="Q8" gate="NMOS" pin="D"/>
 <wire x1="175.26" y1="162.56" x2="175.26" y2="165.1" width="0.1524" layer="91"/>
@@ -20134,7 +20134,7 @@ CA 95125 (408)494-0330&lt;br&gt;
 <label x="27.94" y="25.4" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="LD08" class="1">
+<net name="LD08" class="2">
 <segment>
 <pinref part="Q9" gate="NMOS" pin="D"/>
 <wire x1="33.02" y1="134.62" x2="33.02" y2="124.46" width="0.1524" layer="91"/>
@@ -20151,7 +20151,7 @@ CA 95125 (408)494-0330&lt;br&gt;
 <label x="68.58" y="96.52" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="LD09" class="1">
+<net name="LD09" class="2">
 <segment>
 <pinref part="Q10" gate="NMOS" pin="D"/>
 <wire x1="53.34" y1="134.62" x2="53.34" y2="124.46" width="0.1524" layer="91"/>
@@ -20168,7 +20168,7 @@ CA 95125 (408)494-0330&lt;br&gt;
 <label x="68.58" y="86.36" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="LD10" class="1">
+<net name="LD10" class="2">
 <segment>
 <pinref part="Q11" gate="NMOS" pin="D"/>
 <wire x1="73.66" y1="134.62" x2="73.66" y2="124.46" width="0.1524" layer="91"/>
@@ -20185,7 +20185,7 @@ CA 95125 (408)494-0330&lt;br&gt;
 <label x="68.58" y="76.2" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="LD11" class="1">
+<net name="LD11" class="2">
 <segment>
 <pinref part="Q12" gate="NMOS" pin="D"/>
 <wire x1="93.98" y1="134.62" x2="93.98" y2="124.46" width="0.1524" layer="91"/>
@@ -20202,7 +20202,7 @@ CA 95125 (408)494-0330&lt;br&gt;
 <label x="68.58" y="66.04" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="LD12" class="1">
+<net name="LD12" class="2">
 <segment>
 <pinref part="Q13" gate="NMOS" pin="D"/>
 <wire x1="114.3" y1="134.62" x2="114.3" y2="124.46" width="0.1524" layer="91"/>
@@ -20219,7 +20219,7 @@ CA 95125 (408)494-0330&lt;br&gt;
 <label x="68.58" y="55.88" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="LD13" class="1">
+<net name="LD13" class="2">
 <segment>
 <pinref part="Q14" gate="NMOS" pin="D"/>
 <wire x1="134.62" y1="134.62" x2="134.62" y2="124.46" width="0.1524" layer="91"/>
@@ -20236,7 +20236,7 @@ CA 95125 (408)494-0330&lt;br&gt;
 <label x="68.58" y="45.72" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="LD14" class="1">
+<net name="LD14" class="2">
 <segment>
 <pinref part="Q15" gate="NMOS" pin="D"/>
 <wire x1="154.94" y1="134.62" x2="154.94" y2="124.46" width="0.1524" layer="91"/>
@@ -20253,7 +20253,7 @@ CA 95125 (408)494-0330&lt;br&gt;
 <label x="68.58" y="35.56" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="LD15" class="1">
+<net name="LD15" class="2">
 <segment>
 <pinref part="Q16" gate="NMOS" pin="D"/>
 <wire x1="175.26" y1="134.62" x2="175.26" y2="124.46" width="0.1524" layer="91"/>
