@@ -9145,39 +9145,16 @@ Low profile connectors, straight&lt;p&gt;
 </sheet>
 </sheets>
 <errors>
-<approved hash="101,1,160.02,86.36,IC2C,O,,,,"/>
-<approved hash="101,1,160.02,73.66,IC2D,O,,,,"/>
-<approved hash="101,1,160.02,60.96,IC2E,O,,,,"/>
-<approved hash="101,1,160.02,48.26,IC2F,O,,,,"/>
-<approved hash="101,1,175.26,86.36,L1-9,C,,,,"/>
-<approved hash="101,1,182.88,86.36,L1-9,A,,,,"/>
-<approved hash="101,1,175.26,73.66,L1-10,C,,,,"/>
-<approved hash="101,1,182.88,73.66,L1-10,A,,,,"/>
+<approved hash="101,1,215.9,96.52,L2-7,C,,,,"/>
+<approved hash="101,1,223.52,96.52,L2-7,A,,,,"/>
+<approved hash="101,1,215.9,81.28,L2-8,C,,,,"/>
+<approved hash="101,1,223.52,81.28,L2-8,A,,,,"/>
+<approved hash="101,1,215.9,66.04,L2-9,C,,,,"/>
+<approved hash="101,1,223.52,66.04,L2-9,A,,,,"/>
+<approved hash="101,1,215.9,50.8,L2-10,C,,,,"/>
+<approved hash="101,1,223.52,50.8,L2-10,A,,,,"/>
 <approved hash="113,1,193.571,130.071,FRAME2,,,,,"/>
-<approved hash="113,1,71.12,210.82,NC1,,,,,"/>
-<approved hash="113,1,71.12,208.28,NC2,,,,,"/>
-<approved hash="113,1,71.12,195.58,NC5,,,,,"/>
-<approved hash="113,1,71.12,193.04,NC6,,,,,"/>
-<approved hash="113,1,96.52,193.04,NC7,,,,,"/>
-<approved hash="113,1,96.52,195.58,NC8,,,,,"/>
-<approved hash="113,1,96.52,198.12,NC9,,,,,"/>
-<approved hash="113,1,96.52,200.66,NC10,,,,,"/>
-<approved hash="113,1,96.52,203.2,NC11,,,,,"/>
-<approved hash="113,1,96.52,220.98,NC13,,,,,"/>
-<approved hash="113,1,96.52,233.68,NC15,,,,,"/>
-<approved hash="113,1,71.12,231.14,NC16,,,,,"/>
-<approved hash="113,1,71.12,228.6,NC17,,,,,"/>
-<approved hash="113,1,160.257,221.176,JP1,,,,,"/>
-<approved hash="113,1,74.2865,149.86,S2,,,,,"/>
-<approved hash="113,1,56.1746,149.86,S1,,,,,"/>
-<approved hash="113,1,160.02,86.36,NC19,,,,,"/>
-<approved hash="113,1,160.02,73.66,NC20,,,,,"/>
-<approved hash="113,1,160.02,60.96,NC21,,,,,"/>
-<approved hash="113,1,160.02,48.26,NC22,,,,,"/>
-<approved hash="113,1,175.26,86.36,NC4,,,,,"/>
-<approved hash="113,1,182.88,86.36,NC12,,,,,"/>
-<approved hash="113,1,175.26,73.66,NC14,,,,,"/>
-<approved hash="113,1,182.88,73.66,NC18,,,,,"/>
+<approved hash="113,1,220.98,174.28,SV1,,,,,"/>
 </errors>
 </schematic>
 </drawing>
