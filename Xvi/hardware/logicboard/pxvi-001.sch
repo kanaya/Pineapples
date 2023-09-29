@@ -19371,6 +19371,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="284.48" y1="170.18" x2="281.94" y2="170.18" width="0.1524" layer="91"/>
 <label x="281.94" y="170.18" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<wire x1="307.34" y1="223.52" x2="302.26" y2="223.52" width="0.1524" layer="91"/>
+<label x="302.26" y="223.52" size="0.8128" layer="95" rot="R180" xref="yes"/>
+<pinref part="JP1" gate="G$1" pin="1"/>
+</segment>
 </net>
 <net name="MIDIINSND" class="0">
 <segment>
@@ -19896,11 +19901,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="73.66" y1="91.44" x2="71.12" y2="91.44" width="0.1524" layer="91"/>
 <junction x="71.12" y="91.44"/>
 <label x="30.48" y="101.6" size="0.8128" layer="95" rot="R90" xref="yes"/>
-</segment>
-<segment>
-<wire x1="307.34" y1="223.52" x2="302.26" y2="223.52" width="0.1524" layer="91"/>
-<label x="302.26" y="223.52" size="0.8128" layer="95" rot="R180" xref="yes"/>
-<pinref part="JP1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="LED1A" class="0">
