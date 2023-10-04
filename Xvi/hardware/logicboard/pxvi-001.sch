@@ -18599,6 +18599,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY33" library="supply2" deviceset="GND" device=""/>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2" value="FAN"/>
 <part name="U1" library="SparkFun-Sensors" library_urn="urn:adsk.eagle:library:534" deviceset="DS18B20" device="" package3d_urn="urn:adsk.eagle:package:39971/3"/>
+<part name="SUPPLY34" library="supply2" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -19019,6 +19020,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="287.02" y="172.974" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="287.02" y="157.226" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
+<instance part="SUPPLY34" gate="GND" x="111.76" y="83.82" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -19296,6 +19298,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="U1" gate="G$1" pin="GND"/>
 <wire x1="284.48" y1="160.02" x2="281.94" y2="160.02" width="0.1524" layer="91"/>
 <label x="281.94" y="160.02" size="0.8128" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="SV2" gate="-34" pin="S"/>
+<wire x1="114.3" y1="91.44" x2="111.76" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="91.44" x2="111.76" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="SUPPLY34" gate="GND" pin="GND"/>
 </segment>
 </net>
 <net name="VCC" class="2">
@@ -19602,6 +19610,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="MC1" gate="G$1" pin="A4"/>
 <wire x1="342.9" y1="129.54" x2="340.36" y2="129.54" width="0.1524" layer="91"/>
 <label x="340.36" y="129.54" size="0.8128" layer="95" rot="MR0" xref="yes"/>
+</segment>
+<segment>
+<pinref part="SV2" gate="-33" pin="S"/>
+<wire x1="114.3" y1="96.52" x2="111.76" y2="96.52" width="0.1524" layer="91"/>
+<label x="111.76" y="96.52" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="VDD" class="2">
