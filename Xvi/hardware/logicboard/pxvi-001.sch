@@ -25458,6 +25458,8 @@ Source: Comchip CGRM4001-G.pdf</description>
 <part name="P+17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
 <part name="P+18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
 <part name="X2" library="con-phoenix-508" library_urn="urn:adsk.eagle:library:176" deviceset="MKDSN1,5/2-5,08" device="" package3d_urn="urn:adsk.eagle:package:9630/1"/>
+<part name="DDUMMY" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="CGRM400*-G" device="" package3d_urn="urn:adsk.eagle:package:43457/2" technology="7" value="CGRM400-G"/>
+<part name="SUPPLY33" library="supply2" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -25843,6 +25845,10 @@ Source: Comchip CGRM4001-G.pdf</description>
 <attribute name="NAME" x="119.888" y="194.691" size="1.778" layer="95"/>
 <attribute name="VALUE" x="114.3" y="191.897" size="1.778" layer="96"/>
 </instance>
+<instance part="DDUMMY" gate="G$1" x="248.92" y="30.48" smashed="yes" rot="R90">
+<attribute name="NAME" x="246.888" y="27.94" size="1.778" layer="95" font="vector" rot="R90"/>
+</instance>
+<instance part="SUPPLY33" gate="GND" x="248.92" y="7.62" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -26067,6 +26073,18 @@ Source: Comchip CGRM4001-G.pdf</description>
 <wire x1="78.74" y1="54.61" x2="78.74" y2="68.58" width="0.1524" layer="91"/>
 <junction x="78.74" y="68.58"/>
 <label x="88.9" y="68.58" size="0.8128" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="DDUMMY" gate="G$1" pin="A"/>
+<wire x1="248.92" y1="27.94" x2="248.92" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="DDUMMY" gate="G$1" pin="C"/>
+<wire x1="248.92" y1="25.4" x2="248.92" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="33.02" x2="248.92" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="35.56" x2="254" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="254" y1="35.56" x2="254" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="254" y1="25.4" x2="248.92" y2="25.4" width="0.1524" layer="91"/>
+<junction x="248.92" y="25.4"/>
+<pinref part="SUPPLY33" gate="GND" pin="GND"/>
 </segment>
 </net>
 <net name="VCC" class="2">
