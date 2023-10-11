@@ -25319,6 +25319,196 @@ Source: Comchip CGRM4001-G.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="transistor" urn="urn:adsk.eagle:library:402">
+<description>&lt;b&gt;Transistors&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="TO92-ECB" urn="urn:adsk.eagle:footprint:29865/1" library_version="7">
+<description>&lt;b&gt;TO-92&lt;/b&gt; Pads In Line E C B from top&lt;p&gt;</description>
+<wire x1="-2.095" y1="-1.651" x2="2.095" y2="-1.651" width="0.127" layer="21"/>
+<wire x1="-2.413" y1="1.1359" x2="2.413" y2="1.1359" width="0.127" layer="21" curve="-129.583"/>
+<wire x1="1.136" y1="-0.127" x2="-1.136" y2="-0.127" width="0.127" layer="51"/>
+<wire x1="-2.413" y1="1.1359" x2="-2.664" y2="-0.127" width="0.127" layer="51" curve="27.9407"/>
+<wire x1="-2.664" y1="-0.127" x2="-2.413" y2="-1.1359" width="0.127" layer="51" curve="22.4788"/>
+<wire x1="-1.404" y1="-0.127" x2="-2.664" y2="-0.127" width="0.127" layer="51"/>
+<wire x1="-2.4135" y1="-1.1359" x2="-2.095" y2="-1.651" width="0.127" layer="21" curve="13.0385"/>
+<wire x1="-1.136" y1="-0.127" x2="-1.404" y2="-0.127" width="0.127" layer="21"/>
+<wire x1="2.413" y1="-1.1359" x2="2.664" y2="-0.127" width="0.127" layer="51" curve="22.4788"/>
+<wire x1="2.664" y1="-0.127" x2="2.413" y2="1.1359" width="0.127" layer="51" curve="27.9333"/>
+<wire x1="2.664" y1="-0.127" x2="1.404" y2="-0.127" width="0.127" layer="51"/>
+<wire x1="1.404" y1="-0.127" x2="1.136" y2="-0.127" width="0.127" layer="21"/>
+<wire x1="2.095" y1="-1.651" x2="2.4247" y2="-1.1118" width="0.127" layer="21" curve="13.6094"/>
+<pad name="C" x="0" y="0" drill="0.8128" shape="long" rot="R90"/>
+<pad name="E" x="-2.54" y="0" drill="0.8128" shape="long" rot="R90"/>
+<pad name="B" x="2.54" y="0" drill="0.8128" shape="long" rot="R90"/>
+<text x="-2.54" y="3.048" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.54" y="-3.302" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="TO92-ECB" urn="urn:adsk.eagle:package:29929/2" type="model" library_version="7">
+<description>TO-92 Pads In Line E C B from top</description>
+<packageinstances>
+<packageinstance name="TO92-ECB"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="NPN" urn="urn:adsk.eagle:symbol:26256/2" library_version="7">
+<wire x1="2.54" y1="2.54" x2="0.508" y2="1.524" width="0.1524" layer="94"/>
+<wire x1="1.778" y1="-1.524" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="1.778" y2="-1.524" width="0.1524" layer="94"/>
+<wire x1="1.54" y1="-2.04" x2="0.308" y2="-1.424" width="0.1524" layer="94"/>
+<wire x1="1.524" y1="-2.413" x2="2.286" y2="-2.413" width="0.254" layer="94"/>
+<wire x1="2.286" y1="-2.413" x2="1.778" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="1.778" y1="-1.778" x2="1.524" y2="-2.286" width="0.254" layer="94"/>
+<wire x1="1.524" y1="-2.286" x2="1.905" y2="-2.286" width="0.254" layer="94"/>
+<wire x1="1.905" y1="-2.286" x2="1.778" y2="-2.032" width="0.254" layer="94"/>
+<text x="-10.16" y="7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="5.08" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-0.254" y1="-2.54" x2="0.508" y2="2.54" layer="94"/>
+<pin name="B" x="-2.54" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="E" x="2.54" y="-5.08" visible="off" length="short" direction="pas" swaplevel="3" rot="R90"/>
+<pin name="C" x="2.54" y="5.08" visible="off" length="short" direction="pas" swaplevel="2" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="2SC1815" urn="urn:adsk.eagle:component:30066/4" prefix="T" library_version="7">
+<description>&lt;b&gt;NPN EPITAXIAL TRANSISTOR&lt;/b&gt;&lt;p&gt;
+Source: TOSHIBA .. 2SC1815   1.pdf</description>
+<gates>
+<gate name="G$1" symbol="NPN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO92-ECB">
+<connects>
+<connect gate="G$1" pin="B" pad="B"/>
+<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="G$1" pin="E" pad="E"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29929/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="7" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="relay" urn="urn:adsk.eagle:library:339">
+<description>&lt;b&gt;Relays&lt;/b&gt;&lt;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Eichhoff
+&lt;li&gt;Finder
+&lt;li&gt;Fujitsu
+&lt;li&gt;HAMLIN
+&lt;li&gt;OMRON
+&lt;li&gt;Matsushita
+&lt;li&gt;NAiS
+&lt;li&gt;Siemens
+&lt;li&gt;Schrack
+&lt;/ul&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="G5V1" urn="urn:adsk.eagle:footprint:24007/1" library_version="5">
+<description>&lt;b&gt;RELAY&lt;/b&gt;&lt;p&gt;
+1 x switch, 0.5 A/125 V AC, 1 A/24 V DC , Omron</description>
+<wire x1="-6.05" y1="-3.55" x2="6.05" y2="-3.55" width="0.2032" layer="21"/>
+<wire x1="6.05" y1="3.51" x2="-6.05" y2="3.51" width="0.2032" layer="21"/>
+<wire x1="-6.05" y1="-3.55" x2="-6.05" y2="3.51" width="0.2032" layer="21"/>
+<wire x1="6.05" y1="3.51" x2="6.05" y2="-3.55" width="0.2032" layer="21"/>
+<pad name="1" x="-5.08" y="-2.54" drill="0.8128" shape="long" rot="R90"/>
+<pad name="2" x="-2.54" y="-2.54" drill="0.8128" shape="long" rot="R90"/>
+<pad name="5" x="5.08" y="-2.54" drill="0.8128" shape="long" rot="R90"/>
+<pad name="6" x="5.08" y="2.54" drill="0.8128" shape="long" rot="R90"/>
+<pad name="9" x="-2.54" y="2.54" drill="0.8128" shape="long" rot="R90"/>
+<pad name="10" x="-5.08" y="2.54" drill="0.8128" shape="long" rot="R90"/>
+<text x="-1.27" y="0.635" size="1.27" layer="25">&gt;NAME</text>
+<text x="-5.08" y="-1.27" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="G5V1" urn="urn:adsk.eagle:package:24341/1" type="box" library_version="5">
+<description>RELAY
+1 x switch, 0.5 A/125 V AC, 1 A/24 V DC , Omron</description>
+<packageinstances>
+<packageinstance name="G5V1"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="K" urn="urn:adsk.eagle:symbol:23941/1" library_version="5">
+<wire x1="-3.81" y1="-1.905" x2="-1.905" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-1.905" x2="3.81" y2="1.905" width="0.254" layer="94"/>
+<wire x1="3.81" y1="1.905" x2="1.905" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="1.905" x2="-3.81" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1.905" x2="3.81" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="0" y1="1.905" x2="-3.81" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="-1.905" x2="1.905" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="-1.905" y1="-1.905" x2="0" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="1.905" y1="1.905" x2="0" y2="1.905" width="0.254" layer="94"/>
+<text x="1.27" y="2.921" size="1.778" layer="96">&gt;VALUE</text>
+<text x="1.27" y="5.08" size="1.778" layer="95">&gt;PART</text>
+<pin name="2" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="1" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+</symbol>
+<symbol name="U1" urn="urn:adsk.eagle:symbol:23981/1" library_version="5">
+<wire x1="3.175" y1="5.08" x2="1.905" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-3.175" y1="5.08" x2="-1.905" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="1.27" x2="2.54" y2="5.715" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="1.27" width="0.254" layer="94"/>
+<circle x="0" y="0" radius="0.127" width="0.4064" layer="94"/>
+<circle x="0" y="1.27" radius="0.127" width="0.4064" layer="94"/>
+<text x="2.54" y="0" size="1.778" layer="95">&gt;PART</text>
+<pin name="O" x="5.08" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="S" x="-5.08" y="5.08" visible="pad" length="short" direction="pas"/>
+<pin name="P" x="0" y="-2.54" visible="pad" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<pin name="P@1" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" swaplevel="1" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="G5V1" urn="urn:adsk.eagle:component:24617/2" prefix="K" library_version="5">
+<description>&lt;b&gt;RELAY&lt;/b&gt;&lt;p&gt;
+1 x switch, 0.5 A/125 V AC, 1 A/24 V DC , Omron</description>
+<gates>
+<gate name="1" symbol="K" x="0" y="0" addlevel="must"/>
+<gate name="2" symbol="U1" x="20.32" y="0" addlevel="always"/>
+</gates>
+<devices>
+<device name="" package="G5V1">
+<connects>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="9"/>
+<connect gate="2" pin="O" pad="1"/>
+<connect gate="2" pin="P" pad="5"/>
+<connect gate="2" pin="P@1" pad="6"/>
+<connect gate="2" pin="S" pad="10"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:24341/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="G5V-1-DC24" constant="no"/>
+<attribute name="OC_FARNELL" value="9949593" constant="no"/>
+<attribute name="OC_NEWARK" value="36M6377" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -25460,6 +25650,17 @@ Source: Comchip CGRM4001-G.pdf</description>
 <part name="X2" library="con-phoenix-508" library_urn="urn:adsk.eagle:library:176" deviceset="MKDSN1,5/2-5,08" device="" package3d_urn="urn:adsk.eagle:package:9630/1"/>
 <part name="DDUMMY" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="CGRM400*-G" device="" package3d_urn="urn:adsk.eagle:package:43457/2" technology="7" value="CGRM400-G"/>
 <part name="SUPPLY33" library="supply2" deviceset="GND" device=""/>
+<part name="T1" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="2SC1815" device="" package3d_urn="urn:adsk.eagle:package:29929/2"/>
+<part name="K1" library="relay" library_urn="urn:adsk.eagle:library:339" deviceset="G5V1" device="" package3d_urn="urn:adsk.eagle:package:24341/1"/>
+<part name="SUPPLY34" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
+<part name="SUPPLY35" library="supply2" deviceset="GND" device=""/>
+<part name="C8" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="025-024X044" package3d_urn="urn:adsk.eagle:package:23630/1" value="10n"/>
+<part name="SUPPLY36" library="supply2" deviceset="GND" device=""/>
+<part name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="0204/5" package3d_urn="urn:adsk.eagle:package:23488/1" value="1k"/>
+<part name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="0204/5" package3d_urn="urn:adsk.eagle:package:23488/1" value="1k"/>
+<part name="SUPPLY37" library="supply2" deviceset="GND" device=""/>
+<part name="SUPPLY38" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
+<part name="SUPPLY39" library="supply2" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -25837,18 +26038,51 @@ Source: Comchip CGRM4001-G.pdf</description>
 <instance part="P+18" gate="1" x="233.68" y="40.64" smashed="yes">
 <attribute name="VALUE" x="233.68" y="43.18" size="1.778" layer="96"/>
 </instance>
-<instance part="X2" gate="-1" x="116.84" y="200.66" smashed="yes">
-<attribute name="NAME" x="119.888" y="199.771" size="1.778" layer="95"/>
-<attribute name="VALUE" x="114.3" y="196.977" size="1.778" layer="96"/>
+<instance part="X2" gate="-1" x="355.6" y="147.32" smashed="yes">
+<attribute name="NAME" x="358.648" y="146.431" size="1.778" layer="95"/>
+<attribute name="VALUE" x="353.06" y="143.637" size="1.778" layer="96"/>
 </instance>
-<instance part="X2" gate="-2" x="116.84" y="195.58" smashed="yes">
-<attribute name="NAME" x="119.888" y="194.691" size="1.778" layer="95"/>
-<attribute name="VALUE" x="114.3" y="191.897" size="1.778" layer="96"/>
+<instance part="X2" gate="-2" x="355.6" y="152.4" smashed="yes">
+<attribute name="NAME" x="358.648" y="151.511" size="1.778" layer="95"/>
+<attribute name="VALUE" x="353.06" y="148.717" size="1.778" layer="96"/>
 </instance>
 <instance part="DDUMMY" gate="G$1" x="248.92" y="30.48" smashed="yes" rot="R90">
 <attribute name="NAME" x="246.888" y="27.94" size="1.778" layer="95" font="vector" rot="R90"/>
 </instance>
 <instance part="SUPPLY33" gate="GND" x="248.92" y="7.62" smashed="yes"/>
+<instance part="T1" gate="G$1" x="337.82" y="152.4" smashed="yes">
+<attribute name="NAME" x="327.66" y="160.02" size="1.778" layer="95"/>
+<attribute name="VALUE" x="327.66" y="157.48" size="1.778" layer="96"/>
+</instance>
+<instance part="K1" gate="1" x="340.36" y="165.1" smashed="yes">
+<attribute name="VALUE" x="341.63" y="168.021" size="1.778" layer="96"/>
+<attribute name="PART" x="341.63" y="170.18" size="1.778" layer="95"/>
+</instance>
+<instance part="K1" gate="2" x="358.14" y="162.56" smashed="yes">
+<attribute name="PART" x="360.68" y="162.56" size="1.778" layer="95"/>
+</instance>
+<instance part="SUPPLY34" gate="G$1" x="340.36" y="182.88" smashed="yes">
+<attribute name="VALUE" x="340.36" y="187.96" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY35" gate="GND" x="340.36" y="129.54" smashed="yes"/>
+<instance part="C8" gate="G$1" x="269.24" y="210.82" smashed="yes">
+<attribute name="NAME" x="266.7" y="210.82" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="266.7" y="205.74" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY36" gate="GND" x="269.24" y="198.12" smashed="yes"/>
+<instance part="R2" gate="G$1" x="325.12" y="152.4" smashed="yes">
+<attribute name="NAME" x="325.12" y="154.94" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="330.2" y="154.94" size="1.778" layer="96" align="center"/>
+</instance>
+<instance part="R3" gate="G$1" x="332.74" y="139.7" smashed="yes" rot="R90">
+<attribute name="NAME" x="330.2" y="139.7" size="1.778" layer="95" rot="R90" align="center"/>
+<attribute name="VALUE" x="330.2" y="144.78" size="1.778" layer="96" rot="R90" align="center"/>
+</instance>
+<instance part="SUPPLY37" gate="GND" x="332.74" y="129.54" smashed="yes"/>
+<instance part="SUPPLY38" gate="G$1" x="373.38" y="182.88" smashed="yes">
+<attribute name="VALUE" x="373.38" y="187.96" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY39" gate="GND" x="350.52" y="129.54" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -25905,11 +26139,6 @@ Source: Comchip CGRM4001-G.pdf</description>
 <junction x="45.72" y="195.58"/>
 <junction x="63.5" y="187.96"/>
 <wire x1="45.72" y1="187.96" x2="63.5" y2="187.96" width="0.1524" layer="91"/>
-<pinref part="X2" gate="-2" pin="KL"/>
-<wire x1="114.3" y1="195.58" x2="111.76" y2="195.58" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="195.58" x2="111.76" y2="187.96" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="187.96" x2="99.06" y2="187.96" width="0.1524" layer="91"/>
-<junction x="99.06" y="187.96"/>
 </segment>
 <segment>
 <pinref part="MC1" gate="G$1" pin="GND@1"/>
@@ -26086,6 +26315,27 @@ Source: Comchip CGRM4001-G.pdf</description>
 <junction x="248.92" y="25.4"/>
 <pinref part="SUPPLY33" gate="GND" pin="GND"/>
 </segment>
+<segment>
+<pinref part="T1" gate="G$1" pin="E"/>
+<wire x1="340.36" y1="147.32" x2="340.36" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="SUPPLY35" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C8" gate="G$1" pin="2"/>
+<wire x1="269.24" y1="205.74" x2="269.24" y2="200.66" width="0.1524" layer="91"/>
+<pinref part="SUPPLY36" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="332.74" y1="134.62" x2="332.74" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="SUPPLY37" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="X2" gate="-1" pin="KL"/>
+<wire x1="353.06" y1="147.32" x2="350.52" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="SUPPLY39" gate="GND" pin="GND"/>
+<wire x1="350.52" y1="147.32" x2="350.52" y2="132.08" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="VCC" class="2">
 <segment>
@@ -26110,6 +26360,10 @@ Source: Comchip CGRM4001-G.pdf</description>
 <wire x1="241.3" y1="220.98" x2="231.14" y2="220.98" width="0.1524" layer="91"/>
 <junction x="241.3" y="220.98"/>
 <junction x="231.14" y="220.98"/>
+<wire x1="261.62" y1="220.98" x2="269.24" y2="220.98" width="0.1524" layer="91"/>
+<junction x="261.62" y="220.98"/>
+<pinref part="C8" gate="G$1" pin="1"/>
+<wire x1="269.24" y1="220.98" x2="269.24" y2="213.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="5"/>
@@ -26137,8 +26391,6 @@ Source: Comchip CGRM4001-G.pdf</description>
 <pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="99.06" y1="200.66" x2="99.06" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="243.84" x2="99.06" y2="200.66" width="0.1524" layer="91"/>
-<pinref part="X2" gate="-1" pin="KL"/>
-<wire x1="99.06" y1="200.66" x2="114.3" y2="200.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="RN3" gate="1" pin="1"/>
@@ -26177,6 +26429,22 @@ Source: Comchip CGRM4001-G.pdf</description>
 <wire x1="53.34" y1="154.94" x2="53.34" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="X1" gate="G$1" pin="5"/>
 <wire x1="53.34" y1="139.7" x2="66.04" y2="139.7" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY34" gate="G$1" pin="VCC"/>
+<pinref part="K1" gate="1" pin="1"/>
+<wire x1="340.36" y1="180.34" x2="340.36" y2="170.18" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="K1" gate="2" pin="P@1"/>
+<wire x1="355.6" y1="160.02" x2="355.6" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="157.48" x2="358.14" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="SUPPLY38" gate="G$1" pin="VCC"/>
+<wire x1="358.14" y1="157.48" x2="373.38" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="373.38" y1="157.48" x2="373.38" y2="180.34" width="0.1524" layer="91"/>
+<pinref part="K1" gate="2" pin="P"/>
+<wire x1="358.14" y1="160.02" x2="358.14" y2="157.48" width="0.1524" layer="91"/>
+<junction x="358.14" y="157.48"/>
 </segment>
 </net>
 <net name="RST" class="0">
@@ -26365,6 +26633,11 @@ Source: Comchip CGRM4001-G.pdf</description>
 <pinref part="MC1" gate="G$1" pin="4"/>
 <wire x1="347.98" y1="93.98" x2="350.52" y2="93.98" width="0.1524" layer="91"/>
 <label x="350.52" y="93.98" size="0.8128" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="320.04" y1="152.4" x2="317.5" y2="152.4" width="0.1524" layer="91"/>
+<label x="317.5" y="152.4" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="DTCT0" class="0">
@@ -27233,6 +27506,33 @@ Source: Comchip CGRM4001-G.pdf</description>
 <pinref part="X1" gate="G$1" pin="28"/>
 <wire x1="88.9" y1="111.76" x2="86.36" y2="111.76" width="0.1524" layer="91"/>
 <label x="86.36" y="111.76" size="0.8128" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="K1" gate="1" pin="2"/>
+<pinref part="T1" gate="G$1" pin="C"/>
+<wire x1="340.36" y1="160.02" x2="340.36" y2="157.48" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="T1" gate="G$1" pin="B"/>
+<wire x1="335.28" y1="152.4" x2="332.74" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="332.74" y1="152.4" x2="330.2" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="332.74" y1="152.4" x2="332.74" y2="144.78" width="0.1524" layer="91"/>
+<junction x="332.74" y="152.4"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="X2" gate="-2" pin="KL"/>
+<wire x1="353.06" y1="152.4" x2="350.52" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="350.52" y1="152.4" x2="350.52" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="K1" gate="2" pin="S"/>
+<wire x1="350.52" y1="167.64" x2="353.06" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
