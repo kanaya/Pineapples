@@ -32787,7 +32787,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <label x="86.36" y="111.76" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="VRLY" class="2">
 <segment>
 <pinref part="K1" gate="1" pin="2"/>
 <pinref part="T1" gate="G$1" pin="C"/>
@@ -32814,7 +32814,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <junction x="320.04" y="152.4"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="FAN" class="2">
 <segment>
 <pinref part="X2" gate="-2" pin="KL"/>
 <wire x1="353.06" y1="152.4" x2="350.52" y2="152.4" width="0.1524" layer="91"/>
