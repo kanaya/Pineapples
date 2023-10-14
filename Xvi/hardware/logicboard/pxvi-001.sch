@@ -30575,12 +30575,10 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <part name="C8" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="025-024X044" package3d_urn="urn:adsk.eagle:package:23630/1" value="10n"/>
 <part name="SUPPLY36" library="supply2" deviceset="GND" device=""/>
 <part name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="0204/5" package3d_urn="urn:adsk.eagle:package:23488/1" value="1k"/>
-<part name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="0204/5" package3d_urn="urn:adsk.eagle:package:23488/1" value="1k"/>
+<part name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="0204/5" package3d_urn="urn:adsk.eagle:package:23488/1" value="10k"/>
 <part name="SUPPLY37" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY38" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="SUPPLY39" library="supply2" deviceset="GND" device=""/>
-<part name="SUPPLY40" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
-<part name="SUPPLY41" library="supply2" deviceset="GND" device=""/>
 <part name="J8" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="JST-PTH" package3d_urn="urn:adsk.eagle:package:38069/1"/>
 <part name="SUPPLY42" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="SUPPLY43" library="supply2" deviceset="GND" device=""/>
@@ -31030,10 +31028,6 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <attribute name="VALUE" x="373.38" y="187.96" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY39" gate="GND" x="350.52" y="129.54" smashed="yes"/>
-<instance part="SUPPLY40" gate="G$1" x="246.38" y="149.86" smashed="yes">
-<attribute name="VALUE" x="246.38" y="154.94" size="1.778" layer="96" align="bottom-center"/>
-</instance>
-<instance part="SUPPLY41" gate="GND" x="246.38" y="132.08" smashed="yes"/>
 <instance part="J8" gate="J$1" x="190.5" y="182.88" smashed="yes">
 <attribute name="VALUE" x="187.96" y="175.514" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="187.96" y="188.468" size="1.778" layer="95" font="vector"/>
@@ -31379,15 +31373,6 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <wire x1="350.52" y1="147.32" x2="350.52" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="223.52" y1="137.16" x2="233.68" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="233.68" y1="137.16" x2="246.38" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="246.38" y1="137.16" x2="246.38" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="114.3" x2="233.68" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="233.68" y1="114.3" x2="233.68" y2="137.16" width="0.1524" layer="91"/>
-<junction x="233.68" y="137.16"/>
-<pinref part="SUPPLY41" gate="GND" pin="GND"/>
-</segment>
-<segment>
 <pinref part="J8" gate="J$1" pin="1"/>
 <wire x1="198.12" y1="180.34" x2="205.74" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="180.34" x2="205.74" y2="177.8" width="0.1524" layer="91"/>
@@ -31527,15 +31512,6 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <pinref part="K1" gate="2" pin="P"/>
 <wire x1="358.14" y1="160.02" x2="358.14" y2="157.48" width="0.1524" layer="91"/>
 <junction x="358.14" y="157.48"/>
-</segment>
-<segment>
-<wire x1="223.52" y1="139.7" x2="231.14" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="116.84" x2="231.14" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="231.14" y1="116.84" x2="231.14" y2="139.7" width="0.1524" layer="91"/>
-<junction x="231.14" y="139.7"/>
-<wire x1="231.14" y1="139.7" x2="246.38" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="246.38" y1="139.7" x2="246.38" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="SUPPLY40" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
 <pinref part="J8" gate="J$1" pin="3"/>
@@ -31701,14 +31677,6 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <junction x="83.82" y="63.5"/>
 <label x="88.9" y="63.5" size="0.8128" layer="95" xref="yes"/>
 </segment>
-<segment>
-<wire x1="223.52" y1="142.24" x2="228.6" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="142.24" x2="238.76" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="142.24" x2="228.6" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="119.38" x2="223.52" y2="119.38" width="0.1524" layer="91"/>
-<junction x="228.6" y="142.24"/>
-<label x="238.76" y="142.24" size="0.8128" layer="95" xref="yes"/>
-</segment>
 </net>
 <net name="SCL" class="0">
 <segment>
@@ -31746,14 +31714,6 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <wire x1="86.36" y1="46.99" x2="86.36" y2="60.96" width="0.1524" layer="91"/>
 <junction x="86.36" y="60.96"/>
 <label x="88.9" y="60.96" size="0.8128" layer="95" xref="yes"/>
-</segment>
-<segment>
-<wire x1="223.52" y1="144.78" x2="226.06" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="226.06" y1="144.78" x2="238.76" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="121.92" x2="226.06" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="226.06" y1="121.92" x2="226.06" y2="144.78" width="0.1524" layer="91"/>
-<junction x="226.06" y="144.78"/>
-<label x="238.76" y="144.78" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="RLY" class="0">
