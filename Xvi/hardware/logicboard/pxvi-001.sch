@@ -30814,6 +30814,8 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <part name="P+19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
 <part name="SUPPLY62" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="P+20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
+<part name="C25" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="025-024X044" package3d_urn="urn:adsk.eagle:package:23630/1" value="10n"/>
+<part name="D2" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE" device="-1N4148" package3d_urn="urn:adsk.eagle:package:38452/1" value=""/>
 </parts>
 <sheets>
 <sheet>
@@ -30857,7 +30859,6 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <wire x1="360.68" y1="68.58" x2="360.68" y2="121.92" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="360.68" y1="121.92" x2="304.8" y2="121.92" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="218.44" y1="254" x2="218.44" y2="167.64" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="218.44" y1="167.64" x2="335.28" y2="167.64" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="335.28" y1="254" x2="218.44" y2="254" width="0.1524" layer="94" style="shortdash"/>
 </plain>
 <instances>
@@ -31206,9 +31207,9 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <attribute name="NAME" x="327.66" y="160.02" size="1.778" layer="95"/>
 <attribute name="VALUE" x="327.66" y="157.48" size="1.778" layer="96"/>
 </instance>
-<instance part="K1" gate="1" x="340.36" y="165.1" smashed="yes">
-<attribute name="VALUE" x="341.63" y="168.021" size="1.778" layer="96"/>
-<attribute name="PART" x="341.63" y="170.18" size="1.778" layer="95"/>
+<instance part="K1" gate="1" x="340.36" y="170.18" smashed="yes">
+<attribute name="VALUE" x="341.63" y="173.101" size="1.778" layer="96"/>
+<attribute name="PART" x="341.63" y="175.26" size="1.778" layer="95"/>
 </instance>
 <instance part="K1" gate="2" x="358.14" y="162.56" smashed="yes">
 <attribute name="PART" x="360.68" y="162.56" size="1.778" layer="95"/>
@@ -31222,15 +31223,15 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <attribute name="VALUE" x="261.62" y="205.74" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY36" gate="GND" x="264.16" y="198.12" smashed="yes"/>
-<instance part="R2" gate="G$1" x="325.12" y="152.4" smashed="yes">
-<attribute name="NAME" x="325.12" y="154.94" size="1.778" layer="95" align="center"/>
-<attribute name="VALUE" x="330.2" y="154.94" size="1.778" layer="96" align="center"/>
+<instance part="R2" gate="G$1" x="312.42" y="152.4" smashed="yes">
+<attribute name="NAME" x="312.42" y="154.94" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="317.5" y="154.94" size="1.778" layer="96" align="center"/>
 </instance>
-<instance part="R3" gate="G$1" x="332.74" y="139.7" smashed="yes" rot="R90">
-<attribute name="NAME" x="330.2" y="139.7" size="1.778" layer="95" rot="R90" align="center"/>
-<attribute name="VALUE" x="330.2" y="144.78" size="1.778" layer="96" rot="R90" align="center"/>
+<instance part="R3" gate="G$1" x="320.04" y="142.24" smashed="yes" rot="R90">
+<attribute name="NAME" x="317.5" y="142.24" size="1.778" layer="95" rot="R90" align="center"/>
+<attribute name="VALUE" x="317.5" y="147.32" size="1.778" layer="96" rot="R90" align="center"/>
 </instance>
-<instance part="SUPPLY37" gate="GND" x="332.74" y="129.54" smashed="yes"/>
+<instance part="SUPPLY37" gate="GND" x="320.04" y="129.54" smashed="yes"/>
 <instance part="SUPPLY38" gate="G$1" x="373.38" y="182.88" smashed="yes">
 <attribute name="VALUE" x="373.38" y="187.96" size="1.778" layer="96" align="bottom-center"/>
 </instance>
@@ -31341,6 +31342,14 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 </instance>
 <instance part="P+20" gate="1" x="274.32" y="236.22" smashed="yes">
 <attribute name="VALUE" x="274.32" y="238.76" size="1.778" layer="96"/>
+</instance>
+<instance part="C25" gate="G$1" x="325.12" y="170.18" smashed="yes">
+<attribute name="NAME" x="322.58" y="170.18" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="322.58" y="165.1" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="D2" gate="G$1" x="332.74" y="170.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="337.82" y="170.18" size="1.778" layer="95" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="334.772" y="167.64" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
 </instances>
 <busses>
@@ -31574,7 +31583,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="332.74" y1="134.62" x2="332.74" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="320.04" y1="137.16" x2="320.04" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="SUPPLY37" gate="GND" pin="GND"/>
 </segment>
 <segment>
@@ -31713,7 +31722,16 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <segment>
 <pinref part="SUPPLY34" gate="G$1" pin="VCC"/>
 <pinref part="K1" gate="1" pin="1"/>
-<wire x1="340.36" y1="180.34" x2="340.36" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="180.34" x2="340.36" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="177.8" x2="340.36" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="177.8" x2="332.74" y2="177.8" width="0.1524" layer="91"/>
+<junction x="340.36" y="177.8"/>
+<pinref part="C25" gate="G$1" pin="1"/>
+<wire x1="332.74" y1="177.8" x2="325.12" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="325.12" y1="177.8" x2="325.12" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="D2" gate="G$1" pin="C"/>
+<wire x1="332.74" y1="172.72" x2="332.74" y2="177.8" width="0.1524" layer="91"/>
+<junction x="332.74" y="177.8"/>
 </segment>
 <segment>
 <pinref part="K1" gate="2" pin="P@1"/>
@@ -31968,8 +31986,8 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="320.04" y1="152.4" x2="317.5" y2="152.4" width="0.1524" layer="91"/>
-<label x="317.5" y="152.4" size="0.8128" layer="95" rot="R180" xref="yes"/>
+<wire x1="307.34" y1="152.4" x2="304.8" y2="152.4" width="0.1524" layer="91"/>
+<label x="304.8" y="152.4" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="DTCT0" class="0">
@@ -32995,18 +33013,27 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <segment>
 <pinref part="K1" gate="1" pin="2"/>
 <pinref part="T1" gate="G$1" pin="C"/>
-<wire x1="340.36" y1="160.02" x2="340.36" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="165.1" x2="340.36" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="D2" gate="G$1" pin="A"/>
+<wire x1="340.36" y1="162.56" x2="340.36" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="332.74" y1="167.64" x2="332.74" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="332.74" y1="162.56" x2="340.36" y2="162.56" width="0.1524" layer="91"/>
+<junction x="340.36" y="162.56"/>
+<wire x1="332.74" y1="162.56" x2="325.12" y2="162.56" width="0.1524" layer="91"/>
+<junction x="332.74" y="162.56"/>
+<pinref part="C25" gate="G$1" pin="2"/>
+<wire x1="325.12" y1="162.56" x2="325.12" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="T1" gate="G$1" pin="B"/>
-<wire x1="335.28" y1="152.4" x2="332.74" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="335.28" y1="152.4" x2="320.04" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 <pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="332.74" y1="152.4" x2="330.2" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="332.74" y1="152.4" x2="332.74" y2="144.78" width="0.1524" layer="91"/>
-<junction x="332.74" y="152.4"/>
+<wire x1="320.04" y1="152.4" x2="317.5" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="320.04" y1="152.4" x2="320.04" y2="147.32" width="0.1524" layer="91"/>
+<junction x="320.04" y="152.4"/>
 </segment>
 </net>
 <net name="N$4" class="0">
