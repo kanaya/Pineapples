@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="2" display="yes" altdistance="50" altunitdist="mil" altunit="mil"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="2" display="yes" altdistance="50" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
@@ -14,12 +14,12 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -425,6 +425,7 @@
 <text x="3" y="49.69" size="1" layer="26" rot="MR0" align="center-right">G0</text>
 <text x="3" y="48.42" size="1" layer="26" rot="MR0" align="center-right">NC</text>
 <text x="3" y="47.15" size="1" layer="26" rot="MR0" align="center-right">NC</text>
+<text x="67" y="52.5" size="1" layer="26" rot="MR270" align="center">(3020)</text>
 </plain>
 <libraries>
 <library name="SparkFun-DiscreteSemi" urn="urn:adsk.eagle:library:514">
@@ -5180,7 +5181,7 @@ design rules under a new name.</description>
 </element>
 <element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-S_COPPER" value="OSHW-LOGOS-COPPER" x="40.5" y="7" smashed="yes"/>
 <element name="MC1" library="adafruit" package="ARDUINOMICRO" value="ARDUINOMICRO" x="50" y="50.5" smashed="yes" rot="R270"/>
-<element name="U$1" library="pineapple" package="PINEAPPLE450_SILK" value="PINEAPPLE450_SILK" x="31" y="37.5" smashed="yes" rot="MR270"/>
+<element name="U$1" library="pineapple" package="PINEAPPLE450_SILK" value="PINEAPPLE450_SILK" x="27" y="37.5" smashed="yes" rot="MR90"/>
 <element name="U1" library="SparkFun-Sensors" package="TO-92-AMMO" value="DS18B20" x="94" y="48" smashed="yes">
 <attribute name="NAME" x="89.5" y="48" size="1" layer="25" ratio="20" rot="R90" align="center"/>
 <attribute name="STORE_ID" value="SEN-00245" x="94" y="48" size="1.778" layer="27" display="off"/>
