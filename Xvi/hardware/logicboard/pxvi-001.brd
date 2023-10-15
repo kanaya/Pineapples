@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="2" display="yes" altdistance="50" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="2" display="yes" altdistance="50" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -428,6 +428,8 @@
 <text x="67" y="52.5" size="1" layer="26" rot="MR270" align="center">(3020)</text>
 <text x="72" y="55" size="1" layer="25" align="center">16-</text>
 <text x="79.5" y="55" size="1" layer="25" align="center">16-</text>
+<text x="56" y="37.88" size="1" layer="26" rot="MR0" align="center-left">RX</text>
+<text x="56" y="35.34" size="1" layer="26" rot="MR0" align="center-left">TX</text>
 </plain>
 <libraries>
 <library name="SparkFun-DiscreteSemi" urn="urn:adsk.eagle:library:514">
@@ -5971,6 +5973,18 @@ design rules under a new name.</description>
 <via x="60.96" y="52.5018" extent="1-16" drill="0.3048"/>
 <via x="54.3306" y="39.7764" extent="1-16" drill="0.3048"/>
 <via x="59.1312" y="20.193" extent="1-16" drill="0.3048"/>
+<polygon width="0.2" layer="1">
+<vertex x="-1" y="-1"/>
+<vertex x="101" y="-1"/>
+<vertex x="101" y="76"/>
+<vertex x="-1" y="76"/>
+</polygon>
+<polygon width="0.2" layer="16">
+<vertex x="-2" y="-2"/>
+<vertex x="102" y="-2"/>
+<vertex x="102" y="77"/>
+<vertex x="-2" y="77"/>
+</polygon>
 </signal>
 <signal name="VCC" class="2">
 <contactref element="MC1" pad="P$23"/>
