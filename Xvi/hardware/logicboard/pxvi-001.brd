@@ -7876,7 +7876,7 @@ design rules under a new name.</description>
 <wire x1="9.525" y1="28.8036" x2="9.54" y2="28.54" width="0.508" layer="1"/>
 <wire x1="10.0584" y1="33.4518" x2="10" y2="33.69" width="0.508" layer="1"/>
 </signal>
-<signal name="N$2">
+<signal name="RLYDRV">
 <contactref element="T1" pad="B"/>
 <contactref element="R1" pad="2"/>
 <contactref element="R2" pad="2"/>
@@ -7898,7 +7898,7 @@ design rules under a new name.</description>
 <wire x1="9.525" y1="31.0896" x2="9.54" y2="31.08" width="0.508" layer="1"/>
 <wire x1="4.572" y1="34.9758" x2="4.525" y2="34.9811" width="0.508" layer="1"/>
 </signal>
-<signal name="N$3">
+<signal name="D100A">
 <contactref element="R13" pad="1"/>
 <contactref element="D100LED" pad="A"/>
 <wire x1="17.907" y1="72.0852" x2="17.907" y2="70.0278" width="0.1524" layer="1"/>
@@ -7906,7 +7906,7 @@ design rules under a new name.</description>
 <wire x1="17.907" y1="70.0278" x2="17.9" y2="70" width="0.1524" layer="1"/>
 <wire x1="18.288" y1="72.4662" x2="18.3" y2="72.5" width="0.1524" layer="1"/>
 </signal>
-<signal name="N$1" class="4">
+<signal name="VREGIN" class="4">
 <contactref element="V1" pad="IN"/>
 <contactref element="C1" pad="1"/>
 <contactref element="C2" pad="1"/>
