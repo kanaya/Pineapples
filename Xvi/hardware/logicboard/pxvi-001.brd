@@ -6,10 +6,10 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="2" display="yes" altdistance="50" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="2" display="yes" altdistance="50" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -245,7 +245,7 @@
 <rectangle x1="96.5" y1="21" x2="97" y2="23" layer="21"/>
 <text x="1" y="12" size="1" layer="25" rot="R90" align="center-left">Designed for Takachi PF13-4-9</text>
 <text x="92.5" y="64" size="1" layer="25" align="center">LED</text>
-<text x="11" y="8.5" size="1" layer="25" align="center">MKR</text>
+<text x="18" y="1" size="1" layer="25" rot="R90" align="center-left">MKR</text>
 <text x="43" y="25" size="1" layer="25" align="center">MC1</text>
 <text x="94.5" y="72.54" size="1" layer="25" rot="R90" align="top-center">0</text>
 <text x="94.5" y="67.46" size="1" layer="25" rot="R90" align="top-center">1</text>
@@ -275,7 +275,7 @@
 <circle x="50" y="5" radius="1.1" width="0.2" layer="42"/>
 <circle x="50" y="5" radius="1.1" width="0.2" layer="41"/>
 <circle x="94" y="22" radius="3.2" width="0.1" layer="21"/>
-<text x="25" y="12" size="1" layer="25" align="center">Grove</text>
+<text x="31" y="1" size="1" layer="25" rot="R90" align="center-left">Grove</text>
 <text x="50" y="63" size="1" layer="25" align="center">Grove</text>
 <text x="69" y="1.5" size="1" layer="26" rot="MR0" align="center">LightDrive</text>
 <text x="70" y="73.5" size="1" layer="26" rot="MR0" align="center">MIDI-IN</text>
@@ -386,6 +386,45 @@
 <text x="10.5" y="47" size="1" layer="25" rot="R90" align="center">C1815</text>
 <text x="65.5" y="54" size="1" layer="25" align="center">16-30N06</text>
 <text x="94" y="34" size="1" layer="25" align="center">7805</text>
+<text x="11" y="1" size="1" layer="26" rot="MR90" align="center-left">SCL</text>
+<text x="7" y="1" size="1" layer="26" rot="MR90" align="center-left">Vcc</text>
+<text x="9" y="1" size="1" layer="26" rot="MR90" align="center-left">D7</text>
+<text x="13" y="1" size="1" layer="26" rot="MR90" align="center-left">SDA</text>
+<text x="15" y="1" size="1" layer="26" rot="MR90" align="center-left">GND</text>
+<text x="22" y="1" size="1" layer="26" rot="MR90" align="center-left">GND</text>
+<text x="24" y="1" size="1" layer="26" rot="MR90" align="center-left">Vcc</text>
+<text x="26" y="1" size="1" layer="26" rot="MR90" align="center-left">SDA</text>
+<text x="28" y="1" size="1" layer="26" rot="MR90" align="center-left">SCL</text>
+<text x="53" y="74" size="1" layer="26" rot="MR90" align="center-right">GND</text>
+<text x="51" y="74" size="1" layer="26" rot="MR90" align="center-right">Vcc</text>
+<text x="49" y="74" size="1" layer="26" rot="MR90" align="center-right">SDA</text>
+<text x="47" y="74" size="1" layer="26" rot="MR90" align="center-right">SCL</text>
+<text x="7" y="74" size="1" layer="26" rot="MR90" align="center-right">GND</text>
+<text x="9" y="74" size="1" layer="26" rot="MR90" align="center-right">THS</text>
+<text x="11" y="74" size="1" layer="26" rot="MR90" align="center-right">Vcc</text>
+<text x="44" y="63.28" size="1" layer="26" rot="MR0" align="center-right">A0</text>
+<text x="44" y="60.74" size="1" layer="26" rot="MR0" align="center-right">A1</text>
+<text x="44" y="58.2" size="1" layer="26" rot="MR0" align="center-right">A2</text>
+<text x="44" y="55.66" size="1" layer="26" rot="MR0" align="center-right">A3</text>
+<text x="56" y="70.9" size="1" layer="26" rot="MR0" align="center-left">X3</text>
+<text x="56" y="65.82" size="1" layer="26" rot="MR0" align="center-left">X2</text>
+<text x="56" y="63.28" size="1" layer="26" rot="MR0" align="center-left">X1</text>
+<text x="56" y="60.74" size="1" layer="26" rot="MR0" align="center-left">G1</text>
+<text x="56" y="55.66" size="1" layer="26" rot="MR0" align="center-left">X0</text>
+<text x="56" y="53.12" size="1" layer="26" rot="MR0" align="center-left">G0</text>
+<text x="56" y="42.96" size="1" layer="26" rot="MR0" align="center-left">GND</text>
+<text x="44" y="37.88" size="1" layer="26" rot="MR0" align="center-right">GND</text>
+<text x="44" y="42.96" size="1" layer="26" rot="MR0" align="center-right">Vcc</text>
+<text x="3" y="53.5" size="1" layer="26" rot="MR0" align="center-right">MISO</text>
+<text x="3" y="54.77" size="1" layer="26" rot="MR0" align="center-right">Vcc</text>
+<text x="3" y="56.04" size="1" layer="26" rot="MR0" align="center-right">SCK</text>
+<text x="3" y="57.31" size="1" layer="26" rot="MR0" align="center-right">MOSI</text>
+<text x="3" y="58.58" size="1" layer="26" rot="MR0" align="center-right">RST</text>
+<text x="3" y="59.85" size="1" layer="26" rot="MR0" align="center-right">GND</text>
+<text x="3" y="50.96" size="1" layer="26" rot="MR0" align="center-right">G1</text>
+<text x="3" y="49.69" size="1" layer="26" rot="MR0" align="center-right">G0</text>
+<text x="3" y="48.42" size="1" layer="26" rot="MR0" align="center-right">NC</text>
+<text x="3" y="47.15" size="1" layer="26" rot="MR0" align="center-right">NC</text>
 </plain>
 <libraries>
 <library name="SparkFun-DiscreteSemi" urn="urn:adsk.eagle:library:514">
