@@ -32779,7 +32779,7 @@ Wickmann</description>
 <wire x1="325.12" y1="162.56" x2="325.12" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="RLYDRV" class="0">
 <segment>
 <pinref part="T1" gate="G$1" pin="B"/>
 <wire x1="335.28" y1="152.4" x2="320.04" y2="152.4" width="0.1524" layer="91"/>
@@ -32799,14 +32799,14 @@ Wickmann</description>
 <wire x1="350.52" y1="167.64" x2="353.06" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="D100A" class="0">
 <segment>
 <pinref part="R13" gate="G$1" pin="1"/>
 <pinref part="D100LED" gate="G$1" pin="A"/>
 <wire x1="248.92" y1="35.56" x2="248.92" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$1" class="4">
+<net name="VREGIN" class="4">
 <segment>
 <pinref part="C1" gate="G$1" pin="1"/>
 <pinref part="D1" gate="G$1" pin="C"/>
