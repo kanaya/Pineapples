@@ -32155,7 +32155,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="P10" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TPS" device="TP16SQ" package3d_urn="urn:adsk.eagle:package:27976/1"/>
 <part name="P11" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TPS" device="TP16SQ" package3d_urn="urn:adsk.eagle:package:27976/1"/>
 <part name="P12" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TPS" device="TP16SQ" package3d_urn="urn:adsk.eagle:package:27976/1"/>
-<part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="JST-PTH-VERT" package3d_urn="urn:adsk.eagle:package:38080/2"/>
+<part name="J15" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="JST-PTH-VERT" package3d_urn="urn:adsk.eagle:package:38080/2" value="TX"/>
 <part name="SUPPLY47" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY48" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 </parts>
@@ -32741,7 +32741,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="NAME" x="219.71" y="123.19" size="1.778" layer="95" rot="R90"/>
 <attribute name="TP_SIGNAL_NAME" x="222.25" y="125.73" size="1.778" layer="97" rot="R90"/>
 </instance>
-<instance part="J2" gate="J1" x="261.62" y="167.64" smashed="yes">
+<instance part="J15" gate="J1" x="261.62" y="167.64" smashed="yes">
 <attribute name="VALUE" x="259.08" y="160.274" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="259.08" y="173.228" size="1.778" layer="95" font="vector"/>
 </instance>
@@ -33021,7 +33021,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="P07" gate="G$1" pin="PP"/>
 </segment>
 <segment>
-<pinref part="J2" gate="J1" pin="1"/>
+<pinref part="J15" gate="J1" pin="1"/>
 <wire x1="269.24" y1="165.1" x2="271.78" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="165.1" x2="271.78" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="SUPPLY47" gate="GND" pin="GND"/>
@@ -33165,7 +33165,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="P02" gate="G$1" pin="PP"/>
 </segment>
 <segment>
-<pinref part="J2" gate="J1" pin="2"/>
+<pinref part="J15" gate="J1" pin="2"/>
 <wire x1="269.24" y1="167.64" x2="271.78" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="167.64" x2="271.78" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="SUPPLY48" gate="G$1" pin="VCC"/>
@@ -33277,7 +33277,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="350.52" y="78.74" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J2" gate="J1" pin="3"/>
+<pinref part="J15" gate="J1" pin="3"/>
 <wire x1="269.24" y1="170.18" x2="274.32" y2="170.18" width="0.1524" layer="91"/>
 <label x="274.32" y="170.18" size="0.8128" layer="95" xref="yes"/>
 </segment>
@@ -34445,16 +34445,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </sheets>
 <errors>
 <approved hash="104,1,203.2,213.36,U1,VDD,VCC,,,"/>
-<approved hash="106,1,322.58,106.68,ANLG0,,,,,"/>
-<approved hash="106,1,322.58,104.14,ANLG1,,,,,"/>
-<approved hash="106,1,322.58,101.6,ANLG2,,,,,"/>
-<approved hash="106,1,322.58,99.06,ANLG3,,,,,"/>
 <approved hash="106,1,322.58,109.22,AREF,,,,,"/>
-<approved hash="106,1,347.98,99.06,DTCT0,,,,,"/>
-<approved hash="106,1,347.98,106.68,DTCT1,,,,,"/>
-<approved hash="106,1,347.98,109.22,DTCT2,,,,,"/>
-<approved hash="106,1,347.98,114.3,DTCT3,,,,,"/>
-<approved hash="106,1,347.98,78.74,TX,,,,,"/>
 <approved hash="106,1,322.58,111.76,VDD,,,,,"/>
 <approved hash="106,1,322.58,78.74,VIN,,,,,"/>
 <approved hash="113,1,193.571,130.071,FRAME2,,,,,"/>
