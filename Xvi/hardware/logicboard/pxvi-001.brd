@@ -15,11 +15,11 @@
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -403,7 +403,6 @@
 <text x="9" y="74" size="1" layer="26" rot="MR90" align="center-right">THS</text>
 <text x="11" y="74" size="1" layer="26" rot="MR90" align="center-right">Vcc</text>
 <text x="56" y="42.96" size="1" layer="26" rot="MR0" align="center-left">GND</text>
-<text x="44" y="37.88" size="1" layer="26" rot="MR0" align="center-right">GND</text>
 <text x="44" y="42.96" size="1" layer="26" rot="MR0" align="center-right">Vcc</text>
 <text x="3" y="53.5" size="1" layer="26" rot="MR0" align="center-right">MISO</text>
 <text x="3" y="54.77" size="1" layer="26" rot="MR0" align="center-right">Vcc</text>
@@ -418,8 +417,6 @@
 <text x="67" y="52.5" size="1" layer="26" rot="MR270" align="center">(3020)</text>
 <text x="72" y="55" size="1" layer="25" align="center">16-</text>
 <text x="79.5" y="55" size="1" layer="25" align="center">16-</text>
-<text x="56" y="37.88" size="1" layer="26" rot="MR0" align="center-left">RX</text>
-<text x="56" y="35.34" size="1" layer="26" rot="MR0" align="center-left">TX</text>
 <text x="95" y="1" size="1" layer="25" rot="R90" align="center-left">LightDrive</text>
 <text x="32" y="63" size="1" layer="26" rot="MR90" align="center-left">A3</text>
 <text x="30" y="63" size="1" layer="26" rot="MR90" align="center-left">A2</text>
@@ -441,6 +438,14 @@
 <text x="21" y="71" size="1" layer="26" rot="MR90" align="center-right">GND</text>
 <text x="23" y="71" size="1" layer="26" rot="MR90" align="center-right">Vcc</text>
 <text x="25" y="71" size="1" layer="26" rot="MR90" align="center-right">TX</text>
+<wire x1="33.03" y1="37.5" x2="66.97" y2="37.5" width="0.1" layer="22"/>
+<wire x1="50" y1="54.47" x2="50" y2="20.53" width="0.1" layer="22"/>
+<circle x="25" y="37.5" radius="1.5" width="0.15" layer="22"/>
+<circle x="50" y="5" radius="1.5" width="0.15" layer="22"/>
+<wire x1="33.03" y1="37.5" x2="50" y2="54.7" width="0.15" layer="22"/>
+<wire x1="50" y1="54.7" x2="66.97" y2="37.5" width="0.15" layer="22"/>
+<wire x1="66.97" y1="37.5" x2="50" y2="20.53" width="0.15" layer="22"/>
+<wire x1="50" y1="20.53" x2="33.03" y2="37.5" width="0.15" layer="22"/>
 </plain>
 <libraries>
 <library name="SparkFun-DiscreteSemi" urn="urn:adsk.eagle:library:514">
