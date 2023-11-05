@@ -8,8 +8,8 @@
 </settings>
 <grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="2" display="yes" altdistance="50" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -614,6 +614,22 @@ Module (12708)</text>
 <wire x1="47.5" y1="87.5" x2="47.5" y2="88.5" width="0.15" layer="21"/>
 <text x="51.5" y="88" size="1" layer="25" align="center">A</text>
 <text x="39.5" y="88" size="1" layer="25" align="center">K</text>
+<polygon width="0.15" layer="21">
+<vertex x="26" y="27.5"/>
+<vertex x="25.5" y="27"/>
+<vertex x="26" y="26.5"/>
+<vertex x="26.5" y="27"/>
+</polygon>
+<wire x1="74" y1="27.5" x2="73.5" y2="27" width="0.15" layer="21"/>
+<wire x1="73.5" y1="27" x2="74" y2="26.5" width="0.15" layer="21"/>
+<wire x1="74" y1="26.5" x2="74.5" y2="27" width="0.15" layer="21"/>
+<wire x1="74.5" y1="27" x2="74" y2="27.5" width="0.15" layer="21"/>
+<polygon width="0.15" layer="21">
+<vertex x="19.5" y="27.5"/>
+<vertex x="19" y="27"/>
+<vertex x="19.5" y="26.5"/>
+<vertex x="20" y="27"/>
+</polygon>
 </plain>
 <libraries>
 <library name="SparkFun-DiscreteSemi" urn="urn:adsk.eagle:library:514">
