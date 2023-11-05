@@ -35479,11 +35479,6 @@ Source: www.kingbright.com</description>
 </net>
 <net name="THS" class="0">
 <segment>
-<pinref part="RN3" gate="1" pin="4"/>
-<wire x1="167.64" y1="142.24" x2="170.18" y2="142.24" width="0.1524" layer="91"/>
-<label x="170.18" y="142.24" size="0.8128" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="SV3" gate="A" pin="6"/>
 <wire x1="332.74" y1="198.12" x2="340.36" y2="198.12" width="0.1524" layer="91"/>
 <label x="340.36" y="198.12" size="0.8128" layer="95" xref="yes"/>
@@ -35497,6 +35492,11 @@ Source: www.kingbright.com</description>
 <pinref part="MC2" gate="G$1" pin="GPIO_17/SPI1_CS1"/>
 <wire x1="228.6" y1="162.56" x2="226.06" y2="162.56" width="0.1524" layer="91"/>
 <label x="226.06" y="162.56" size="0.8128" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="RN3" gate="1" pin="3"/>
+<wire x1="167.64" y1="147.32" x2="170.18" y2="147.32" width="0.1524" layer="91"/>
+<label x="170.18" y="147.32" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="TX" class="0">
@@ -35543,9 +35543,9 @@ Source: www.kingbright.com</description>
 <label x="226.06" y="165.1" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RN3" gate="1" pin="3"/>
-<wire x1="167.64" y1="147.32" x2="170.18" y2="147.32" width="0.1524" layer="91"/>
-<label x="170.18" y="147.32" size="0.8128" layer="95" xref="yes"/>
+<pinref part="RN3" gate="1" pin="4"/>
+<wire x1="167.64" y1="142.24" x2="170.18" y2="142.24" width="0.1524" layer="91"/>
+<label x="170.18" y="142.24" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SDA" class="0">
