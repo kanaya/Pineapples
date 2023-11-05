@@ -6,10 +6,10 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="2" display="yes" altdistance="50" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="2" display="yes" altdistance="50" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -319,7 +319,6 @@ PF10-4-10</text>
 <text x="60" y="26" size="1" layer="25" rot="R90" align="center">TestPort II</text>
 <text x="5" y="45" size="1" layer="25" align="center-left">THS</text>
 <text x="85" y="40.5" size="1" layer="25" rot="R90" align="center">221</text>
-<text x="-1.5" y="58.5" size="1" layer="25" align="center">472</text>
 <text x="62" y="34.5" size="1" layer="25" align="center">103</text>
 <text x="62" y="23" size="1" layer="25" align="center">103</text>
 <text x="26" y="25" size="1" layer="25" align="center">TLP2630</text>
@@ -5807,6 +5806,18 @@ design rules under a new name.</description>
 <wire x1="54.2544" y1="61.4934" x2="54.145" y2="61.54" width="0.3048" layer="16"/>
 <via x="49.4538" y="35.5092" extent="1-16" drill="0.3048"/>
 <via x="32.6136" y="65.0748" extent="1-16" drill="0.3048"/>
+<polygon width="0.2" layer="1">
+<vertex x="-1" y="-1"/>
+<vertex x="92" y="-1"/>
+<vertex x="92" y="91"/>
+<vertex x="-1" y="91"/>
+</polygon>
+<polygon width="0.2" layer="16">
+<vertex x="-2" y="-2"/>
+<vertex x="93" y="-2"/>
+<vertex x="93" y="92"/>
+<vertex x="-2" y="92"/>
+</polygon>
 </signal>
 <signal name="VCC" class="2">
 <contactref element="IC1" pad="14"/>
