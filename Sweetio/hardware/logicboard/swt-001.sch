@@ -32809,6 +32809,7 @@ Based on the following sources:
 <part name="NC7" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="PAD-N" device=""/>
 <part name="J21" library="Connector" deviceset="TWIG-4P-2.0" device=""/>
 <part name="J22" library="Connector" deviceset="TWIG-4P-2.0" device=""/>
+<part name="D4" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE" device="-1N4148" package3d_urn="urn:adsk.eagle:package:38452/1" value=""/>
 </parts>
 <sheets>
 <sheet>
@@ -32868,9 +32869,9 @@ Based on the following sources:
 </instance>
 <instance part="NC1" gate="G$1" x="302.26" y="177.8" smashed="yes"/>
 <instance part="NC2" gate="G$1" x="302.26" y="175.26" smashed="yes"/>
-<instance part="RN4" gate="A" x="243.84" y="106.68" smashed="yes">
-<attribute name="VALUE" x="246.38" y="103.632" size="1.778" layer="96"/>
-<attribute name="NAME" x="238.76" y="103.632" size="1.778" layer="95"/>
+<instance part="RN4" gate="A" x="231.14" y="106.68" smashed="yes">
+<attribute name="VALUE" x="233.68" y="103.632" size="1.778" layer="96"/>
+<attribute name="NAME" x="226.06" y="103.632" size="1.778" layer="95"/>
 </instance>
 <instance part="RN4" gate="B" x="177.8" y="124.46" smashed="yes">
 <attribute name="VALUE" x="180.34" y="121.412" size="1.778" layer="96"/>
@@ -33009,9 +33010,9 @@ Based on the following sources:
 <attribute name="NAME" x="288.29" y="130.175" size="1.778" layer="95"/>
 <attribute name="VALUE" x="288.29" y="116.84" size="1.778" layer="96"/>
 </instance>
-<instance part="J16" gate="J1" x="223.52" y="101.6" smashed="yes">
-<attribute name="VALUE" x="220.98" y="96.774" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="220.98" y="107.188" size="1.778" layer="95" font="vector"/>
+<instance part="J16" gate="J1" x="213.36" y="101.6" smashed="yes">
+<attribute name="VALUE" x="210.82" y="96.774" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="210.82" y="107.188" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="JP2" gate="J1" x="50.8" y="111.76" smashed="yes">
 <attribute name="VALUE" x="48.26" y="101.854" size="1.778" layer="96" font="vector"/>
@@ -33090,6 +33091,10 @@ Based on the following sources:
 <instance part="J22" gate="G$1" x="76.2" y="91.44" smashed="yes" rot="R180">
 <attribute name="NAME" x="77.47" y="86.36" size="1.27" layer="95" rot="R180"/>
 <attribute name="VALUE" x="73.66" y="95.25" size="1.27" layer="96" rot="R270"/>
+</instance>
+<instance part="D4" gate="G$1" x="243.84" y="104.14" smashed="yes" rot="R180">
+<attribute name="NAME" x="243.84" y="99.06" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="246.38" y="106.172" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
 </instance>
 </instances>
 <busses>
@@ -34016,27 +34021,37 @@ Based on the following sources:
 <label x="132.08" y="157.48" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$1" class="1">
+<net name="MNTRAA" class="1">
 <segment>
 <pinref part="OK1" gate="B" pin="A2"/>
-<wire x1="251.46" y1="106.68" x2="248.92" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="106.68" x2="238.76" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="RN4" gate="A" pin="2"/>
+<pinref part="D4" gate="G$1" pin="C"/>
+<wire x1="238.76" y1="106.68" x2="236.22" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="104.14" x2="238.76" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="104.14" x2="238.76" y2="106.68" width="0.1524" layer="91"/>
+<junction x="238.76" y="106.68"/>
 </segment>
 </net>
-<net name="RTN" class="1">
+<net name="MNTRK" class="1">
 <segment>
 <pinref part="OK1" gate="B" pin="C2"/>
-<wire x1="251.46" y1="101.6" x2="231.14" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="101.6" x2="248.92" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="J16" gate="J1" pin="1"/>
+<pinref part="D4" gate="G$1" pin="A"/>
+<wire x1="248.92" y1="101.6" x2="220.98" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="104.14" x2="248.92" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="104.14" x2="248.92" y2="101.6" width="0.1524" layer="91"/>
+<junction x="248.92" y="101.6"/>
 </segment>
 </net>
-<net name="SND" class="0">
+<net name="MNTRA" class="0">
 <segment>
 <pinref part="RN4" gate="A" pin="1"/>
-<wire x1="238.76" y1="106.68" x2="236.22" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="236.22" y1="106.68" x2="236.22" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="106.68" x2="223.52" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="106.68" x2="223.52" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="J16" gate="J1" pin="2"/>
-<wire x1="236.22" y1="104.14" x2="231.14" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="104.14" x2="220.98" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GPIO2" class="0">
@@ -34123,7 +34138,7 @@ Based on the following sources:
 <pinref part="JP8" gate="J1" pin="9"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="BASE" class="0">
 <segment>
 <pinref part="T1" gate="G$1" pin="B"/>
 <pinref part="R1" gate="G$1" pin="1"/>
@@ -34134,7 +34149,7 @@ Based on the following sources:
 <junction x="114.3" y="157.48"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="COLLECTOR" class="0">
 <segment>
 <pinref part="T1" gate="G$1" pin="C"/>
 <pinref part="K1" gate="1" pin="2"/>
