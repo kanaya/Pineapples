@@ -155,7 +155,7 @@
 <circle x="3" y="69" radius="2.236065625" width="0.2" layer="42"/>
 <circle x="3" y="69" radius="2.236065625" width="0.2" layer="41"/>
 <circle x="3" y="3" radius="2.236065625" width="0.2" layer="41"/>
-<text x="6" y="69" size="1.27" layer="25" align="center-left">Ring Light 0.0.1-X</text>
+<text x="6" y="69" size="1.27" layer="25" align="center-left">Pineapple Candy 0.0.1-X</text>
 <wire x1="0" y1="69" x2="0" y2="3" width="0" layer="20"/>
 <hole x="36" y="69" drill="3.2"/>
 <hole x="36" y="3" drill="3.2"/>
@@ -3183,6 +3183,18 @@ design rules under a new name.</description>
 <wire x1="62.2554" y1="15.621" x2="54.7116" y2="8.0772" width="1.016" layer="1"/>
 <wire x1="51.2826" y1="8.1534" x2="51.27" y2="8.19" width="1.016" layer="1"/>
 <wire x1="62.2554" y1="15.621" x2="62.27" y2="15.68" width="1.016" layer="1"/>
+<polygon width="0.2" layer="1">
+<vertex x="-1" y="-1"/>
+<vertex x="73" y="-1"/>
+<vertex x="73" y="73"/>
+<vertex x="-1" y="73"/>
+</polygon>
+<polygon width="0.2" layer="16">
+<vertex x="-2" y="-2"/>
+<vertex x="74" y="-2"/>
+<vertex x="74" y="74"/>
+<vertex x="-2" y="74"/>
+</polygon>
 </signal>
 <signal name="N$1">
 <contactref element="L01" pad="C"/>

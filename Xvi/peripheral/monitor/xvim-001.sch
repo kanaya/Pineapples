@@ -9205,8 +9205,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <approved hash="101,1,116.84,210.82,L2-9,A,,,,"/>
 <approved hash="101,1,109.22,198.12,L2-10,C,,,,"/>
 <approved hash="101,1,116.84,198.12,L2-10,A,,,,"/>
+<approved hash="106,1,213.36,193.04,GND,,,,,"/>
+<approved hash="106,1,200.66,190.5,GND,,,,,"/>
+<approved hash="106,1,228.6,193.04,MNTR,,,,,"/>
 <approved hash="113,1,193.571,130.071,FRAME2,,,,,"/>
-<approved hash="113,1,220.98,174.28,SV1,,,,,"/>
+<approved hash="113,1,220.98,174.249,SV1,,,,,"/>
 </errors>
 </schematic>
 </drawing>
