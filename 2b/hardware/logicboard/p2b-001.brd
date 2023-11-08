@@ -181,7 +181,7 @@
 <wire x1="25.05" y1="46.95" x2="25.05" y2="66" width="0.15" layer="21" style="dashdot"/>
 <wire x1="25.05" y1="66" x2="6" y2="66" width="0.15" layer="21" style="dashdot"/>
 <wire x1="6" y1="66" x2="6" y2="46.95" width="0.15" layer="21" style="dashdot"/>
-<text x="11" y="72" size="1" layer="25" rot="R90" align="center">2.9.0-GM</text>
+<text x="11" y="72" size="1" layer="25" rot="R90" align="center">2.9.1-GM</text>
 <text x="26" y="63.46" size="1" layer="25" rot="R90" align="center">SD</text>
 <text x="26" y="60.92" size="1" layer="25" rot="R90" align="center">SC</text>
 <text x="26" y="53.3" size="1" layer="25" rot="R90" align="center">5V</text>
