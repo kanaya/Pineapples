@@ -34914,12 +34914,14 @@ Source: www.kingbright.com</description>
 <part name="J23" library="Connector" deviceset="TWIG-4P-2.0" device="" value="Grove"/>
 <part name="J24" library="Connector" deviceset="TWIG-4P-2.0" device="" value="Grove"/>
 <part name="D4" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE" device="-1N4148" package3d_urn="urn:adsk.eagle:package:38452/1" value=""/>
-<part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/2" value="Red"/>
-<part name="LED0" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/2" value="Green"/>
+<part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="KA-3528ASYC" package3d_urn="urn:adsk.eagle:package:15831/1" value="Red"/>
+<part name="LED0" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="KA-3528ASYC" package3d_urn="urn:adsk.eagle:package:15831/1" value="Green"/>
 <part name="SUPPLY12" library="supply2" deviceset="GND" device=""/>
 <part name="S1" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="31-XX" device="" package3d_urn="urn:adsk.eagle:package:27487/1" value="RST"/>
 <part name="J21" library="Connector" deviceset="TWIG-4P-2.0" device="'90D'" value="Grove"/>
 <part name="J22" library="Connector" deviceset="TWIG-4P-2.0" device="'90D'" value="Grove"/>
+<part name="NC11" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="PAD-N" device=""/>
+<part name="NC12" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="PAD-N" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -35223,6 +35225,8 @@ Source: www.kingbright.com</description>
 <attribute name="NAME" x="49.53" y="104.14" size="1.27" layer="95" rot="R180"/>
 <attribute name="VALUE" x="45.72" y="113.03" size="1.27" layer="96" rot="R270"/>
 </instance>
+<instance part="NC11" gate="G$1" x="228.6" y="157.48" smashed="yes"/>
+<instance part="NC12" gate="G$1" x="332.74" y="172.72" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -35509,14 +35513,14 @@ Source: www.kingbright.com</description>
 <label x="134.62" y="68.58" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="MC2" gate="G$1" pin="GPIO_17/SPI1_CS1"/>
-<wire x1="228.6" y1="162.56" x2="226.06" y2="162.56" width="0.1524" layer="91"/>
-<label x="226.06" y="162.56" size="0.8128" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="RN3" gate="1" pin="3"/>
 <wire x1="167.64" y1="147.32" x2="170.18" y2="147.32" width="0.1524" layer="91"/>
 <label x="170.18" y="147.32" size="0.8128" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MC2" gate="G$1" pin="GPIO_4/GPCLK0"/>
+<wire x1="228.6" y1="172.72" x2="226.06" y2="172.72" width="0.1524" layer="91"/>
+<label x="226.06" y="172.72" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="TX" class="0">
@@ -35625,9 +35629,9 @@ Source: www.kingbright.com</description>
 <label x="340.36" y="195.58" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="MC2" gate="G$1" pin="GPIO5//GPCLK1"/>
-<wire x1="302.26" y1="172.72" x2="304.8" y2="172.72" width="0.1524" layer="91"/>
-<label x="304.8" y="172.72" size="0.8128" layer="95" xref="yes"/>
+<pinref part="MC2" gate="G$1" pin="GPIO_22"/>
+<wire x1="228.6" y1="152.4" x2="226.06" y2="152.4" width="0.1524" layer="91"/>
+<label x="226.06" y="152.4" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="DTCT1" class="0">
@@ -35637,9 +35641,9 @@ Source: www.kingbright.com</description>
 <label x="340.36" y="193.04" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="MC2" gate="G$1" pin="GPIO6/GPCLK2"/>
-<wire x1="302.26" y1="167.64" x2="304.8" y2="167.64" width="0.1524" layer="91"/>
-<label x="304.8" y="167.64" size="0.8128" layer="95" xref="yes"/>
+<pinref part="MC2" gate="G$1" pin="GPIO_23"/>
+<wire x1="228.6" y1="149.86" x2="226.06" y2="149.86" width="0.1524" layer="91"/>
+<label x="226.06" y="149.86" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="DTCT2" class="0">
@@ -35649,9 +35653,9 @@ Source: www.kingbright.com</description>
 <label x="340.36" y="190.5" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="MC2" gate="G$1" pin="GPIO12/PWM0"/>
-<wire x1="302.26" y1="165.1" x2="304.8" y2="165.1" width="0.1524" layer="91"/>
-<label x="304.8" y="165.1" size="0.8128" layer="95" xref="yes"/>
+<pinref part="MC2" gate="G$1" pin="GPIO_24"/>
+<wire x1="228.6" y1="144.78" x2="226.06" y2="144.78" width="0.1524" layer="91"/>
+<label x="226.06" y="144.78" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="DTCT3" class="0">
@@ -35661,9 +35665,9 @@ Source: www.kingbright.com</description>
 <label x="340.36" y="187.96" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="MC2" gate="G$1" pin="GPIO13/PWM1"/>
-<wire x1="302.26" y1="162.56" x2="304.8" y2="162.56" width="0.1524" layer="91"/>
-<label x="304.8" y="162.56" size="0.8128" layer="95" xref="yes"/>
+<pinref part="MC2" gate="G$1" pin="GPIO_25"/>
+<wire x1="228.6" y1="134.62" x2="226.06" y2="134.62" width="0.1524" layer="91"/>
+<label x="226.06" y="134.62" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="LED0" class="0">
@@ -35673,9 +35677,9 @@ Source: www.kingbright.com</description>
 <pinref part="R4" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="MC2" gate="G$1" pin="GPIO_23"/>
-<wire x1="228.6" y1="149.86" x2="226.06" y2="149.86" width="0.1524" layer="91"/>
-<label x="226.06" y="149.86" size="0.8128" layer="95" rot="R180" xref="yes"/>
+<pinref part="MC2" gate="G$1" pin="GPIO12/PWM0"/>
+<wire x1="302.26" y1="165.1" x2="304.8" y2="165.1" width="0.1524" layer="91"/>
+<label x="304.8" y="165.1" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="VDD" class="2">
@@ -35808,9 +35812,9 @@ Source: www.kingbright.com</description>
 <pinref part="R5" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="MC2" gate="G$1" pin="GPIO_22"/>
-<wire x1="228.6" y1="152.4" x2="226.06" y2="152.4" width="0.1524" layer="91"/>
-<label x="226.06" y="152.4" size="0.8128" layer="95" rot="R180" xref="yes"/>
+<pinref part="MC2" gate="G$1" pin="GPIO13/PWM1"/>
+<wire x1="302.26" y1="162.56" x2="304.8" y2="162.56" width="0.1524" layer="91"/>
+<label x="304.8" y="162.56" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GPIO1" class="0">
@@ -35830,9 +35834,9 @@ Source: www.kingbright.com</description>
 <label x="340.36" y="200.66" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="MC2" gate="G$1" pin="GPIO27"/>
-<wire x1="228.6" y1="157.48" x2="226.06" y2="157.48" width="0.1524" layer="91"/>
-<label x="226.06" y="157.48" size="0.8128" layer="95" rot="R180" xref="yes"/>
+<pinref part="MC2" gate="G$1" pin="GPIO21/SPI0_SCLK1"/>
+<wire x1="302.26" y1="144.78" x2="304.8" y2="144.78" width="0.1524" layer="91"/>
+<label x="304.8" y="144.78" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GPIO0" class="0">
@@ -35852,9 +35856,9 @@ Source: www.kingbright.com</description>
 <label x="340.36" y="203.2" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="MC2" gate="G$1" pin="GPIO_18/PWM0/SPI1_CS0"/>
-<wire x1="228.6" y1="160.02" x2="226.06" y2="160.02" width="0.1524" layer="91"/>
-<label x="226.06" y="160.02" size="0.8128" layer="95" rot="R180" xref="yes"/>
+<pinref part="MC2" gate="G$1" pin="GPIO20/SPI0_MOSI1"/>
+<wire x1="302.26" y1="149.86" x2="304.8" y2="149.86" width="0.1524" layer="91"/>
+<label x="304.8" y="149.86" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="LED1A" class="0">
@@ -36164,22 +36168,17 @@ Source: www.kingbright.com</description>
 <label x="76.2" y="66.04" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="MC2" gate="G$1" pin="GPIO_4/GPCLK0"/>
-<wire x1="228.6" y1="172.72" x2="226.06" y2="172.72" width="0.1524" layer="91"/>
-<label x="226.06" y="172.72" size="0.8128" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="SV3" gate="A" pin="11"/>
 <wire x1="325.12" y1="190.5" x2="317.5" y2="190.5" width="0.1524" layer="91"/>
 <label x="317.5" y="190.5" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="MC2" gate="G$1" pin="GPIO_7/SPI0_CE2_N"/>
+<wire x1="302.26" y1="180.34" x2="304.8" y2="180.34" width="0.1524" layer="91"/>
+<label x="304.8" y="180.34" size="0.8128" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="MNTR" class="0">
-<segment>
-<pinref part="MC2" gate="G$1" pin="GPIO_25"/>
-<wire x1="228.6" y1="134.62" x2="226.06" y2="134.62" width="0.1524" layer="91"/>
-<label x="226.06" y="134.62" size="0.8128" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="OK1" gate="B" pin="VO2"/>
 <wire x1="276.86" y1="104.14" x2="279.4" y2="104.14" width="0.1524" layer="91"/>
@@ -36190,17 +36189,22 @@ Source: www.kingbright.com</description>
 <wire x1="167.64" y1="137.16" x2="170.18" y2="137.16" width="0.1524" layer="91"/>
 <label x="170.18" y="137.16" size="0.8128" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="MC2" gate="G$1" pin="GPIO6/GPCLK2"/>
+<wire x1="302.26" y1="167.64" x2="304.8" y2="167.64" width="0.1524" layer="91"/>
+<label x="304.8" y="167.64" size="0.8128" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="RLY" class="0">
-<segment>
-<pinref part="MC2" gate="G$1" pin="GPIO_24"/>
-<wire x1="228.6" y1="144.78" x2="226.06" y2="144.78" width="0.1524" layer="91"/>
-<label x="226.06" y="144.78" size="0.8128" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="127" y1="157.48" x2="132.08" y2="157.48" width="0.1524" layer="91"/>
 <label x="132.08" y="157.48" size="0.8128" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MC2" gate="G$1" pin="GPIO5//GPCLK1"/>
+<wire x1="302.26" y1="172.72" x2="304.8" y2="172.72" width="0.1524" layer="91"/>
+<label x="304.8" y="172.72" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="MNTRAA" class="1">
@@ -36238,86 +36242,74 @@ Source: www.kingbright.com</description>
 </net>
 <net name="GPIO2" class="0">
 <segment>
-<pinref part="MC2" gate="G$1" pin="GPIO_7/SPI0_CE2_N"/>
-<wire x1="302.26" y1="180.34" x2="304.8" y2="180.34" width="0.1524" layer="91"/>
-<label x="304.8" y="180.34" size="0.8128" layer="95" xref="yes"/>
-</segment>
-<segment>
 <wire x1="332.74" y1="157.48" x2="337.82" y2="157.48" width="0.1524" layer="91"/>
 <label x="337.82" y="157.48" size="0.8128" layer="95" xref="yes"/>
 <pinref part="JP8" gate="J1" pin="3"/>
 </segment>
-</net>
-<net name="GPIO3" class="0">
 <segment>
 <pinref part="MC2" gate="G$1" pin="GPIO_8/SPI0_CE1_N"/>
 <wire x1="302.26" y1="185.42" x2="304.8" y2="185.42" width="0.1524" layer="91"/>
 <label x="304.8" y="185.42" size="0.8128" layer="95" xref="yes"/>
 </segment>
+</net>
+<net name="GPIO3" class="0">
 <segment>
 <wire x1="332.74" y1="160.02" x2="337.82" y2="160.02" width="0.1524" layer="91"/>
 <label x="337.82" y="160.02" size="0.8128" layer="95" xref="yes"/>
 <pinref part="JP8" gate="J1" pin="4"/>
 </segment>
-</net>
-<net name="GPIO4" class="0">
 <segment>
 <pinref part="MC2" gate="G$1" pin="GPIO16/SPI1_CS2"/>
 <wire x1="302.26" y1="154.94" x2="304.8" y2="154.94" width="0.1524" layer="91"/>
 <label x="304.8" y="154.94" size="0.8128" layer="95" xref="yes"/>
 </segment>
+</net>
+<net name="GPIO4" class="0">
 <segment>
 <wire x1="332.74" y1="162.56" x2="337.82" y2="162.56" width="0.1524" layer="91"/>
 <label x="337.82" y="162.56" size="0.8128" layer="95" xref="yes"/>
 <pinref part="JP8" gate="J1" pin="5"/>
 </segment>
+<segment>
+<pinref part="MC2" gate="G$1" pin="GPIO_17/SPI1_CS1"/>
+<wire x1="228.6" y1="162.56" x2="226.06" y2="162.56" width="0.1524" layer="91"/>
+<label x="226.06" y="162.56" size="0.8128" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="GPIO5" class="0">
-<segment>
-<pinref part="MC2" gate="G$1" pin="GPIO19/SPI0_MISO1/PWM1"/>
-<wire x1="302.26" y1="157.48" x2="304.8" y2="157.48" width="0.1524" layer="91"/>
-<label x="304.8" y="157.48" size="0.8128" layer="95" xref="yes"/>
-</segment>
 <segment>
 <wire x1="332.74" y1="165.1" x2="337.82" y2="165.1" width="0.1524" layer="91"/>
 <label x="337.82" y="165.1" size="0.8128" layer="95" xref="yes"/>
 <pinref part="JP8" gate="J1" pin="6"/>
 </segment>
+<segment>
+<pinref part="MC2" gate="G$1" pin="GPIO_18/PWM0/SPI1_CS0"/>
+<wire x1="228.6" y1="160.02" x2="226.06" y2="160.02" width="0.1524" layer="91"/>
+<label x="226.06" y="160.02" size="0.8128" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="GPIO6" class="0">
-<segment>
-<pinref part="MC2" gate="G$1" pin="GPIO20/SPI0_MOSI1"/>
-<wire x1="302.26" y1="149.86" x2="304.8" y2="149.86" width="0.1524" layer="91"/>
-<label x="304.8" y="149.86" size="0.8128" layer="95" xref="yes"/>
-</segment>
 <segment>
 <wire x1="332.74" y1="167.64" x2="337.82" y2="167.64" width="0.1524" layer="91"/>
 <label x="337.82" y="167.64" size="0.8128" layer="95" xref="yes"/>
 <pinref part="JP8" gate="J1" pin="7"/>
 </segment>
+<segment>
+<pinref part="MC2" gate="G$1" pin="GPIO19/SPI0_MISO1/PWM1"/>
+<wire x1="302.26" y1="157.48" x2="304.8" y2="157.48" width="0.1524" layer="91"/>
+<label x="304.8" y="157.48" size="0.8128" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="GPIO7" class="0">
-<segment>
-<pinref part="MC2" gate="G$1" pin="GPIO21/SPI0_SCLK1"/>
-<wire x1="302.26" y1="144.78" x2="304.8" y2="144.78" width="0.1524" layer="91"/>
-<label x="304.8" y="144.78" size="0.8128" layer="95" xref="yes"/>
-</segment>
 <segment>
 <wire x1="332.74" y1="170.18" x2="337.82" y2="170.18" width="0.1524" layer="91"/>
 <label x="337.82" y="170.18" size="0.8128" layer="95" xref="yes"/>
 <pinref part="JP8" gate="J1" pin="8"/>
 </segment>
-</net>
-<net name="GPIO8" class="0">
 <segment>
 <pinref part="MC2" gate="G$1" pin="GPIO26"/>
 <wire x1="302.26" y1="152.4" x2="304.8" y2="152.4" width="0.1524" layer="91"/>
 <label x="304.8" y="152.4" size="0.8128" layer="95" xref="yes"/>
-</segment>
-<segment>
-<wire x1="332.74" y1="172.72" x2="337.82" y2="172.72" width="0.1524" layer="91"/>
-<label x="337.82" y="172.72" size="0.8128" layer="95" xref="yes"/>
-<pinref part="JP8" gate="J1" pin="9"/>
 </segment>
 </net>
 <net name="BASE" class="0">
@@ -36388,6 +36380,8 @@ Source: www.kingbright.com</description>
 <approved hash="113,1,302.26,139.7,NC4,,,,,"/>
 <approved hash="113,1,30.48,104.14,NC10,,,,,"/>
 <approved hash="113,1,332.74,175.26,NC7,,,,,"/>
+<approved hash="113,1,228.6,157.48,NC11,,,,,"/>
+<approved hash="113,1,332.74,172.72,NC12,,,,,"/>
 </errors>
 </schematic>
 </drawing>
