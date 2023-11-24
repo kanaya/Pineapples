@@ -18865,11 +18865,8 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <part name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1" value="BLUE"/>
 <part name="LED4" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1" value="BLUE"/>
 <part name="LED5" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1" value="BLUE"/>
-<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/5" package3d_urn="urn:adsk.eagle:package:23488/1" value="102"/>
-<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/5" package3d_urn="urn:adsk.eagle:package:23488/1" value="102"/>
-<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/5" package3d_urn="urn:adsk.eagle:package:23488/1" value="102"/>
-<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/5" package3d_urn="urn:adsk.eagle:package:23488/1" value="102"/>
 <part name="SUPPLY41" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
+<part name="RN3" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="RN04" device="" package3d_urn="urn:adsk.eagle:package:24976/1" value="1k"/>
 </parts>
 <sheets>
 <sheet>
@@ -19199,24 +19196,12 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <attribute name="NAME" x="69.596" y="140.208" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="71.755" y="140.208" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R6" gate="G$1" x="50.8" y="154.94" smashed="yes" rot="R90">
-<attribute name="NAME" x="49.3014" y="151.13" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="54.102" y="151.13" size="1.778" layer="96" rot="R90"/>
+<instance part="SUPPLY41" gate="G$1" x="38.1" y="167.64" smashed="yes">
+<attribute name="VALUE" x="36.195" y="170.815" size="1.778" layer="96"/>
 </instance>
-<instance part="R7" gate="G$1" x="55.88" y="154.94" smashed="yes" rot="R90">
-<attribute name="NAME" x="54.3814" y="151.13" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="59.182" y="151.13" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="R8" gate="G$1" x="60.96" y="154.94" smashed="yes" rot="R90">
-<attribute name="NAME" x="59.4614" y="151.13" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="64.262" y="151.13" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="R9" gate="G$1" x="66.04" y="154.94" smashed="yes" rot="R90">
-<attribute name="NAME" x="64.5414" y="151.13" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="69.342" y="151.13" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="SUPPLY41" gate="G$1" x="50.8" y="167.64" smashed="yes">
-<attribute name="VALUE" x="48.895" y="170.815" size="1.778" layer="96"/>
+<instance part="RN3" gate="1" x="45.72" y="157.48" smashed="yes">
+<attribute name="NAME" x="43.18" y="160.02" size="1.778" layer="95"/>
+<attribute name="VALUE" x="43.18" y="153.162" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -19494,21 +19479,9 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 </segment>
 <segment>
 <pinref part="SUPPLY41" gate="G$1" pin="VCC"/>
-<pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="50.8" y1="165.1" x2="50.8" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="162.56" x2="50.8" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="162.56" x2="55.88" y2="162.56" width="0.1524" layer="91"/>
-<junction x="50.8" y="162.56"/>
-<pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="55.88" y1="162.56" x2="60.96" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="162.56" x2="66.04" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="162.56" x2="66.04" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="60.96" y1="160.02" x2="60.96" y2="162.56" width="0.1524" layer="91"/>
-<junction x="60.96" y="162.56"/>
-<pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="55.88" y1="160.02" x2="55.88" y2="162.56" width="0.1524" layer="91"/>
-<junction x="55.88" y="162.56"/>
+<wire x1="38.1" y1="165.1" x2="38.1" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="RN3" gate="1" pin="1"/>
+<wire x1="38.1" y1="157.48" x2="40.64" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MO1RTN" class="0">
@@ -19841,30 +19814,30 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="R6" gate="G$1" pin="1"/>
 <pinref part="LED2" gate="G$1" pin="A"/>
-<wire x1="50.8" y1="149.86" x2="50.8" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="157.48" x2="50.8" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="RN3" gate="1" pin="2"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="R7" gate="G$1" pin="1"/>
 <pinref part="LED3" gate="G$1" pin="A"/>
-<wire x1="55.88" y1="149.86" x2="55.88" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="157.48" x2="55.88" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="RN3" gate="1" pin="3"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="R8" gate="G$1" pin="1"/>
 <pinref part="LED4" gate="G$1" pin="A"/>
-<wire x1="60.96" y1="149.86" x2="60.96" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="157.48" x2="60.96" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="RN3" gate="1" pin="4"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="R9" gate="G$1" pin="1"/>
 <pinref part="LED5" gate="G$1" pin="A"/>
-<wire x1="66.04" y1="149.86" x2="66.04" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="157.48" x2="66.04" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="RN3" gate="1" pin="5"/>
 </segment>
 </net>
 <net name="N$11" class="0">
