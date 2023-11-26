@@ -33000,7 +33000,7 @@ CA 95125 (408)494-0330&lt;br&gt;
 <attribute name="VALUE" x="170.18" y="53.34" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY16" gate="GND" x="259.08" y="48.26" smashed="yes"/>
-<instance part="SUPPLY17" gate="GND" x="292.1" y="48.26" smashed="yes"/>
+<instance part="SUPPLY17" gate="GND" x="309.88" y="27.94" smashed="yes"/>
 <instance part="SUPPLY19" gate="G$1" x="167.64" y="170.18" smashed="yes">
 <attribute name="VALUE" x="167.64" y="175.26" size="1.778" layer="96" align="bottom-center"/>
 </instance>
@@ -33306,9 +33306,25 @@ CA 95125 (408)494-0330&lt;br&gt;
 <segment>
 <pinref part="J9" gate="G$1" pin="2"/>
 <wire x1="287.02" y1="48.26" x2="287.02" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="287.02" y1="53.34" x2="292.1" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="287.02" y1="53.34" x2="309.88" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="SUPPLY17" gate="GND" pin="GND"/>
-<wire x1="292.1" y1="53.34" x2="292.1" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="53.34" x2="309.88" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="J9" gate="G$1" pin="1"/>
+<wire x1="309.88" y1="38.1" x2="309.88" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="38.1" x2="299.72" y2="38.1" width="0.1524" layer="91"/>
+<junction x="309.88" y="38.1"/>
+<pinref part="J8" gate="G$1" pin="1"/>
+<wire x1="299.72" y1="38.1" x2="309.88" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="38.1" x2="266.7" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="38.1" x2="266.7" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="27.94" x2="299.72" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="27.94" x2="299.72" y2="38.1" width="0.1524" layer="91"/>
+<junction x="299.72" y="38.1"/>
+<pinref part="J7" gate="G$1" pin="1"/>
+<wire x1="231.14" y1="38.1" x2="233.68" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="38.1" x2="233.68" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="27.94" x2="266.7" y2="27.94" width="0.1524" layer="91"/>
+<junction x="266.7" y="27.94"/>
 </segment>
 <segment>
 <pinref part="SUPPLY2" gate="GND" pin="GND"/>
@@ -34266,6 +34282,23 @@ CA 95125 (408)494-0330&lt;br&gt;
 <wire x1="33.02" y1="236.22" x2="45.72" y2="236.22" width="0.1524" layer="91"/>
 <label x="66.04" y="236.22" size="1.778" layer="95"/>
 <label x="66.04" y="200.66" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J9" gate="G$1" pin="3"/>
+<wire x1="276.86" y1="38.1" x2="274.32" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="38.1" x2="274.32" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="J7" gate="G$1" pin="3"/>
+<wire x1="210.82" y1="38.1" x2="208.28" y2="38.1" width="0.1524" layer="91"/>
+<label x="205.74" y="38.1" size="0.8128" layer="95" rot="R180" xref="yes"/>
+<wire x1="208.28" y1="38.1" x2="205.74" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="38.1" x2="208.28" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="25.4" x2="241.3" y2="25.4" width="0.1524" layer="91"/>
+<junction x="208.28" y="38.1"/>
+<pinref part="J8" gate="G$1" pin="3"/>
+<wire x1="243.84" y1="38.1" x2="241.3" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="25.4" x2="241.3" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="25.4" x2="241.3" y2="25.4" width="0.1524" layer="91"/>
+<junction x="241.3" y="25.4"/>
 </segment>
 </net>
 <net name="LED0A" class="0">
