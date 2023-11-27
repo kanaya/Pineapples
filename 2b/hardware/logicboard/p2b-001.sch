@@ -32783,7 +32783,7 @@ CA 95125 (408)494-0330&lt;br&gt;
 <part name="RZ03" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M2012" package3d_urn="urn:adsk.eagle:package:23561/2" value="Inf"/>
 <part name="RZ04" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M2012" package3d_urn="urn:adsk.eagle:package:23561/2" value="Inf"/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
-<part name="S2" library="switch-dil" library_urn="urn:adsk.eagle:library:375" deviceset="DIP04YL" device="" package3d_urn="urn:adsk.eagle:package:27255/2"/>
+<part name="S2" library="switch-dil" library_urn="urn:adsk.eagle:library:375" deviceset="DIP04YL" device="" package3d_urn="urn:adsk.eagle:package:27255/2" value="MIDIPHANTOM"/>
 <part name="SUPPLY16" library="supply2" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -34896,8 +34896,6 @@ CA 95125 (408)494-0330&lt;br&gt;
 <approved hash="113,1,342.9,121.92,X10,,,,,"/>
 <approved hash="113,1,40.64,142.24,X14,,,,,"/>
 <approved hash="113,1,33.6127,199.73,J0,,,,,"/>
-<approved hash="113,1,104.14,217.561,A,,,,,"/>
-<approved hash="113,1,106.68,217.561,B,,,,,"/>
 <approved hash="113,1,50.8,30.48,X1,,,,,"/>
 <approved hash="113,1,50.8,27.94,X2,,,,,"/>
 </errors>
