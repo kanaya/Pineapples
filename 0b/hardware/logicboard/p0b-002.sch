@@ -19051,6 +19051,7 @@ Source: Comchip CGRM4001-G.pdf</description>
 <text x="215.9" y="20.32" size="1.778" layer="94">Pineapple Zero 1.2.0</text>
 <text x="35.56" y="104.14" size="1.778" layer="94">MIDI IN</text>
 <text x="35.56" y="53.34" size="1.778" layer="94">MIDI OUT</text>
+<text x="203.2" y="124.46" size="1.778" layer="94">TYPE B</text>
 </plain>
 <instances>
 <instance part="SUPPLY8" gate="GND" x="167.64" y="50.8" smashed="yes">
@@ -19603,52 +19604,44 @@ Source: Comchip CGRM4001-G.pdf</description>
 </net>
 <net name="TX+" class="0">
 <segment>
-<wire x1="165.1" y1="119.38" x2="167.64" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="119.38" x2="170.18" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="X7" gate="G$1" pin="2"/>
-<wire x1="170.18" y1="116.84" x2="200.66" y2="116.84" width="0.1524" layer="91"/>
-<label x="180.34" y="116.84" size="1.778" layer="95"/>
 <pinref part="IC4" gate="G$1" pin="A"/>
-</segment>
-</net>
-<net name="TX-" class="0">
-<segment>
-<pinref part="X7" gate="G$1" pin="1"/>
-<wire x1="200.66" y1="119.38" x2="170.18" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="119.38" x2="167.64" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="116.84" x2="165.1" y2="116.84" width="0.1524" layer="91"/>
-<label x="180.34" y="119.38" size="1.778" layer="95"/>
-<pinref part="IC4" gate="G$1" pin="B"/>
+<wire x1="165.1" y1="119.38" x2="172.72" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="119.38" x2="172.72" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="X7" gate="G$1" pin="6"/>
+<wire x1="172.72" y1="106.68" x2="200.66" y2="106.68" width="0.1524" layer="91"/>
+<label x="180.34" y="106.68" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RX+" class="0">
 <segment>
-<pinref part="X7" gate="G$1" pin="6"/>
 <wire x1="165.1" y1="60.96" x2="175.26" y2="60.96" width="0.1524" layer="91"/>
-<label x="180.34" y="106.68" size="1.778" layer="95"/>
-<wire x1="200.66" y1="106.68" x2="175.26" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="106.68" x2="175.26" y2="76.2" width="0.1524" layer="91"/>
+<label x="167.64" y="60.96" size="1.778" layer="95"/>
+<wire x1="175.26" y1="116.84" x2="175.26" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="76.2" x2="175.26" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="76.2" x2="182.88" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="76.2" x2="182.88" y2="73.66" width="0.1524" layer="91"/>
 <junction x="175.26" y="76.2"/>
 <pinref part="IC5" gate="G$1" pin="A"/>
 <pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="X7" gate="G$1" pin="2"/>
+<wire x1="200.66" y1="116.84" x2="175.26" y2="116.84" width="0.1524" layer="91"/>
+<label x="180.34" y="116.84" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RX-" class="0">
 <segment>
-<pinref part="X7" gate="G$1" pin="3"/>
-<wire x1="200.66" y1="114.3" x2="177.8" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="114.3" x2="177.8" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="119.38" x2="177.8" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="60.96" x2="177.8" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="58.42" x2="165.1" y2="58.42" width="0.1524" layer="91"/>
-<label x="180.34" y="114.3" size="1.778" layer="95"/>
+<label x="167.64" y="58.42" size="1.778" layer="95"/>
 <wire x1="182.88" y1="63.5" x2="182.88" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="60.96" x2="177.8" y2="60.96" width="0.1524" layer="91"/>
 <junction x="177.8" y="60.96"/>
 <pinref part="IC5" gate="G$1" pin="B"/>
 <pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="X7" gate="G$1" pin="1"/>
+<wire x1="200.66" y1="119.38" x2="177.8" y2="119.38" width="0.1524" layer="91"/>
+<label x="180.34" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="V+" class="1">
@@ -19726,6 +19719,16 @@ Source: Comchip CGRM4001-G.pdf</description>
 <wire x1="10.16" y1="91.44" x2="10.16" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="63.5" x2="15.24" y2="63.5" width="0.1524" layer="91"/>
 <label x="40.64" y="91.44" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="TX-" class="0">
+<segment>
+<pinref part="IC4" gate="G$1" pin="B"/>
+<pinref part="X7" gate="G$1" pin="3"/>
+<wire x1="200.66" y1="114.3" x2="170.18" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="114.3" x2="170.18" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="116.84" x2="165.1" y2="116.84" width="0.1524" layer="91"/>
+<label x="180.34" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
