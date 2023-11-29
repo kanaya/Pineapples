@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -19044,6 +19044,7 @@ Source: Comchip CGRM4001-G.pdf</description>
 <part name="OK1" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="HCPL0600" device="" package3d_urn="urn:adsk.eagle:package:21945/1"/>
 <part name="S1" library="switch-dil" library_urn="urn:adsk.eagle:library:375" deviceset="DIP04YL" device="" package3d_urn="urn:adsk.eagle:package:27255/2" value="MIDIPHANTOM"/>
 <part name="SUPPLY9" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="R0" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M2012" package3d_urn="urn:adsk.eagle:package:23561/2" value="Inf"/>
 </parts>
 <sheets>
 <sheet>
@@ -19269,6 +19270,10 @@ Source: Comchip CGRM4001-G.pdf</description>
 </instance>
 <instance part="SUPPLY9" gate="GND" x="86.36" y="86.36" smashed="yes">
 <attribute name="VALUE" x="89.535" y="83.185" size="1.778" layer="96"/>
+</instance>
+<instance part="R0" gate="G$1" x="63.5" y="162.56" smashed="yes">
+<attribute name="NAME" x="59.69" y="164.0586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="59.69" y="159.258" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -19508,6 +19513,10 @@ Source: Comchip CGRM4001-G.pdf</description>
 <pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="66.04" y1="154.94" x2="76.2" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="154.94" x2="76.2" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="R0" gate="G$1" pin="2"/>
+<wire x1="68.58" y1="162.56" x2="76.2" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="162.56" x2="76.2" y2="154.94" width="0.1524" layer="91"/>
+<junction x="76.2" y="154.94"/>
 </segment>
 </net>
 <net name="MIDIIN" class="0">
@@ -19678,28 +19687,32 @@ Source: Comchip CGRM4001-G.pdf</description>
 <wire x1="50.8" y1="154.94" x2="50.8" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="C"/>
 <label x="30.48" y="149.86" size="1.778" layer="95"/>
-<wire x1="38.1" y1="149.86" x2="38.1" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="149.86" x2="38.1" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="X7" gate="G$1" pin="7"/>
 <wire x1="200.66" y1="104.14" x2="187.96" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="X7" gate="G$1" pin="8"/>
 <wire x1="200.66" y1="101.6" x2="187.96" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="101.6" x2="187.96" y2="104.14" width="0.1524" layer="91"/>
 <junction x="187.96" y="104.14"/>
-<wire x1="38.1" y1="162.56" x2="101.6" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="162.56" x2="187.96" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="162.56" x2="187.96" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="167.64" x2="101.6" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="167.64" x2="187.96" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="167.64" x2="187.96" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="S1" gate="1" pin="7"/>
 <wire x1="76.2" y1="96.52" x2="101.6" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="S1" gate="1" pin="5"/>
 <wire x1="76.2" y1="91.44" x2="101.6" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="91.44" x2="101.6" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="96.52" x2="101.6" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="96.52" x2="101.6" y2="167.64" width="0.1524" layer="91"/>
 <junction x="101.6" y="96.52"/>
-<junction x="101.6" y="162.56"/>
+<junction x="101.6" y="167.64"/>
 <label x="193.04" y="104.14" size="1.778" layer="95"/>
 <label x="193.04" y="101.6" size="1.778" layer="95"/>
 <label x="76.2" y="96.52" size="1.778" layer="95"/>
 <label x="76.2" y="91.44" size="1.778" layer="95"/>
+<pinref part="R0" gate="G$1" pin="1"/>
+<wire x1="58.42" y1="162.56" x2="50.8" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="162.56" x2="50.8" y2="154.94" width="0.1524" layer="91"/>
+<junction x="50.8" y="154.94"/>
 </segment>
 </net>
 <net name="MIDIINGND" class="2">

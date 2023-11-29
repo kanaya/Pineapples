@@ -19044,6 +19044,7 @@ Source: Comchip CGRM4001-G.pdf</description>
 <part name="OK1" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="HCPL0600" device="" package3d_urn="urn:adsk.eagle:package:21945/1"/>
 <part name="S1" library="switch-dil" library_urn="urn:adsk.eagle:library:375" deviceset="DIP04YL" device="" package3d_urn="urn:adsk.eagle:package:27255/2" value="MIDIPHANTOM"/>
 <part name="SUPPLY9" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="R0" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M2012" package3d_urn="urn:adsk.eagle:package:23561/2" value="Inf"/>
 </parts>
 <sheets>
 <sheet>
@@ -19270,6 +19271,10 @@ Source: Comchip CGRM4001-G.pdf</description>
 </instance>
 <instance part="SUPPLY9" gate="GND" x="83.82" y="86.36" smashed="yes">
 <attribute name="VALUE" x="86.995" y="83.185" size="1.778" layer="96"/>
+</instance>
+<instance part="R0" gate="G$1" x="63.5" y="162.56" smashed="yes">
+<attribute name="NAME" x="59.69" y="164.0586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="59.69" y="159.258" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -19506,6 +19511,10 @@ Source: Comchip CGRM4001-G.pdf</description>
 <pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="66.04" y1="154.94" x2="76.2" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="154.94" x2="76.2" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="R0" gate="G$1" pin="2"/>
+<wire x1="68.58" y1="162.56" x2="76.2" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="162.56" x2="76.2" y2="154.94" width="0.1524" layer="91"/>
+<junction x="76.2" y="154.94"/>
 </segment>
 </net>
 <net name="MIDIIN" class="0">
@@ -19689,6 +19698,10 @@ Source: Comchip CGRM4001-G.pdf</description>
 <label x="187.96" y="101.6" size="1.778" layer="95"/>
 <label x="76.2" y="96.52" size="1.778" layer="95"/>
 <label x="76.2" y="91.44" size="1.778" layer="95"/>
+<pinref part="R0" gate="G$1" pin="1"/>
+<wire x1="58.42" y1="162.56" x2="50.8" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="162.56" x2="50.8" y2="154.94" width="0.1524" layer="91"/>
+<junction x="50.8" y="154.94"/>
 </segment>
 </net>
 <net name="MIDIINGND" class="2">
