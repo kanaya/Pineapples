@@ -19159,7 +19159,8 @@ Source: Comchip CGRM4001-G.pdf</description>
 <part name="S1" library="switch-dil" library_urn="urn:adsk.eagle:library:375" deviceset="DIP04YL" device="" package3d_urn="urn:adsk.eagle:package:27255/2" value="MIDIPHANTOM"/>
 <part name="SUPPLY9" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
-<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M2012" package3d_urn="urn:adsk.eagle:package:23561/2" value="0"/>
+<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M2012" package3d_urn="urn:adsk.eagle:package:23561/2" value="20"/>
+<part name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -19394,6 +19395,10 @@ Source: Comchip CGRM4001-G.pdf</description>
 <instance part="R8" gate="G$1" x="180.34" y="162.56" smashed="yes" rot="R90">
 <attribute name="NAME" x="178.8414" y="158.75" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="183.642" y="158.75" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="JP2" gate="G$1" x="185.42" y="144.78" smashed="yes">
+<attribute name="NAME" x="179.07" y="150.495" size="1.778" layer="95"/>
+<attribute name="VALUE" x="179.07" y="139.7" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -19877,9 +19882,18 @@ Source: Comchip CGRM4001-G.pdf</description>
 <wire x1="180.34" y1="101.6" x2="180.34" y2="104.14" width="0.1524" layer="91"/>
 <label x="187.96" y="104.14" size="1.778" layer="95"/>
 <label x="187.96" y="101.6" size="1.778" layer="95"/>
-<pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="180.34" y1="157.48" x2="180.34" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="G$1" pin="2"/>
+<wire x1="182.88" y1="144.78" x2="180.34" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="144.78" x2="180.34" y2="104.14" width="0.1524" layer="91"/>
 <junction x="180.34" y="104.14"/>
+</segment>
+</net>
+<net name="POERAW" class="1">
+<segment>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="180.34" y1="157.48" x2="180.34" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="G$1" pin="1"/>
+<wire x1="180.34" y1="147.32" x2="182.88" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
