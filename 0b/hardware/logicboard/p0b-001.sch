@@ -19159,6 +19159,7 @@ Source: Comchip CGRM4001-G.pdf</description>
 <part name="S1" library="switch-dil" library_urn="urn:adsk.eagle:library:375" deviceset="DIP04YL" device="" package3d_urn="urn:adsk.eagle:package:27255/2" value="MIDIPHANTOM"/>
 <part name="SUPPLY9" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
+<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M2012" package3d_urn="urn:adsk.eagle:package:23561/2" value="0"/>
 </parts>
 <sheets>
 <sheet>
@@ -19388,6 +19389,10 @@ Source: Comchip CGRM4001-G.pdf</description>
 <instance part="JP1" gate="G$1" x="63.5" y="165.1" smashed="yes" rot="R90">
 <attribute name="NAME" x="57.785" y="158.75" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="68.58" y="158.75" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R8" gate="G$1" x="187.96" y="154.94" smashed="yes" rot="R90">
+<attribute name="NAME" x="186.4614" y="151.13" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="191.262" y="151.13" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -19803,15 +19808,8 @@ Source: Comchip CGRM4001-G.pdf</description>
 <pinref part="D1" gate="G$1" pin="C"/>
 <label x="30.48" y="149.86" size="1.778" layer="95"/>
 <wire x1="38.1" y1="149.86" x2="38.1" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="X7" gate="G$1" pin="7"/>
-<wire x1="200.66" y1="104.14" x2="187.96" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="X7" gate="G$1" pin="8"/>
-<wire x1="200.66" y1="101.6" x2="187.96" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="101.6" x2="187.96" y2="104.14" width="0.1524" layer="91"/>
-<junction x="187.96" y="104.14"/>
 <wire x1="38.1" y1="167.64" x2="101.6" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="167.64" x2="187.96" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="167.64" x2="187.96" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="S1" gate="1" pin="7"/>
 <wire x1="76.2" y1="96.52" x2="101.6" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="S1" gate="1" pin="5"/>
@@ -19820,8 +19818,6 @@ Source: Comchip CGRM4001-G.pdf</description>
 <wire x1="101.6" y1="96.52" x2="101.6" y2="167.64" width="0.1524" layer="91"/>
 <junction x="101.6" y="96.52"/>
 <junction x="101.6" y="167.64"/>
-<label x="193.04" y="104.14" size="1.778" layer="95"/>
-<label x="193.04" y="101.6" size="1.778" layer="95"/>
 <label x="76.2" y="96.52" size="1.778" layer="95"/>
 <label x="76.2" y="91.44" size="1.778" layer="95"/>
 <wire x1="60.96" y1="160.02" x2="50.8" y2="160.02" width="0.1524" layer="91"/>
@@ -19829,6 +19825,8 @@ Source: Comchip CGRM4001-G.pdf</description>
 <junction x="50.8" y="154.94"/>
 <pinref part="JP1" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="162.56" x2="60.96" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="187.96" y1="167.64" x2="187.96" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MIDIINGND" class="2">
@@ -19869,6 +19867,20 @@ Source: Comchip CGRM4001-G.pdf</description>
 <wire x1="12.7" y1="91.44" x2="12.7" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="63.5" x2="15.24" y2="63.5" width="0.1524" layer="91"/>
 <label x="43.18" y="91.44" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="POE" class="1">
+<segment>
+<pinref part="X7" gate="G$1" pin="7"/>
+<wire x1="200.66" y1="104.14" x2="187.96" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="X7" gate="G$1" pin="8"/>
+<wire x1="200.66" y1="101.6" x2="187.96" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="101.6" x2="187.96" y2="104.14" width="0.1524" layer="91"/>
+<label x="193.04" y="104.14" size="1.778" layer="95"/>
+<label x="193.04" y="101.6" size="1.778" layer="95"/>
+<wire x1="187.96" y1="149.86" x2="187.96" y2="104.14" width="0.1524" layer="91"/>
+<junction x="187.96" y="104.14"/>
+<pinref part="R8" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
