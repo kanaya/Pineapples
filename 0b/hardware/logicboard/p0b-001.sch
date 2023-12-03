@@ -19279,10 +19279,10 @@ Solder type</description>
 <part name="SUPPLY9" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M2012" package3d_urn="urn:adsk.eagle:package:23561/2" value="20"/>
 <part name="JP2" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP1E" device="" package3d_urn="urn:adsk.eagle:package:15455/1"/>
-<part name="JMP1" library="jump-0r-smd" library_urn="urn:adsk.eagle:library:251" deviceset="0R-JUMP" device="A" package3d_urn="urn:adsk.eagle:package:15385/1"/>
-<part name="JMP2" library="jump-0r-smd" library_urn="urn:adsk.eagle:library:251" deviceset="0R-JUMP" device="A" package3d_urn="urn:adsk.eagle:package:15385/1"/>
-<part name="JMP3" library="jump-0r-smd" library_urn="urn:adsk.eagle:library:251" deviceset="0R-JUMP" device="A" package3d_urn="urn:adsk.eagle:package:15385/1"/>
-<part name="JMP4" library="jump-0r-smd" library_urn="urn:adsk.eagle:library:251" deviceset="0R-JUMP" device="A" package3d_urn="urn:adsk.eagle:package:15385/1"/>
+<part name="J1" library="jump-0r-smd" library_urn="urn:adsk.eagle:library:251" deviceset="0R-JUMP" device="A" package3d_urn="urn:adsk.eagle:package:15385/1"/>
+<part name="J2" library="jump-0r-smd" library_urn="urn:adsk.eagle:library:251" deviceset="0R-JUMP" device="A" package3d_urn="urn:adsk.eagle:package:15385/1"/>
+<part name="J3" library="jump-0r-smd" library_urn="urn:adsk.eagle:library:251" deviceset="0R-JUMP" device="A" package3d_urn="urn:adsk.eagle:package:15385/1"/>
+<part name="J4" library="jump-0r-smd" library_urn="urn:adsk.eagle:library:251" deviceset="0R-JUMP" device="A" package3d_urn="urn:adsk.eagle:package:15385/1"/>
 <part name="JP1" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP1E" device="" package3d_urn="urn:adsk.eagle:package:15455/1"/>
 </parts>
 <sheets>
@@ -19518,22 +19518,22 @@ Solder type</description>
 <attribute name="NAME" x="185.42" y="148.59" size="1.778" layer="95"/>
 <attribute name="VALUE" x="185.42" y="141.605" size="1.778" layer="96"/>
 </instance>
-<instance part="JMP1" gate="-0R" x="226.06" y="149.86" smashed="yes">
+<instance part="J1" gate="-0R" x="226.06" y="149.86" smashed="yes">
 <attribute name="NAME" x="228.6" y="151.13" size="1.778" layer="95"/>
 </instance>
-<instance part="JMP1" gate="G$2" x="228.6" y="152.4" smashed="yes"/>
-<instance part="JMP2" gate="-0R" x="226.06" y="139.7" smashed="yes">
+<instance part="J1" gate="G$2" x="228.6" y="152.4" smashed="yes"/>
+<instance part="J2" gate="-0R" x="226.06" y="139.7" smashed="yes">
 <attribute name="NAME" x="228.6" y="140.97" size="1.778" layer="95"/>
 </instance>
-<instance part="JMP2" gate="G$2" x="228.6" y="142.24" smashed="yes"/>
-<instance part="JMP3" gate="-0R" x="226.06" y="129.54" smashed="yes">
+<instance part="J2" gate="G$2" x="228.6" y="142.24" smashed="yes"/>
+<instance part="J3" gate="-0R" x="226.06" y="129.54" smashed="yes">
 <attribute name="NAME" x="228.6" y="130.81" size="1.778" layer="95"/>
 </instance>
-<instance part="JMP3" gate="G$2" x="228.6" y="132.08" smashed="yes"/>
-<instance part="JMP4" gate="-0R" x="226.06" y="121.92" smashed="yes">
+<instance part="J3" gate="G$2" x="228.6" y="132.08" smashed="yes"/>
+<instance part="J4" gate="-0R" x="226.06" y="121.92" smashed="yes">
 <attribute name="NAME" x="228.6" y="123.19" size="1.778" layer="95"/>
 </instance>
-<instance part="JMP4" gate="G$2" x="228.6" y="124.46" smashed="yes"/>
+<instance part="J4" gate="G$2" x="228.6" y="124.46" smashed="yes"/>
 <instance part="JP1" gate="A" x="60.96" y="165.1" smashed="yes">
 <attribute name="NAME" x="59.69" y="165.1" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="66.675" y="165.1" size="1.778" layer="96" rot="R90"/>
@@ -19895,11 +19895,11 @@ Solder type</description>
 <segment>
 <wire x1="226.06" y1="147.32" x2="208.28" y2="147.32" width="0.1524" layer="91"/>
 <label x="205.74" y="147.32" size="0.8128" layer="95" rot="R180" xref="yes"/>
-<pinref part="JMP1" gate="-0R" pin="3"/>
+<pinref part="J1" gate="-0R" pin="3"/>
 <wire x1="208.28" y1="147.32" x2="205.74" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="147.32" x2="208.28" y2="132.08" width="0.1524" layer="91"/>
 <junction x="208.28" y="147.32"/>
-<pinref part="JMP3" gate="-0R" pin="1"/>
+<pinref part="J3" gate="-0R" pin="1"/>
 <wire x1="208.28" y1="132.08" x2="226.06" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -20020,8 +20020,8 @@ Solder type</description>
 <segment>
 <label x="205.74" y="137.16" size="0.8128" layer="95" rot="R180" xref="yes"/>
 <wire x1="226.06" y1="137.16" x2="213.36" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="JMP2" gate="-0R" pin="3"/>
-<pinref part="JMP4" gate="-0R" pin="1"/>
+<pinref part="J2" gate="-0R" pin="3"/>
+<pinref part="J4" gate="-0R" pin="1"/>
 <wire x1="213.36" y1="137.16" x2="205.74" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="137.16" x2="213.36" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="124.46" x2="226.06" y2="124.46" width="0.1524" layer="91"/>
@@ -20038,8 +20038,8 @@ Solder type</description>
 <segment>
 <wire x1="226.06" y1="152.4" x2="210.82" y2="152.4" width="0.1524" layer="91"/>
 <label x="205.74" y="152.4" size="0.8128" layer="95" rot="R180" xref="yes"/>
-<pinref part="JMP1" gate="-0R" pin="1"/>
-<pinref part="JMP3" gate="-0R" pin="3"/>
+<pinref part="J1" gate="-0R" pin="1"/>
+<pinref part="J3" gate="-0R" pin="3"/>
 <wire x1="210.82" y1="152.4" x2="205.74" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="152.4" x2="210.82" y2="127" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="127" x2="226.06" y2="127" width="0.1524" layer="91"/>
@@ -20056,8 +20056,8 @@ Solder type</description>
 <segment>
 <label x="205.74" y="142.24" size="0.8128" layer="95" rot="R180" xref="yes"/>
 <wire x1="226.06" y1="142.24" x2="215.9" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="JMP2" gate="-0R" pin="1"/>
-<pinref part="JMP4" gate="-0R" pin="3"/>
+<pinref part="J2" gate="-0R" pin="1"/>
+<pinref part="J4" gate="-0R" pin="3"/>
 <wire x1="215.9" y1="142.24" x2="205.74" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="142.24" x2="215.9" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="119.38" x2="226.06" y2="119.38" width="0.1524" layer="91"/>
@@ -20073,7 +20073,7 @@ Solder type</description>
 <segment>
 <wire x1="228.6" y1="149.86" x2="238.76" y2="149.86" width="0.1524" layer="91"/>
 <label x="238.76" y="149.86" size="0.8128" layer="95" xref="yes"/>
-<pinref part="JMP1" gate="-0R" pin="2"/>
+<pinref part="J1" gate="-0R" pin="2"/>
 </segment>
 </net>
 <net name="TX+/RX+" class="0">
@@ -20085,7 +20085,7 @@ Solder type</description>
 <segment>
 <label x="238.76" y="139.7" size="0.8128" layer="95" xref="yes"/>
 <wire x1="228.6" y1="139.7" x2="238.76" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="JMP2" gate="-0R" pin="2"/>
+<pinref part="J2" gate="-0R" pin="2"/>
 </segment>
 </net>
 <net name="RX-/TX-" class="0">
@@ -20097,7 +20097,7 @@ Solder type</description>
 <segment>
 <wire x1="228.6" y1="129.54" x2="238.76" y2="129.54" width="0.1524" layer="91"/>
 <label x="238.76" y="129.54" size="0.8128" layer="95" xref="yes"/>
-<pinref part="JMP3" gate="-0R" pin="2"/>
+<pinref part="J3" gate="-0R" pin="2"/>
 </segment>
 </net>
 <net name="RX+/TX+" class="0">
@@ -20109,7 +20109,7 @@ Solder type</description>
 <segment>
 <wire x1="228.6" y1="121.92" x2="238.76" y2="121.92" width="0.1524" layer="91"/>
 <label x="238.76" y="121.92" size="0.8128" layer="95" xref="yes"/>
-<pinref part="JMP4" gate="-0R" pin="2"/>
+<pinref part="J4" gate="-0R" pin="2"/>
 </segment>
 </net>
 </nets>
