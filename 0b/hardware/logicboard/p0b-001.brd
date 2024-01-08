@@ -207,9 +207,7 @@
 <circle x="10" y="9" radius="2" width="0.2" layer="41"/>
 <circle x="60" y="9" radius="2" width="0.2" layer="41"/>
 <circle x="60" y="32" radius="2" width="0.2" layer="41"/>
-<text x="61.5" y="37" size="1" layer="26" rot="MR0" align="center-left">Designed for
-Takachi
-PF8-3-5</text>
+<text x="35" y="40" size="1" layer="26" rot="MR0" align="center">Designed for Takachi PF8-3-5</text>
 <text x="58" y="0.5" size="1" layer="25" align="center">DC9-24V</text>
 <text x="64" y="10" size="1" layer="25" align="center">4-M2.3</text>
 <text x="56" y="40.5" size="1" layer="25" align="center-left">IN</text>
