@@ -15045,7 +15045,7 @@ high speed (Philips)</description>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S-COPPER" value="OSHW-LOGOS-COPPER"/>
 <part name="U$1" library="pineapple" deviceset="PINEAPPLE450_SILK" device=""/>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
-<part name="SV1" library="con-ml" library_urn="urn:adsk.eagle:library:164" deviceset="ML34L" device="" package3d_urn="urn:adsk.eagle:package:8689/1"/>
+<part name="SV1" library="con-ml" library_urn="urn:adsk.eagle:library:164" deviceset="ML34L" device="" package3d_urn="urn:adsk.eagle:package:8689/1" value="LightDrive"/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="L02" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="KA-3528ASYC" package3d_urn="urn:adsk.eagle:package:15831/1" value="LP-T35XW-80-BJ"/>
 <part name="L01" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="KA-3528ASYC" package3d_urn="urn:adsk.eagle:package:15831/1" value="LP-T35XW-80-BJ"/>
@@ -15084,8 +15084,8 @@ high speed (Philips)</description>
 <part name="L32" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="KA-3528ASYC" package3d_urn="urn:adsk.eagle:package:15831/1" value="LP-T35XW-80-BJ"/>
 <part name="T1" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="2SC1815" device="" package3d_urn="urn:adsk.eagle:package:29929/2"/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/5" package3d_urn="urn:adsk.eagle:package:23488/1"/>
-<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/5" package3d_urn="urn:adsk.eagle:package:23488/1"/>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/5" package3d_urn="urn:adsk.eagle:package:23488/1" value="1k"/>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/5" package3d_urn="urn:adsk.eagle:package:23488/1" value="47k"/>
 <part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4446" device="" package3d_urn="urn:adsk.eagle:package:43344/2"/>
 </parts>
