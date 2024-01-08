@@ -31111,7 +31111,7 @@ Wickmann</description>
 <part name="C8" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="025-024X044" package3d_urn="urn:adsk.eagle:package:23630/1" value="10n"/>
 <part name="SUPPLY36" library="supply2" deviceset="GND" device=""/>
 <part name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="0204/5" package3d_urn="urn:adsk.eagle:package:23488/1" value="1k"/>
-<part name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="0204/5" package3d_urn="urn:adsk.eagle:package:23488/1" value="10k"/>
+<part name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="0204/5" package3d_urn="urn:adsk.eagle:package:23488/1" value="47k"/>
 <part name="SUPPLY37" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY38" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="SUPPLY39" library="supply2" deviceset="GND" device=""/>
@@ -31123,7 +31123,6 @@ Wickmann</description>
 <part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R3216" package3d_urn="urn:adsk.eagle:package:23557/2" value="330"/>
 <part name="P+19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
 <part name="SUPPLY62" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
-<part name="P+20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
 <part name="C9" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="025-024X044" package3d_urn="urn:adsk.eagle:package:23630/1" value="10n"/>
 <part name="D2" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE" device="-1N4148" package3d_urn="urn:adsk.eagle:package:38452/1" value=""/>
 <part name="F1" library="fuse" library_urn="urn:adsk.eagle:library:233" deviceset="TE5" device="" package3d_urn="urn:adsk.eagle:package:14069/1" value="1A"/>
@@ -31132,7 +31131,7 @@ Wickmann</description>
 <part name="SUPPLY48" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="S1" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="31-XX" device="" package3d_urn="urn:adsk.eagle:package:27487/1" value="RST"/>
 <part name="SUPPLY49" library="supply2" deviceset="GND" device=""/>
-<part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
+<part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2" value="Fan"/>
 <part name="S2" library="switch-dil" library_urn="urn:adsk.eagle:library:375" deviceset="DIP02YL" device="" package3d_urn="urn:adsk.eagle:package:27254/2" value="MIDIPHANTOM"/>
 <part name="SUPPLY40" library="supply2" deviceset="GND" device=""/>
 <part name="P+21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
@@ -31570,9 +31569,6 @@ Wickmann</description>
 </instance>
 <instance part="SUPPLY62" gate="G$1" x="365.76" y="233.68" smashed="yes">
 <attribute name="VALUE" x="365.76" y="238.76" size="1.778" layer="96" align="bottom-center"/>
-</instance>
-<instance part="P+20" gate="1" x="274.32" y="236.22" smashed="yes">
-<attribute name="VALUE" x="274.32" y="238.76" size="1.778" layer="96"/>
 </instance>
 <instance part="C9" gate="G$1" x="325.12" y="170.18" smashed="yes">
 <attribute name="NAME" x="322.58" y="170.18" size="1.778" layer="95" align="bottom-center"/>
@@ -32486,56 +32482,6 @@ Wickmann</description>
 <wire x1="248.92" y1="73.66" x2="248.92" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="P+20" gate="1" pin="V+"/>
-<wire x1="274.32" y1="233.68" x2="274.32" y2="220.98" width="0.1524" layer="91"/>
-<wire x1="274.32" y1="220.98" x2="274.32" y2="213.36" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="220.98" x2="279.4" y2="213.36" width="0.1524" layer="91"/>
-<wire x1="274.32" y1="220.98" x2="279.4" y2="220.98" width="0.1524" layer="91"/>
-<junction x="274.32" y="220.98"/>
-<wire x1="284.48" y1="220.98" x2="284.48" y2="213.36" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="220.98" x2="284.48" y2="220.98" width="0.1524" layer="91"/>
-<junction x="279.4" y="220.98"/>
-<wire x1="289.56" y1="220.98" x2="289.56" y2="213.36" width="0.1524" layer="91"/>
-<wire x1="284.48" y1="220.98" x2="289.56" y2="220.98" width="0.1524" layer="91"/>
-<junction x="284.48" y="220.98"/>
-<wire x1="297.18" y1="220.98" x2="297.18" y2="213.36" width="0.1524" layer="91"/>
-<wire x1="289.56" y1="220.98" x2="297.18" y2="220.98" width="0.1524" layer="91"/>
-<junction x="289.56" y="220.98"/>
-<wire x1="302.26" y1="220.98" x2="302.26" y2="213.36" width="0.1524" layer="91"/>
-<wire x1="297.18" y1="220.98" x2="302.26" y2="220.98" width="0.1524" layer="91"/>
-<junction x="297.18" y="220.98"/>
-<wire x1="307.34" y1="220.98" x2="307.34" y2="213.36" width="0.1524" layer="91"/>
-<wire x1="302.26" y1="220.98" x2="307.34" y2="220.98" width="0.1524" layer="91"/>
-<junction x="302.26" y="220.98"/>
-<wire x1="312.42" y1="220.98" x2="312.42" y2="213.36" width="0.1524" layer="91"/>
-<wire x1="307.34" y1="220.98" x2="312.42" y2="220.98" width="0.1524" layer="91"/>
-<junction x="307.34" y="220.98"/>
-<wire x1="320.04" y1="213.36" x2="320.04" y2="220.98" width="0.1524" layer="91"/>
-<wire x1="312.42" y1="220.98" x2="320.04" y2="220.98" width="0.1524" layer="91"/>
-<junction x="312.42" y="220.98"/>
-<wire x1="325.12" y1="213.36" x2="325.12" y2="220.98" width="0.1524" layer="91"/>
-<wire x1="320.04" y1="220.98" x2="325.12" y2="220.98" width="0.1524" layer="91"/>
-<junction x="320.04" y="220.98"/>
-<wire x1="330.2" y1="213.36" x2="330.2" y2="220.98" width="0.1524" layer="91"/>
-<wire x1="325.12" y1="220.98" x2="330.2" y2="220.98" width="0.1524" layer="91"/>
-<junction x="325.12" y="220.98"/>
-<wire x1="335.28" y1="213.36" x2="335.28" y2="220.98" width="0.1524" layer="91"/>
-<wire x1="330.2" y1="220.98" x2="335.28" y2="220.98" width="0.1524" layer="91"/>
-<junction x="330.2" y="220.98"/>
-<wire x1="342.9" y1="213.36" x2="342.9" y2="220.98" width="0.1524" layer="91"/>
-<wire x1="335.28" y1="220.98" x2="342.9" y2="220.98" width="0.1524" layer="91"/>
-<junction x="335.28" y="220.98"/>
-<wire x1="347.98" y1="213.36" x2="347.98" y2="220.98" width="0.1524" layer="91"/>
-<wire x1="342.9" y1="220.98" x2="347.98" y2="220.98" width="0.1524" layer="91"/>
-<junction x="342.9" y="220.98"/>
-<wire x1="353.06" y1="213.36" x2="353.06" y2="220.98" width="0.1524" layer="91"/>
-<wire x1="347.98" y1="220.98" x2="353.06" y2="220.98" width="0.1524" layer="91"/>
-<junction x="347.98" y="220.98"/>
-<wire x1="358.14" y1="220.98" x2="358.14" y2="213.36" width="0.1524" layer="91"/>
-<wire x1="353.06" y1="220.98" x2="358.14" y2="220.98" width="0.1524" layer="91"/>
-<junction x="353.06" y="220.98"/>
-</segment>
-<segment>
 <pinref part="P+21" gate="1" pin="V+"/>
 <wire x1="220.98" y1="139.7" x2="220.98" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="S2" gate="1" pin="3"/>
@@ -32644,10 +32590,6 @@ Wickmann</description>
 <junction x="124.46" y="60.96"/>
 <label x="124.46" y="73.66" size="0.8128" layer="95" rot="R90" xref="yes"/>
 </segment>
-<segment>
-<wire x1="274.32" y1="205.74" x2="274.32" y2="200.66" width="0.1524" layer="91"/>
-<label x="274.32" y="200.66" size="0.8128" layer="95" rot="R270" xref="yes"/>
-</segment>
 </net>
 <net name="LD01" class="2">
 <segment>
@@ -32664,10 +32606,6 @@ Wickmann</description>
 <wire x1="142.24" y1="60.96" x2="139.7" y2="60.96" width="0.1524" layer="91"/>
 <junction x="139.7" y="60.96"/>
 <label x="139.7" y="73.66" size="0.8128" layer="95" rot="R90" xref="yes"/>
-</segment>
-<segment>
-<wire x1="279.4" y1="205.74" x2="279.4" y2="200.66" width="0.1524" layer="91"/>
-<label x="279.4" y="200.66" size="0.8128" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="LD02" class="2">
@@ -32686,10 +32624,6 @@ Wickmann</description>
 <junction x="154.94" y="60.96"/>
 <label x="154.94" y="73.66" size="0.8128" layer="95" rot="R90" xref="yes"/>
 </segment>
-<segment>
-<wire x1="284.48" y1="205.74" x2="284.48" y2="200.66" width="0.1524" layer="91"/>
-<label x="284.48" y="200.66" size="0.8128" layer="95" rot="R270" xref="yes"/>
-</segment>
 </net>
 <net name="LD03" class="2">
 <segment>
@@ -32706,10 +32640,6 @@ Wickmann</description>
 <wire x1="172.72" y1="60.96" x2="170.18" y2="60.96" width="0.1524" layer="91"/>
 <junction x="170.18" y="60.96"/>
 <label x="170.18" y="73.66" size="0.8128" layer="95" rot="R90" xref="yes"/>
-</segment>
-<segment>
-<wire x1="289.56" y1="205.74" x2="289.56" y2="200.66" width="0.1524" layer="91"/>
-<label x="289.56" y="200.66" size="0.8128" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="LD04" class="2">
@@ -32728,10 +32658,6 @@ Wickmann</description>
 <junction x="185.42" y="60.96"/>
 <label x="185.42" y="73.66" size="0.8128" layer="95" rot="R90" xref="yes"/>
 </segment>
-<segment>
-<wire x1="297.18" y1="205.74" x2="297.18" y2="200.66" width="0.1524" layer="91"/>
-<label x="297.18" y="200.66" size="0.8128" layer="95" rot="R270" xref="yes"/>
-</segment>
 </net>
 <net name="LD05" class="2">
 <segment>
@@ -32748,10 +32674,6 @@ Wickmann</description>
 <wire x1="203.2" y1="60.96" x2="200.66" y2="60.96" width="0.1524" layer="91"/>
 <junction x="200.66" y="60.96"/>
 <label x="200.66" y="73.66" size="0.8128" layer="95" rot="R90" xref="yes"/>
-</segment>
-<segment>
-<wire x1="302.26" y1="205.74" x2="302.26" y2="200.66" width="0.1524" layer="91"/>
-<label x="302.26" y="200.66" size="0.8128" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="LD06" class="2">
@@ -32770,10 +32692,6 @@ Wickmann</description>
 <junction x="215.9" y="60.96"/>
 <label x="215.9" y="73.66" size="0.8128" layer="95" rot="R90" xref="yes"/>
 </segment>
-<segment>
-<wire x1="307.34" y1="205.74" x2="307.34" y2="200.66" width="0.1524" layer="91"/>
-<label x="307.34" y="200.66" size="0.8128" layer="95" rot="R270" xref="yes"/>
-</segment>
 </net>
 <net name="LD07" class="2">
 <segment>
@@ -32790,10 +32708,6 @@ Wickmann</description>
 <wire x1="233.68" y1="60.96" x2="231.14" y2="60.96" width="0.1524" layer="91"/>
 <junction x="231.14" y="60.96"/>
 <label x="231.14" y="73.66" size="0.8128" layer="95" rot="R90" xref="yes"/>
-</segment>
-<segment>
-<wire x1="312.42" y1="205.74" x2="312.42" y2="200.66" width="0.1524" layer="91"/>
-<label x="312.42" y="200.66" size="0.8128" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="LD08" class="2">
@@ -32812,10 +32726,6 @@ Wickmann</description>
 <junction x="124.46" y="25.4"/>
 <label x="124.46" y="38.1" size="0.8128" layer="95" rot="R90" xref="yes"/>
 </segment>
-<segment>
-<wire x1="320.04" y1="205.74" x2="320.04" y2="200.66" width="0.1524" layer="91"/>
-<label x="320.04" y="200.66" size="0.8128" layer="95" rot="R270" xref="yes"/>
-</segment>
 </net>
 <net name="LD09" class="2">
 <segment>
@@ -32832,10 +32742,6 @@ Wickmann</description>
 <wire x1="142.24" y1="25.4" x2="139.7" y2="25.4" width="0.1524" layer="91"/>
 <junction x="139.7" y="25.4"/>
 <label x="139.7" y="38.1" size="0.8128" layer="95" rot="R90" xref="yes"/>
-</segment>
-<segment>
-<wire x1="325.12" y1="205.74" x2="325.12" y2="200.66" width="0.1524" layer="91"/>
-<label x="325.12" y="200.66" size="0.8128" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="LD10" class="2">
@@ -32854,10 +32760,6 @@ Wickmann</description>
 <junction x="154.94" y="25.4"/>
 <label x="154.94" y="38.1" size="0.8128" layer="95" rot="R90" xref="yes"/>
 </segment>
-<segment>
-<wire x1="330.2" y1="205.74" x2="330.2" y2="200.66" width="0.1524" layer="91"/>
-<label x="330.2" y="200.66" size="0.8128" layer="95" rot="R270" xref="yes"/>
-</segment>
 </net>
 <net name="LD11" class="2">
 <segment>
@@ -32874,10 +32776,6 @@ Wickmann</description>
 <wire x1="172.72" y1="25.4" x2="170.18" y2="25.4" width="0.1524" layer="91"/>
 <junction x="170.18" y="25.4"/>
 <label x="170.18" y="38.1" size="0.8128" layer="95" rot="R90" xref="yes"/>
-</segment>
-<segment>
-<wire x1="335.28" y1="205.74" x2="335.28" y2="200.66" width="0.1524" layer="91"/>
-<label x="335.28" y="200.66" size="0.8128" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="LD12" class="2">
@@ -32896,10 +32794,6 @@ Wickmann</description>
 <junction x="185.42" y="25.4"/>
 <label x="185.42" y="38.1" size="0.8128" layer="95" rot="R90" xref="yes"/>
 </segment>
-<segment>
-<wire x1="342.9" y1="205.74" x2="342.9" y2="200.66" width="0.1524" layer="91"/>
-<label x="342.9" y="200.66" size="0.8128" layer="95" rot="R270" xref="yes"/>
-</segment>
 </net>
 <net name="LD13" class="2">
 <segment>
@@ -32916,10 +32810,6 @@ Wickmann</description>
 <wire x1="203.2" y1="25.4" x2="200.66" y2="25.4" width="0.1524" layer="91"/>
 <junction x="200.66" y="25.4"/>
 <label x="200.66" y="38.1" size="0.8128" layer="95" rot="R90" xref="yes"/>
-</segment>
-<segment>
-<wire x1="347.98" y1="205.74" x2="347.98" y2="200.66" width="0.1524" layer="91"/>
-<label x="347.98" y="200.66" size="0.8128" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="LD14" class="2">
@@ -32938,10 +32828,6 @@ Wickmann</description>
 <junction x="215.9" y="25.4"/>
 <label x="215.9" y="38.1" size="0.8128" layer="95" rot="R90" xref="yes"/>
 </segment>
-<segment>
-<wire x1="353.06" y1="205.74" x2="353.06" y2="200.66" width="0.1524" layer="91"/>
-<label x="353.06" y="200.66" size="0.8128" layer="95" rot="R270" xref="yes"/>
-</segment>
 </net>
 <net name="LD15" class="2">
 <segment>
@@ -32958,10 +32844,6 @@ Wickmann</description>
 <wire x1="233.68" y1="25.4" x2="231.14" y2="25.4" width="0.1524" layer="91"/>
 <junction x="231.14" y="25.4"/>
 <label x="231.14" y="38.1" size="0.8128" layer="95" rot="R90" xref="yes"/>
-</segment>
-<segment>
-<wire x1="358.14" y1="205.74" x2="358.14" y2="200.66" width="0.1524" layer="91"/>
-<label x="358.14" y="200.66" size="0.8128" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="PWM00" class="0">
@@ -33242,7 +33124,15 @@ Wickmann</description>
 </sheets>
 <errors>
 <approved hash="104,1,203.2,213.36,U1,VDD,VCC,,,"/>
+<approved hash="106,1,322.58,106.68,ANLG0,,,,,"/>
+<approved hash="106,1,322.58,104.14,ANLG1,,,,,"/>
+<approved hash="106,1,322.58,101.6,ANLG2,,,,,"/>
+<approved hash="106,1,322.58,99.06,ANLG3,,,,,"/>
 <approved hash="106,1,322.58,109.22,AREF,,,,,"/>
+<approved hash="106,1,347.98,99.06,DTCT0,,,,,"/>
+<approved hash="106,1,347.98,106.68,DTCT1,,,,,"/>
+<approved hash="106,1,347.98,109.22,DTCT2,,,,,"/>
+<approved hash="106,1,347.98,114.3,DTCT3,,,,,"/>
 <approved hash="106,1,322.58,111.76,VDD,,,,,"/>
 <approved hash="106,1,322.58,78.74,VIN,,,,,"/>
 <approved hash="113,1,193.571,130.071,FRAME2,,,,,"/>
