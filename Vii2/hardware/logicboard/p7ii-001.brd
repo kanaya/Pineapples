@@ -8,18 +8,18 @@
 </settings>
 <grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="2" display="yes" altdistance="50" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -439,9 +439,6 @@ AQM0802A-RN-GBW</text>
 <circle x="16" y="38.5" radius="0.25" width="0.1" layer="21"/>
 <circle x="81" y="75" radius="0.25" width="0.1" layer="21"/>
 <text x="37.5" y="28" size="1" layer="25" align="center">REG</text>
-<text x="60" y="89" size="1" layer="26" rot="MR90" align="center-right">N.O.</text>
-<text x="62" y="89" size="1" layer="26" rot="MR90" align="center-right">C.</text>
-<text x="64" y="89" size="1" layer="26" rot="MR90" align="center-right">N.C.</text>
 <text x="22.5" y="78.5" size="1" layer="26" rot="MR0" align="center">V+</text>
 <text x="73.24" y="21" size="1" layer="26" rot="MR0" align="center">V+</text>
 <text x="75.78" y="21" size="1" layer="26" rot="MR0" align="center">Vcc</text>
@@ -490,20 +487,11 @@ AQM0802A-RN-GBW</text>
 <vertex x="50.5" y="88"/>
 </polygon>
 <text x="59" y="34.5" size="1" layer="26" rot="MR0" align="center">MIDI IN</text>
-<text x="52.65" y="47" size="1" layer="26" rot="MR90" align="center">IN</text>
-<text x="56.46" y="47" size="1" layer="26" rot="MR90" align="center">OUT</text>
-<text x="14" y="72" size="1" layer="26" rot="MR0" align="center-left">MIDI</text>
-<text x="14" y="69" size="1" layer="26" rot="MR0" align="center-left">I2C/THS*/MNTR</text>
-<text x="26" y="4.5" size="1" layer="26" rot="MR0" align="center">MIDI IN</text>
-<text x="65" y="4.5" size="1" layer="26" rot="MR0" align="center">MIDI OUT</text>
-<text x="60" y="59.5" size="1" layer="26" rot="MR0" align="center">MIDI OUT</text>
-<text x="17.96" y="74" size="1" layer="26" rot="MR0" align="center">IN</text>
-<text x="23.04" y="74" size="1" layer="26" rot="MR0" align="center">OUT</text>
+<text x="14" y="69" size="1" layer="26" rot="MR0" align="center-left">I2C/THS*/RX</text>
 <text x="49" y="43.19" size="1" layer="26" rot="MR0" align="center-left">Vcc/2</text>
 <text x="34.5" y="28" size="1" layer="26" rot="MR0" align="center-right">V+</text>
 <text x="34.5" y="31" size="1" layer="26" rot="MR0" align="center-right">Vcc</text>
 <text x="17" y="40" size="1" layer="26" rot="MR0" align="center">RLY</text>
-<text x="37" y="35" size="1" layer="26" rot="MR0" align="center">RLY</text>
 <text x="23.04" y="67" size="1" layer="26" rot="MR0" align="center">THS*</text>
 <text x="13" y="29.5" size="1" layer="26" rot="MR0" align="center">THS*</text>
 <text x="75.82" y="29" size="1" layer="25" align="center">PWRSEL</text>
@@ -524,22 +512,15 @@ AQM0802A-RN-GBW</text>
 <wire x1="4.5" y1="75.08" x2="4.5" y2="76.35" width="0.15" layer="21"/>
 <wire x1="4.5" y1="76.35" x2="4" y2="76.35" width="0.15" layer="21"/>
 <wire x1="4.5" y1="75.715" x2="5" y2="75.715" width="0.15" layer="21"/>
-<text x="62" y="82" size="1" layer="26" rot="MR0" align="center">2</text>
-<text x="60" y="82" size="1" layer="26" rot="MR0" align="center">1</text>
-<text x="64" y="82" size="1" layer="26" rot="MR0" align="center">3</text>
 <text x="1.5" y="65.555" size="1" layer="26" rot="MR90" align="center">GPIO</text>
 <text x="5" y="65.555" size="1" layer="25" rot="R90" align="center">GPIO</text>
 <rectangle x1="90" y1="16.46" x2="90.5" y2="18.46" layer="21"/>
-<text x="45.5" y="4.5" size="1" layer="26" rot="MR0" align="center">MIDI THRU</text>
 <rectangle x1="90" y1="16.46" x2="90.5" y2="18.46" layer="22" rot="R180"/>
 <wire x1="78.54" y1="20" x2="78.54" y2="17.46" width="0.15" layer="22"/>
 <wire x1="88" y1="17.46" x2="78.54" y2="17.46" width="0.15" layer="22"/>
 <text x="78" y="19" size="1" layer="26" rot="MR0" align="center-left">Bridge here to connect Vcc/2 and GND</text>
-<text x="66.62" y="47" size="1" layer="26" rot="MR90" align="center">OUT2</text>
 <text x="65.35" y="53" size="1" layer="26" rot="MR90" align="center">4</text>
 <text x="67.89" y="53" size="1" layer="26" rot="MR90" align="center">5</text>
-<text x="71" y="70" size="1" layer="26" rot="MR90" align="center">Bridge to
-bypass 4066</text>
 <polygon width="0.15" layer="21">
 <vertex x="11.5" y="20.46"/>
 <vertex x="11" y="19.96"/>
@@ -5733,17 +5714,14 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="33.317" y="91.469" size="1.27" layer="28" ratio="10" rot="MR180"/>
 </element>
 <element name="JMP1" library="jump-0r-smd" library_urn="urn:adsk.eagle:library:251" package="A0R-JMP" package3d_urn="urn:adsk.eagle:package:15385/1" value="0R-JUMPA" x="72" y="45" smashed="yes" rot="MR0">
-<attribute name="NAME" x="97.762" y="57.716" size="1.27" layer="26" rot="MR0"/>
 <attribute name="POPULARITY" value="3" x="72" y="45" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="72.762" y="41.014" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="JMP2" library="jump-0r-smd" library_urn="urn:adsk.eagle:library:251" package="A0R-JMP" package3d_urn="urn:adsk.eagle:package:15385/1" value="0R-JUMPA" x="74.5" y="45" smashed="yes" rot="MR0">
-<attribute name="NAME" x="98.262" y="53.716" size="1.27" layer="26" rot="MR0"/>
 <attribute name="POPULARITY" value="3" x="74.5" y="45" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="75.262" y="41.014" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="JMP3" library="jump-0r-smd" library_urn="urn:adsk.eagle:library:251" package="A0R-JMP" package3d_urn="urn:adsk.eagle:package:15385/1" value="0R-JUMPA" x="77" y="45" smashed="yes" rot="MR0">
-<attribute name="NAME" x="97.762" y="50.716" size="1.27" layer="26" rot="MR0"/>
 <attribute name="POPULARITY" value="3" x="77" y="45" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="77.762" y="41.014" size="1.27" layer="28" rot="MR0"/>
 </element>
