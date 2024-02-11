@@ -31794,13 +31794,13 @@ Solder type</description>
 <part name="JMP2" library="jump-0r-smd" library_urn="urn:adsk.eagle:library:251" deviceset="0R-JUMP" device="A" package3d_urn="urn:adsk.eagle:package:15385/1"/>
 <part name="JMP3" library="jump-0r-smd" library_urn="urn:adsk.eagle:library:251" deviceset="0R-JUMP" device="A" package3d_urn="urn:adsk.eagle:package:15385/1"/>
 <part name="SV2" library="con-ml" library_urn="urn:adsk.eagle:library:164" deviceset="ML34L" device="" package3d_urn="urn:adsk.eagle:package:8689/1"/>
-<part name="Q3" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="MOSFET-NCH" device="-FQP30N06L" package3d_urn="urn:adsk.eagle:package:38447/1" value="60V/32A/35mΩ"/>
 <part name="Q4" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="MOSFET-NCH" device="-FQP30N06L" package3d_urn="urn:adsk.eagle:package:38447/1" value="60V/32A/35mΩ"/>
 <part name="Q5" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="MOSFET-NCH" device="-FQP30N06L" package3d_urn="urn:adsk.eagle:package:38447/1" value="60V/32A/35mΩ"/>
 <part name="Q6" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="MOSFET-NCH" device="-FQP30N06L" package3d_urn="urn:adsk.eagle:package:38447/1" value="60V/32A/35mΩ"/>
 <part name="Q7" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="MOSFET-NCH" device="-FQP30N06L" package3d_urn="urn:adsk.eagle:package:38447/1" value="60V/32A/35mΩ"/>
 <part name="Q8" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="MOSFET-NCH" device="-FQP30N06L" package3d_urn="urn:adsk.eagle:package:38447/1" value="60V/32A/35mΩ"/>
 <part name="Q9" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="MOSFET-NCH" device="-FQP30N06L" package3d_urn="urn:adsk.eagle:package:38447/1" value="60V/32A/35mΩ"/>
+<part name="Q10" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="MOSFET-NCH" device="-FQP30N06L" package3d_urn="urn:adsk.eagle:package:38447/1" value="60V/32A/35mΩ"/>
 <part name="D4" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE" device="-1N4148" package3d_urn="urn:adsk.eagle:package:38452/1" value="200mA/100V/1V"/>
 <part name="D5" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE" device="-1N4148" package3d_urn="urn:adsk.eagle:package:38452/1" value="200mA/100V/1V"/>
 <part name="D6" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE" device="-1N4148" package3d_urn="urn:adsk.eagle:package:38452/1" value="200mA/100V/1V"/>
@@ -31893,6 +31893,7 @@ Solder type</description>
 <attribute name="NAME" x="25.4" y="142.24" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 </instance>
 <instance part="D1" gate="G$1" x="93.98" y="205.74" smashed="yes" rot="R180">
+<attribute name="NAME" x="93.98" y="211.328" size="1.778" layer="95" font="vector" rot="R180"/>
 <attribute name="VALUE" x="96.52" y="207.772" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
 </instance>
 <instance part="X9" gate="G$1" x="342.9" y="124.46" smashed="yes"/>
@@ -32072,31 +32073,31 @@ Solder type</description>
 <attribute name="VALUE" x="31.75" y="76.2" size="1.778" layer="96"/>
 <attribute name="NAME" x="31.75" y="125.222" size="1.778" layer="95"/>
 </instance>
-<instance part="Q3" gate="NMOS" x="71.12" y="152.4" smashed="yes">
+<instance part="Q4" gate="NMOS" x="71.12" y="152.4" smashed="yes">
 <attribute name="NAME" x="76.2" y="152.4" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="76.2" y="149.86" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="Q4" gate="NMOS" x="104.14" y="152.4" smashed="yes">
+<instance part="Q5" gate="NMOS" x="104.14" y="152.4" smashed="yes">
 <attribute name="NAME" x="109.22" y="152.4" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="109.22" y="149.86" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="Q5" gate="NMOS" x="137.16" y="152.4" smashed="yes">
+<instance part="Q6" gate="NMOS" x="137.16" y="152.4" smashed="yes">
 <attribute name="NAME" x="142.24" y="152.4" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="142.24" y="149.86" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="Q6" gate="NMOS" x="170.18" y="152.4" smashed="yes">
+<instance part="Q7" gate="NMOS" x="170.18" y="152.4" smashed="yes">
 <attribute name="NAME" x="175.26" y="152.4" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="175.26" y="149.86" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="Q7" gate="NMOS" x="71.12" y="124.46" smashed="yes">
+<instance part="Q8" gate="NMOS" x="71.12" y="124.46" smashed="yes">
 <attribute name="NAME" x="76.2" y="124.46" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="76.2" y="121.92" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="Q8" gate="NMOS" x="104.14" y="124.46" smashed="yes">
+<instance part="Q9" gate="NMOS" x="104.14" y="124.46" smashed="yes">
 <attribute name="NAME" x="109.22" y="124.46" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="109.22" y="121.92" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="Q9" gate="NMOS" x="137.16" y="124.46" smashed="yes">
+<instance part="Q10" gate="NMOS" x="137.16" y="124.46" smashed="yes">
 <attribute name="NAME" x="142.24" y="124.46" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="142.24" y="121.92" size="1.778" layer="96" font="vector"/>
 </instance>
@@ -32315,37 +32316,37 @@ Solder type</description>
 <pinref part="SUPPLY2" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="Q3" gate="NMOS" pin="S"/>
+<pinref part="Q4" gate="NMOS" pin="S"/>
 <wire x1="73.66" y1="147.32" x2="73.66" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="SUPPLY4" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="Q4" gate="NMOS" pin="S"/>
+<pinref part="Q5" gate="NMOS" pin="S"/>
 <wire x1="106.68" y1="147.32" x2="106.68" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="SUPPLY7" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="Q5" gate="NMOS" pin="S"/>
+<pinref part="Q6" gate="NMOS" pin="S"/>
 <wire x1="139.7" y1="147.32" x2="139.7" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="SUPPLY9" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="Q6" gate="NMOS" pin="S"/>
+<pinref part="Q7" gate="NMOS" pin="S"/>
 <wire x1="172.72" y1="147.32" x2="172.72" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="SUPPLY11" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="Q7" gate="NMOS" pin="S"/>
+<pinref part="Q8" gate="NMOS" pin="S"/>
 <wire x1="73.66" y1="119.38" x2="73.66" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="SUPPLY12" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="Q8" gate="NMOS" pin="S"/>
+<pinref part="Q9" gate="NMOS" pin="S"/>
 <wire x1="106.68" y1="119.38" x2="106.68" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="SUPPLY14" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="Q9" gate="NMOS" pin="S"/>
+<pinref part="Q10" gate="NMOS" pin="S"/>
 <wire x1="139.7" y1="119.38" x2="139.7" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="SUPPLY15" gate="GND" pin="GND"/>
 </segment>
@@ -32634,7 +32635,7 @@ Solder type</description>
 <label x="363.22" y="200.66" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="Q5" gate="NMOS" pin="G"/>
+<pinref part="Q6" gate="NMOS" pin="G"/>
 <wire x1="132.08" y1="149.86" x2="129.54" y2="149.86" width="0.1524" layer="91"/>
 <label x="129.54" y="149.86" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -32651,7 +32652,7 @@ Solder type</description>
 <label x="363.22" y="198.12" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="Q6" gate="NMOS" pin="G"/>
+<pinref part="Q7" gate="NMOS" pin="G"/>
 <wire x1="165.1" y1="149.86" x2="162.56" y2="149.86" width="0.1524" layer="91"/>
 <label x="162.56" y="149.86" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -32668,7 +32669,7 @@ Solder type</description>
 <label x="363.22" y="195.58" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="Q7" gate="NMOS" pin="G"/>
+<pinref part="Q8" gate="NMOS" pin="G"/>
 <wire x1="66.04" y1="121.92" x2="63.5" y2="121.92" width="0.1524" layer="91"/>
 <label x="63.5" y="121.92" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -32697,7 +32698,7 @@ Solder type</description>
 <pinref part="R4" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="Q9" gate="NMOS" pin="G"/>
+<pinref part="Q10" gate="NMOS" pin="G"/>
 <wire x1="132.08" y1="121.92" x2="129.54" y2="121.92" width="0.1524" layer="91"/>
 <label x="129.54" y="121.92" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -32758,7 +32759,7 @@ Solder type</description>
 <pinref part="R5" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="Q8" gate="NMOS" pin="G"/>
+<pinref part="Q9" gate="NMOS" pin="G"/>
 <wire x1="99.06" y1="121.92" x2="96.52" y2="121.92" width="0.1524" layer="91"/>
 <label x="96.52" y="121.92" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -32824,7 +32825,7 @@ Solder type</description>
 <label x="363.22" y="208.28" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="Q4" gate="NMOS" pin="G"/>
+<pinref part="Q5" gate="NMOS" pin="G"/>
 <wire x1="99.06" y1="149.86" x2="96.52" y2="149.86" width="0.1524" layer="91"/>
 <label x="96.52" y="149.86" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -33172,7 +33173,7 @@ Solder type</description>
 <label x="342.9" y="198.12" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="Q3" gate="NMOS" pin="G"/>
+<pinref part="Q4" gate="NMOS" pin="G"/>
 <wire x1="66.04" y1="149.86" x2="63.5" y2="149.86" width="0.1524" layer="91"/>
 <label x="63.5" y="149.86" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -33267,7 +33268,7 @@ Solder type</description>
 <label x="45.72" y="96.52" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="Q9" gate="NMOS" pin="D"/>
+<pinref part="Q10" gate="NMOS" pin="D"/>
 <wire x1="139.7" y1="129.54" x2="139.7" y2="132.08" width="0.1524" layer="91"/>
 <label x="139.7" y="134.62" size="0.8128" layer="95" rot="R90" xref="yes"/>
 <pinref part="D10" gate="G$1" pin="A"/>
@@ -33283,7 +33284,7 @@ Solder type</description>
 <label x="45.72" y="93.98" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="Q8" gate="NMOS" pin="D"/>
+<pinref part="Q9" gate="NMOS" pin="D"/>
 <wire x1="106.68" y1="129.54" x2="106.68" y2="132.08" width="0.1524" layer="91"/>
 <label x="106.68" y="134.62" size="0.8128" layer="95" rot="R90" xref="yes"/>
 <pinref part="D9" gate="G$1" pin="A"/>
@@ -33299,7 +33300,7 @@ Solder type</description>
 <label x="45.72" y="91.44" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="Q7" gate="NMOS" pin="D"/>
+<pinref part="Q8" gate="NMOS" pin="D"/>
 <wire x1="73.66" y1="129.54" x2="73.66" y2="132.08" width="0.1524" layer="91"/>
 <label x="73.66" y="134.62" size="0.8128" layer="95" rot="R90" xref="yes"/>
 <pinref part="D8" gate="G$1" pin="A"/>
@@ -33315,7 +33316,7 @@ Solder type</description>
 <label x="45.72" y="88.9" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="Q6" gate="NMOS" pin="D"/>
+<pinref part="Q7" gate="NMOS" pin="D"/>
 <wire x1="172.72" y1="157.48" x2="172.72" y2="160.02" width="0.1524" layer="91"/>
 <label x="172.72" y="162.56" size="0.8128" layer="95" rot="R90" xref="yes"/>
 <pinref part="D7" gate="G$1" pin="A"/>
@@ -33331,7 +33332,7 @@ Solder type</description>
 <label x="45.72" y="86.36" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="Q5" gate="NMOS" pin="D"/>
+<pinref part="Q6" gate="NMOS" pin="D"/>
 <wire x1="139.7" y1="157.48" x2="139.7" y2="160.02" width="0.1524" layer="91"/>
 <label x="139.7" y="162.56" size="0.8128" layer="95" rot="R90" xref="yes"/>
 <pinref part="D6" gate="G$1" pin="A"/>
@@ -33347,7 +33348,7 @@ Solder type</description>
 <label x="45.72" y="83.82" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="Q4" gate="NMOS" pin="D"/>
+<pinref part="Q5" gate="NMOS" pin="D"/>
 <wire x1="106.68" y1="157.48" x2="106.68" y2="160.02" width="0.1524" layer="91"/>
 <label x="106.68" y="162.56" size="0.8128" layer="95" rot="R90" xref="yes"/>
 <pinref part="D5" gate="G$1" pin="A"/>
@@ -33363,7 +33364,7 @@ Solder type</description>
 <label x="45.72" y="81.28" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="Q3" gate="NMOS" pin="D"/>
+<pinref part="Q4" gate="NMOS" pin="D"/>
 <wire x1="73.66" y1="157.48" x2="73.66" y2="160.02" width="0.1524" layer="91"/>
 <label x="73.66" y="162.56" size="0.8128" layer="95" rot="R90" xref="yes"/>
 <pinref part="D4" gate="G$1" pin="A"/>
