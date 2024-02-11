@@ -31882,9 +31882,9 @@ Solder type</description>
 <attribute name="NAME" x="101.6" y="195.58" size="1.778" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="101.6" y="190.5" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="F1" gate="1" x="50.8" y="200.66" smashed="yes">
-<attribute name="NAME" x="50.8" y="203.2" size="1.778" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="50.8" y="198.12" size="1.778" layer="96" align="bottom-center"/>
+<instance part="F1" gate="1" x="60.96" y="200.66" smashed="yes">
+<attribute name="NAME" x="60.96" y="203.2" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="60.96" y="198.12" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="H1" gate="G$1" x="27.94" y="137.16" smashed="yes"/>
 <instance part="H2" gate="G$1" x="27.94" y="147.32" smashed="yes"/>
@@ -31958,15 +31958,15 @@ Solder type</description>
 <instance part="P+2" gate="G$1" x="63.5" y="243.84" smashed="yes">
 <attribute name="VALUE" x="60.96" y="241.3" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="P+3" gate="1" x="58.42" y="246.38" smashed="yes">
-<attribute name="VALUE" x="55.88" y="243.84" size="1.778" layer="96" rot="R90"/>
+<instance part="P+3" gate="1" x="45.72" y="246.38" smashed="yes">
+<attribute name="VALUE" x="43.18" y="243.84" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="J6" gate="J$1" x="66.04" y="20.32" smashed="yes">
 <attribute name="VALUE" x="63.5" y="12.954" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="63.5" y="25.908" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="SUPPLY8" gate="G$1" x="60.96" y="248.92" smashed="yes">
-<attribute name="VALUE" x="60.96" y="254" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY8" gate="G$1" x="55.88" y="243.84" smashed="yes">
+<attribute name="VALUE" x="55.88" y="248.92" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY10" gate="G$1" x="119.38" y="53.34" smashed="yes">
 <attribute name="VALUE" x="119.38" y="58.42" size="1.778" layer="96" align="bottom-center"/>
@@ -32198,13 +32198,13 @@ Solder type</description>
 <wire x1="45.72" y1="198.12" x2="45.72" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="195.58" x2="45.72" y2="187.96" width="0.1524" layer="91"/>
 <junction x="45.72" y="195.58"/>
-<wire x1="45.72" y1="187.96" x2="60.96" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="187.96" x2="50.8" y2="187.96" width="0.1524" layer="91"/>
 <junction x="76.2" y="187.96"/>
 <pinref part="JP5" gate="A" pin="1"/>
-<wire x1="60.96" y1="187.96" x2="76.2" y2="187.96" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="231.14" x2="60.96" y2="231.14" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="231.14" x2="60.96" y2="187.96" width="0.1524" layer="91"/>
-<junction x="60.96" y="187.96"/>
+<wire x1="50.8" y1="187.96" x2="76.2" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="231.14" x2="50.8" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="231.14" x2="50.8" y2="187.96" width="0.1524" layer="91"/>
+<junction x="50.8" y="187.96"/>
 </segment>
 <segment>
 <pinref part="MC1" gate="G$1" pin="GND@1"/>
@@ -32390,11 +32390,11 @@ Solder type</description>
 <segment>
 <pinref part="JP1" gate="A" pin="3"/>
 <pinref part="JP5" gate="A" pin="2"/>
-<wire x1="33.02" y1="233.68" x2="60.96" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="233.68" x2="55.88" y2="233.68" width="0.1524" layer="91"/>
 <pinref part="SUPPLY8" gate="G$1" pin="VCC"/>
-<wire x1="60.96" y1="233.68" x2="81.28" y2="233.68" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="246.38" x2="60.96" y2="233.68" width="0.1524" layer="91"/>
-<junction x="60.96" y="233.68"/>
+<wire x1="55.88" y1="233.68" x2="81.28" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="241.3" x2="55.88" y2="233.68" width="0.1524" layer="91"/>
+<junction x="55.88" y="233.68"/>
 <label x="66.04" y="233.68" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -33029,31 +33029,20 @@ Solder type</description>
 <net name="V+" class="4">
 <segment>
 <pinref part="JP1" gate="A" pin="1"/>
-<wire x1="81.28" y1="236.22" x2="58.42" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="236.22" x2="45.72" y2="236.22" width="0.1524" layer="91"/>
 <pinref part="P+3" gate="1" pin="V+"/>
-<wire x1="58.42" y1="243.84" x2="58.42" y2="236.22" width="0.1524" layer="91"/>
-<junction x="58.42" y="236.22"/>
+<wire x1="45.72" y1="243.84" x2="45.72" y2="236.22" width="0.1524" layer="91"/>
+<junction x="45.72" y="236.22"/>
 <pinref part="JP5" gate="A" pin="3"/>
-<wire x1="33.02" y1="236.22" x2="58.42" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="236.22" x2="45.72" y2="236.22" width="0.1524" layer="91"/>
 <label x="66.04" y="236.22" size="1.778" layer="95"/>
-<pinref part="C1" gate="G$1" pin="1"/>
-<pinref part="D1" gate="G$1" pin="C"/>
-<wire x1="83.82" y1="205.74" x2="91.44" y2="205.74" width="0.1524" layer="91"/>
-<pinref part="V1" gate="1" pin="IN"/>
-<wire x1="86.36" y1="200.66" x2="83.82" y2="200.66" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="83.82" y1="198.12" x2="83.82" y2="200.66" width="0.1524" layer="91"/>
-<junction x="83.82" y="200.66"/>
-<wire x1="83.82" y1="200.66" x2="83.82" y2="205.74" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="200.66" x2="76.2" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="200.66" x2="76.2" y2="198.12" width="0.1524" layer="91"/>
-<label x="78.74" y="200.66" size="1.778" layer="95"/>
-<pinref part="F1" gate="1" pin="2"/>
-<wire x1="76.2" y1="200.66" x2="58.42" y2="200.66" width="0.1524" layer="91"/>
-<junction x="76.2" y="200.66"/>
-<wire x1="58.42" y1="200.66" x2="55.88" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="236.22" x2="58.42" y2="200.66" width="0.1524" layer="91"/>
-<junction x="58.42" y="200.66"/>
+<pinref part="J0" gate="G$1" pin="3"/>
+<pinref part="F1" gate="1" pin="1"/>
+<wire x1="55.88" y1="200.66" x2="45.72" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="200.66" x2="38.1" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="200.66" x2="45.72" y2="236.22" width="0.1524" layer="91"/>
+<junction x="45.72" y="200.66"/>
+<junction x="45.72" y="236.22"/>
 </segment>
 <segment>
 <pinref part="P+5" gate="1" pin="V+"/>
@@ -33383,11 +33372,23 @@ Solder type</description>
 <junction x="73.66" y="160.02"/>
 </segment>
 </net>
-<net name="N$2" class="4">
+<net name="VIN0" class="4">
 <segment>
-<pinref part="J0" gate="G$1" pin="3"/>
-<pinref part="F1" gate="1" pin="1"/>
-<wire x1="45.72" y1="200.66" x2="38.1" y2="200.66" width="0.1524" layer="91"/>
+<pinref part="F1" gate="1" pin="2"/>
+<pinref part="C1" gate="G$1" pin="1"/>
+<pinref part="D1" gate="G$1" pin="C"/>
+<wire x1="83.82" y1="205.74" x2="91.44" y2="205.74" width="0.1524" layer="91"/>
+<pinref part="V1" gate="1" pin="IN"/>
+<wire x1="86.36" y1="200.66" x2="83.82" y2="200.66" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="83.82" y1="198.12" x2="83.82" y2="200.66" width="0.1524" layer="91"/>
+<junction x="83.82" y="200.66"/>
+<wire x1="83.82" y1="200.66" x2="83.82" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="200.66" x2="76.2" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="200.66" x2="76.2" y2="198.12" width="0.1524" layer="91"/>
+<junction x="76.2" y="200.66"/>
+<wire x1="76.2" y1="200.66" x2="66.04" y2="200.66" width="0.1524" layer="91"/>
+<label x="78.74" y="200.66" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
