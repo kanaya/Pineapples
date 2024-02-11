@@ -30964,6 +30964,83 @@ Wickmann</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="jumper" urn="urn:adsk.eagle:library:252">
+<description>&lt;b&gt;Jumpers&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="JP1" urn="urn:adsk.eagle:footprint:15398/1" library_version="2">
+<description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
+<wire x1="-1.016" y1="0" x2="-1.27" y2="0.254" width="0.1524" layer="21"/>
+<wire x1="-1.016" y1="0" x2="-1.27" y2="-0.254" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="0" x2="1.27" y2="0.254" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="0" x2="1.27" y2="-0.254" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-0.254" x2="1.27" y2="-2.286" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="-2.54" x2="1.27" y2="-2.286" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="2.286" x2="1.016" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="2.286" x2="1.27" y2="0.254" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="2.54" x2="-1.016" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="2.286" x2="-1.016" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="2.286" x2="-1.27" y2="0.254" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-0.254" x2="-1.27" y2="-2.286" width="0.1524" layer="21"/>
+<wire x1="-1.016" y1="-2.54" x2="-1.27" y2="-2.286" width="0.1524" layer="21"/>
+<wire x1="-1.016" y1="-2.54" x2="1.016" y2="-2.54" width="0.1524" layer="21"/>
+<pad name="1" x="0" y="-1.27" drill="0.9144" shape="long"/>
+<pad name="2" x="0" y="1.27" drill="0.9144" shape="long"/>
+<text x="-1.651" y="-2.54" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="2.921" y="-2.54" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<rectangle x1="-0.3048" y1="0.9652" x2="0.3048" y2="1.5748" layer="51"/>
+<rectangle x1="-0.3048" y1="-1.5748" x2="0.3048" y2="-0.9652" layer="51"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="JP1" urn="urn:adsk.eagle:package:15455/1" type="box" library_version="2">
+<description>JUMPER</description>
+<packageinstances>
+<packageinstance name="JP1"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="JP2E" urn="urn:adsk.eagle:symbol:15391/1" library_version="2">
+<wire x1="0" y1="0" x2="0" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.27" width="0.4064" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="1.27" width="0.4064" layer="94"/>
+<wire x1="-0.635" y1="0" x2="3.175" y2="0" width="0.4064" layer="94"/>
+<wire x1="3.175" y1="0" x2="3.175" y2="0.635" width="0.4064" layer="94"/>
+<wire x1="3.175" y1="0.635" x2="-0.635" y2="0.635" width="0.4064" layer="94"/>
+<wire x1="-0.635" y1="0.635" x2="-0.635" y2="0" width="0.4064" layer="94"/>
+<text x="-1.27" y="0" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="5.715" y="0" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="1" x="0" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="2" x="2.54" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="JP1E" urn="urn:adsk.eagle:component:15487/2" prefix="JP" uservalue="yes" library_version="2">
+<description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
+<gates>
+<gate name="A" symbol="JP2E" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="JP1">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15455/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="61" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -31135,6 +31212,7 @@ Wickmann</description>
 <part name="S2" library="switch-dil" library_urn="urn:adsk.eagle:library:375" deviceset="DIP02YL" device="" package3d_urn="urn:adsk.eagle:package:27254/2" value="MIDIPHANTOM"/>
 <part name="SUPPLY40" library="supply2" deviceset="GND" device=""/>
 <part name="P+21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
+<part name="JP4" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP1E" device="" package3d_urn="urn:adsk.eagle:package:15455/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -31607,6 +31685,10 @@ Wickmann</description>
 <instance part="P+21" gate="1" x="220.98" y="142.24" smashed="yes">
 <attribute name="VALUE" x="220.98" y="144.78" size="1.778" layer="96"/>
 </instance>
+<instance part="JP4" gate="A" x="78.74" y="226.06" smashed="yes">
+<attribute name="NAME" x="77.47" y="226.06" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="84.455" y="226.06" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -31931,7 +32013,12 @@ Wickmann</description>
 <wire x1="91.44" y1="200.66" x2="91.44" y2="198.12" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="99.06" y1="200.66" x2="99.06" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="243.84" x2="99.06" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="243.84" x2="99.06" y2="220.98" width="0.1524" layer="91"/>
+<pinref part="JP4" gate="A" pin="2"/>
+<wire x1="99.06" y1="220.98" x2="99.06" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="223.52" x2="81.28" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="220.98" x2="99.06" y2="220.98" width="0.1524" layer="91"/>
+<junction x="99.06" y="220.98"/>
 </segment>
 <segment>
 <pinref part="RN3" gate="1" pin="1"/>
@@ -32325,10 +32412,15 @@ Wickmann</description>
 <pinref part="J0" gate="G$1" pin="3"/>
 <wire x1="38.1" y1="200.66" x2="45.72" y2="200.66" width="0.1524" layer="91"/>
 <pinref part="P+3" gate="1" pin="V+"/>
-<wire x1="45.72" y1="246.38" x2="45.72" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="246.38" x2="45.72" y2="220.98" width="0.1524" layer="91"/>
 <pinref part="F1" gate="1" pin="1"/>
+<wire x1="45.72" y1="220.98" x2="45.72" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="200.66" x2="45.72" y2="200.66" width="0.1524" layer="91"/>
 <junction x="45.72" y="200.66"/>
+<pinref part="JP4" gate="A" pin="1"/>
+<wire x1="78.74" y1="223.52" x2="78.74" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="220.98" x2="45.72" y2="220.98" width="0.1524" layer="91"/>
+<junction x="45.72" y="220.98"/>
 </segment>
 <segment>
 <pinref part="SV4" gate="1" pin="2"/>
