@@ -13780,189 +13780,16 @@ Source: &lt;a href="https://cdn.sparkfun.com/assets/learn_tutorials/6/7/6/PiZero
 <label x="71.12" y="205.74" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="ROW5" class="0">
-<segment>
-<pinref part="LEDPIN1" gate="G$1" pin="1"/>
-<wire x1="86.36" y1="137.16" x2="93.98" y2="137.16" width="0.1524" layer="91"/>
-<label x="93.98" y="137.16" size="0.8128" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="DRIVERPIN1" gate="A" pin="6"/>
-<wire x1="48.26" y1="149.86" x2="55.88" y2="149.86" width="0.1524" layer="91"/>
-<label x="55.88" y="149.86" size="0.8128" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="ROW7" class="0">
-<segment>
-<pinref part="LEDPIN1" gate="G$1" pin="2"/>
-<wire x1="86.36" y1="139.7" x2="93.98" y2="139.7" width="0.1524" layer="91"/>
-<label x="93.98" y="139.7" size="0.8128" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="LEDPIN2" gate="G$1" pin="2"/>
-<wire x1="86.36" y1="167.64" x2="93.98" y2="167.64" width="0.1524" layer="91"/>
-<label x="93.98" y="167.64" size="0.8128" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="DRIVERPIN1" gate="A" pin="8"/>
-<wire x1="48.26" y1="154.94" x2="55.88" y2="154.94" width="0.1524" layer="91"/>
-<label x="55.88" y="154.94" size="0.8128" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="COL2" class="0">
-<segment>
-<pinref part="LEDPIN1" gate="G$1" pin="3"/>
-<wire x1="86.36" y1="142.24" x2="93.98" y2="142.24" width="0.1524" layer="91"/>
-<label x="93.98" y="142.24" size="0.8128" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="DRIVERPIN2" gate="A" pin="10"/>
-<wire x1="48.26" y1="203.2" x2="55.88" y2="203.2" width="0.1524" layer="91"/>
-<label x="55.88" y="203.2" size="0.8128" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="COL3" class="0">
-<segment>
-<pinref part="LEDPIN1" gate="G$1" pin="4"/>
-<wire x1="86.36" y1="144.78" x2="93.98" y2="144.78" width="0.1524" layer="91"/>
-<label x="93.98" y="144.78" size="0.8128" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="DRIVERPIN2" gate="A" pin="9"/>
-<wire x1="48.26" y1="200.66" x2="55.88" y2="200.66" width="0.1524" layer="91"/>
-<label x="55.88" y="200.66" size="0.8128" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="ROW8" class="0">
-<segment>
-<pinref part="LEDPIN1" gate="G$1" pin="5"/>
-<wire x1="86.36" y1="147.32" x2="93.98" y2="147.32" width="0.1524" layer="91"/>
-<label x="93.98" y="147.32" size="0.8128" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="DRIVERPIN1" gate="A" pin="9"/>
-<wire x1="48.26" y1="157.48" x2="55.88" y2="157.48" width="0.1524" layer="91"/>
-<label x="55.88" y="157.48" size="0.8128" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="COL5" class="0">
-<segment>
-<pinref part="LEDPIN1" gate="G$1" pin="6"/>
-<wire x1="86.36" y1="149.86" x2="93.98" y2="149.86" width="0.1524" layer="91"/>
-<label x="93.98" y="149.86" size="0.8128" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="DRIVERPIN2" gate="A" pin="7"/>
-<wire x1="48.26" y1="195.58" x2="55.88" y2="195.58" width="0.1524" layer="91"/>
-<label x="55.88" y="195.58" size="0.8128" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="ROW6" class="0">
-<segment>
-<pinref part="LEDPIN1" gate="G$1" pin="7"/>
-<wire x1="86.36" y1="152.4" x2="93.98" y2="152.4" width="0.1524" layer="91"/>
-<label x="93.98" y="152.4" size="0.8128" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="DRIVERPIN1" gate="A" pin="7"/>
-<wire x1="48.26" y1="152.4" x2="55.88" y2="152.4" width="0.1524" layer="91"/>
-<label x="55.88" y="152.4" size="0.8128" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="ROW3" class="0">
-<segment>
-<pinref part="LEDPIN1" gate="G$1" pin="8"/>
-<wire x1="86.36" y1="154.94" x2="93.98" y2="154.94" width="0.1524" layer="91"/>
-<label x="93.98" y="154.94" size="0.8128" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="DRIVERPIN1" gate="A" pin="4"/>
-<wire x1="48.26" y1="144.78" x2="55.88" y2="144.78" width="0.1524" layer="91"/>
-<label x="55.88" y="144.78" size="0.8128" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="ROW1" class="0">
-<segment>
-<pinref part="LEDPIN2" gate="G$1" pin="1"/>
-<wire x1="86.36" y1="165.1" x2="93.98" y2="165.1" width="0.1524" layer="91"/>
-<label x="93.98" y="165.1" size="0.8128" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="DRIVERPIN1" gate="A" pin="2"/>
-<wire x1="48.26" y1="139.7" x2="55.88" y2="139.7" width="0.1524" layer="91"/>
-<label x="55.88" y="139.7" size="0.8128" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="COL4" class="0">
-<segment>
-<pinref part="LEDPIN2" gate="G$1" pin="3"/>
-<wire x1="86.36" y1="170.18" x2="93.98" y2="170.18" width="0.1524" layer="91"/>
-<label x="93.98" y="170.18" size="0.8128" layer="95" xref="yes"/>
-</segment>
+<net name="A3" class="0">
 <segment>
 <pinref part="DRIVERPIN2" gate="A" pin="8"/>
 <wire x1="48.26" y1="198.12" x2="55.88" y2="198.12" width="0.1524" layer="91"/>
 <label x="55.88" y="198.12" size="0.8128" layer="95" xref="yes"/>
 </segment>
-</net>
-<net name="ROW4" class="0">
 <segment>
-<pinref part="LEDPIN2" gate="G$1" pin="4"/>
-<wire x1="86.36" y1="172.72" x2="93.98" y2="172.72" width="0.1524" layer="91"/>
-<label x="93.98" y="172.72" size="0.8128" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="DRIVERPIN1" gate="A" pin="5"/>
-<wire x1="48.26" y1="147.32" x2="55.88" y2="147.32" width="0.1524" layer="91"/>
-<label x="55.88" y="147.32" size="0.8128" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="COL1" class="0">
-<segment>
-<pinref part="LEDPIN2" gate="G$1" pin="5"/>
-<wire x1="86.36" y1="175.26" x2="93.98" y2="175.26" width="0.1524" layer="91"/>
-<label x="93.98" y="175.26" size="0.8128" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="DRIVERPIN2" gate="A" pin="11"/>
-<wire x1="48.26" y1="205.74" x2="55.88" y2="205.74" width="0.1524" layer="91"/>
-<label x="55.88" y="205.74" size="0.8128" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="ROW2" class="0">
-<segment>
-<pinref part="LEDPIN2" gate="G$1" pin="6"/>
-<wire x1="86.36" y1="177.8" x2="93.98" y2="177.8" width="0.1524" layer="91"/>
-<label x="93.98" y="177.8" size="0.8128" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="DRIVERPIN1" gate="A" pin="3"/>
-<wire x1="48.26" y1="142.24" x2="55.88" y2="142.24" width="0.1524" layer="91"/>
-<label x="55.88" y="142.24" size="0.8128" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="COL7" class="0">
-<segment>
-<pinref part="LEDPIN2" gate="G$1" pin="7"/>
-<wire x1="86.36" y1="180.34" x2="93.98" y2="180.34" width="0.1524" layer="91"/>
-<label x="93.98" y="180.34" size="0.8128" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="DRIVERPIN2" gate="A" pin="5"/>
-<wire x1="48.26" y1="190.5" x2="55.88" y2="190.5" width="0.1524" layer="91"/>
-<label x="55.88" y="190.5" size="0.8128" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="COL8" class="0">
-<segment>
-<pinref part="LEDPIN2" gate="G$1" pin="8"/>
-<wire x1="86.36" y1="182.88" x2="93.98" y2="182.88" width="0.1524" layer="91"/>
-<label x="93.98" y="182.88" size="0.8128" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="DRIVERPIN2" gate="A" pin="4"/>
-<wire x1="48.26" y1="187.96" x2="55.88" y2="187.96" width="0.1524" layer="91"/>
-<label x="55.88" y="187.96" size="0.8128" layer="95" xref="yes"/>
+<pinref part="LEDPIN2" gate="G$1" pin="2"/>
+<wire x1="86.36" y1="167.64" x2="93.98" y2="167.64" width="0.1524" layer="91"/>
+<label x="93.98" y="167.64" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -14013,13 +13840,6 @@ Source: &lt;a href="https://cdn.sparkfun.com/assets/learn_tutorials/6/7/6/PiZero
 <wire x1="48.26" y1="185.42" x2="55.88" y2="185.42" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="COL6" class="0">
-<segment>
-<pinref part="DRIVERPIN2" gate="A" pin="6"/>
-<wire x1="48.26" y1="193.04" x2="55.88" y2="193.04" width="0.1524" layer="91"/>
-<label x="55.88" y="193.04" size="0.8128" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="SDA5V" class="0">
 <segment>
 <pinref part="DRIVERPIN2" gate="A" pin="13"/>
@@ -14050,25 +13870,242 @@ Source: &lt;a href="https://cdn.sparkfun.com/assets/learn_tutorials/6/7/6/PiZero
 <wire x1="121.92" y1="144.78" x2="129.54" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="C0" class="0">
+<segment>
+<pinref part="DRIVERPIN1" gate="A" pin="2"/>
+<wire x1="48.26" y1="139.7" x2="55.88" y2="139.7" width="0.1524" layer="91"/>
+<label x="55.88" y="139.7" size="0.8128" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="LEDPIN2" gate="G$1" pin="1"/>
+<wire x1="86.36" y1="165.1" x2="93.98" y2="165.1" width="0.1524" layer="91"/>
+<label x="93.98" y="165.1" size="0.8128" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="C1" class="0">
+<segment>
+<pinref part="DRIVERPIN1" gate="A" pin="3"/>
+<wire x1="48.26" y1="142.24" x2="55.88" y2="142.24" width="0.1524" layer="91"/>
+<label x="55.88" y="142.24" size="0.8128" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="LEDPIN2" gate="G$1" pin="6"/>
+<wire x1="86.36" y1="177.8" x2="93.98" y2="177.8" width="0.1524" layer="91"/>
+<label x="93.98" y="177.8" size="0.8128" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="C2" class="0">
+<segment>
+<pinref part="DRIVERPIN1" gate="A" pin="4"/>
+<wire x1="48.26" y1="144.78" x2="55.88" y2="144.78" width="0.1524" layer="91"/>
+<label x="55.88" y="144.78" size="0.8128" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="LEDPIN1" gate="G$1" pin="8"/>
+<wire x1="86.36" y1="154.94" x2="93.98" y2="154.94" width="0.1524" layer="91"/>
+<label x="93.98" y="154.94" size="0.8128" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="C3" class="0">
+<segment>
+<pinref part="DRIVERPIN1" gate="A" pin="5"/>
+<wire x1="48.26" y1="147.32" x2="55.88" y2="147.32" width="0.1524" layer="91"/>
+<label x="55.88" y="147.32" size="0.8128" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="LEDPIN2" gate="G$1" pin="4"/>
+<wire x1="86.36" y1="172.72" x2="93.98" y2="172.72" width="0.1524" layer="91"/>
+<label x="93.98" y="172.72" size="0.8128" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="C4" class="0">
+<segment>
+<pinref part="DRIVERPIN1" gate="A" pin="6"/>
+<wire x1="48.26" y1="149.86" x2="55.88" y2="149.86" width="0.1524" layer="91"/>
+<label x="55.88" y="149.86" size="0.8128" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="LEDPIN1" gate="G$1" pin="1"/>
+<wire x1="86.36" y1="137.16" x2="93.98" y2="137.16" width="0.1524" layer="91"/>
+<label x="93.98" y="137.16" size="0.8128" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="C5" class="0">
+<segment>
+<pinref part="DRIVERPIN1" gate="A" pin="7"/>
+<wire x1="48.26" y1="152.4" x2="55.88" y2="152.4" width="0.1524" layer="91"/>
+<label x="55.88" y="152.4" size="0.8128" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="LEDPIN1" gate="G$1" pin="7"/>
+<wire x1="86.36" y1="152.4" x2="93.98" y2="152.4" width="0.1524" layer="91"/>
+<label x="93.98" y="152.4" size="0.8128" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="C6" class="0">
+<segment>
+<pinref part="DRIVERPIN1" gate="A" pin="8"/>
+<wire x1="48.26" y1="154.94" x2="55.88" y2="154.94" width="0.1524" layer="91"/>
+<label x="55.88" y="154.94" size="0.8128" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="LEDPIN1" gate="G$1" pin="2"/>
+<wire x1="86.36" y1="139.7" x2="93.98" y2="139.7" width="0.1524" layer="91"/>
+<label x="93.98" y="139.7" size="0.8128" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="C7" class="0">
+<segment>
+<pinref part="DRIVERPIN1" gate="A" pin="9"/>
+<wire x1="48.26" y1="157.48" x2="55.88" y2="157.48" width="0.1524" layer="91"/>
+<label x="55.88" y="157.48" size="0.8128" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="LEDPIN1" gate="G$1" pin="5"/>
+<wire x1="86.36" y1="147.32" x2="93.98" y2="147.32" width="0.1524" layer="91"/>
+<label x="93.98" y="147.32" size="0.8128" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="A7" class="0">
+<segment>
+<pinref part="DRIVERPIN2" gate="A" pin="4"/>
+<wire x1="48.26" y1="187.96" x2="55.88" y2="187.96" width="0.1524" layer="91"/>
+<label x="55.88" y="187.96" size="0.8128" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="LEDPIN2" gate="G$1" pin="8"/>
+<wire x1="86.36" y1="182.88" x2="93.98" y2="182.88" width="0.1524" layer="91"/>
+<label x="93.98" y="182.88" size="0.8128" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="A6" class="0">
+<segment>
+<pinref part="DRIVERPIN2" gate="A" pin="5"/>
+<wire x1="48.26" y1="190.5" x2="55.88" y2="190.5" width="0.1524" layer="91"/>
+<label x="55.88" y="190.5" size="0.8128" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="LEDPIN2" gate="G$1" pin="7"/>
+<wire x1="86.36" y1="180.34" x2="93.98" y2="180.34" width="0.1524" layer="91"/>
+<label x="93.98" y="180.34" size="0.8128" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="A5" class="0">
+<segment>
+<pinref part="DRIVERPIN2" gate="A" pin="6"/>
+<wire x1="48.26" y1="193.04" x2="55.88" y2="193.04" width="0.1524" layer="91"/>
+<label x="55.88" y="193.04" size="0.8128" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="LEDPIN2" gate="G$1" pin="3"/>
+<wire x1="86.36" y1="170.18" x2="93.98" y2="170.18" width="0.1524" layer="91"/>
+<label x="93.98" y="170.18" size="0.8128" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="A4" class="0">
+<segment>
+<pinref part="DRIVERPIN2" gate="A" pin="7"/>
+<wire x1="48.26" y1="195.58" x2="55.88" y2="195.58" width="0.1524" layer="91"/>
+<label x="55.88" y="195.58" size="0.8128" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="LEDPIN1" gate="G$1" pin="6"/>
+<wire x1="86.36" y1="149.86" x2="93.98" y2="149.86" width="0.1524" layer="91"/>
+<label x="93.98" y="149.86" size="0.8128" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="A2" class="0">
+<segment>
+<pinref part="DRIVERPIN2" gate="A" pin="9"/>
+<wire x1="48.26" y1="200.66" x2="55.88" y2="200.66" width="0.1524" layer="91"/>
+<label x="55.88" y="200.66" size="0.8128" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="LEDPIN1" gate="G$1" pin="4"/>
+<wire x1="86.36" y1="144.78" x2="93.98" y2="144.78" width="0.1524" layer="91"/>
+<label x="93.98" y="144.78" size="0.8128" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="A1" class="0">
+<segment>
+<pinref part="DRIVERPIN2" gate="A" pin="10"/>
+<wire x1="48.26" y1="203.2" x2="55.88" y2="203.2" width="0.1524" layer="91"/>
+<label x="55.88" y="203.2" size="0.8128" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="LEDPIN1" gate="G$1" pin="3"/>
+<wire x1="86.36" y1="142.24" x2="93.98" y2="142.24" width="0.1524" layer="91"/>
+<label x="93.98" y="142.24" size="0.8128" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="A0" class="0">
+<segment>
+<pinref part="DRIVERPIN2" gate="A" pin="11"/>
+<wire x1="48.26" y1="205.74" x2="55.88" y2="205.74" width="0.1524" layer="91"/>
+<label x="55.88" y="205.74" size="0.8128" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="LEDPIN2" gate="G$1" pin="5"/>
+<wire x1="86.36" y1="175.26" x2="93.98" y2="175.26" width="0.1524" layer="91"/>
+<label x="93.98" y="175.26" size="0.8128" layer="95" xref="yes"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
 <errors>
-<approved hash="106,1,182.88,25.4,MO2RTN,,,,,"/>
-<approved hash="106,1,182.88,30.48,MO2SND,,,,,"/>
+<approved hash="106,1,121.92,144.78,N$5,,,,,"/>
+<approved hash="106,1,48.26,160.02,N$9,,,,,"/>
+<approved hash="106,1,48.26,162.56,N$10,,,,,"/>
+<approved hash="106,1,48.26,165.1,N$11,,,,,"/>
+<approved hash="106,1,48.26,167.64,N$12,,,,,"/>
+<approved hash="106,1,48.26,170.18,N$13,,,,,"/>
+<approved hash="106,1,48.26,180.34,N$14,,,,,"/>
+<approved hash="106,1,48.26,182.88,N$15,,,,,"/>
+<approved hash="106,1,48.26,185.42,N$16,,,,,"/>
 <approved hash="113,1,193.571,130.071,FRAME2,,,,,"/>
 <approved hash="113,1,302.26,137.16,NC5,,,,,"/>
 <approved hash="113,1,302.26,177.8,NC1,,,,,"/>
 <approved hash="113,1,302.26,175.26,NC2,,,,,"/>
-<approved hash="113,1,50.8,30.48,NC8,,,,,"/>
-<approved hash="113,1,50.8,27.94,NC9,,,,,"/>
 <approved hash="113,1,302.26,134.62,NC6,,,,,"/>
 <approved hash="113,1,302.26,142.24,NC3,,,,,"/>
 <approved hash="113,1,302.26,139.7,NC4,,,,,"/>
-<approved hash="113,1,30.48,104.14,NC10,,,,,"/>
-<approved hash="113,1,332.74,175.26,NC7,,,,,"/>
 <approved hash="113,1,228.6,157.48,NC11,,,,,"/>
-<approved hash="113,1,332.74,172.72,NC12,,,,,"/>
+<approved hash="113,1,82.5077,209.776,RTCPIN,,,,,"/>
+<approved hash="113,1,84.868,144.554,LEDPIN1,,,,,"/>
+<approved hash="113,1,84.868,172.494,LEDPIN2,,,,,"/>
+<approved hash="113,1,44.4384,152.174,DRIVERPIN1,,,,,"/>
+<approved hash="113,1,44.4384,195.354,DRIVERPIN2,,,,,"/>
+<approved hash="113,1,228.6,172.72,NC7,,,,,"/>
+<approved hash="113,1,228.6,152.4,NC8,,,,,"/>
+<approved hash="113,1,228.6,149.86,NC9,,,,,"/>
+<approved hash="113,1,228.6,144.78,NC10,,,,,"/>
+<approved hash="113,1,228.6,142.24,NC12,,,,,"/>
+<approved hash="113,1,228.6,137.16,NC13,,,,,"/>
+<approved hash="113,1,228.6,134.62,NC14,,,,,"/>
+<approved hash="113,1,302.26,187.96,NC15,,,,,"/>
+<approved hash="113,1,302.26,185.42,NC16,,,,,"/>
+<approved hash="113,1,302.26,182.88,NC17,,,,,"/>
+<approved hash="113,1,302.26,172.72,NC18,,,,,"/>
+<approved hash="113,1,302.26,167.64,NC19,,,,,"/>
+<approved hash="113,1,302.26,165.1,NC20,,,,,"/>
+<approved hash="113,1,302.26,162.56,NC21,,,,,"/>
+<approved hash="113,1,302.26,157.48,NC22,,,,,"/>
+<approved hash="113,1,302.26,154.94,NC23,,,,,"/>
+<approved hash="113,1,302.26,152.4,NC24,,,,,"/>
+<approved hash="113,1,302.26,149.86,NC25,,,,,"/>
+<approved hash="113,1,302.26,144.78,NC26,,,,,"/>
+<approved hash="113,1,55.88,160.02,NC27,,,,,"/>
+<approved hash="113,1,55.88,162.56,NC28,,,,,"/>
+<approved hash="113,1,55.88,165.1,NC29,,,,,"/>
+<approved hash="113,1,55.88,167.64,NC30,,,,,"/>
+<approved hash="113,1,55.88,170.18,NC31,,,,,"/>
+<approved hash="113,1,55.88,180.34,NC32,,,,,"/>
+<approved hash="113,1,55.88,182.88,NC33,,,,,"/>
+<approved hash="113,1,55.88,185.42,NC34,,,,,"/>
+<approved hash="113,1,117.389,139.474,LEVELSHIFT1,,,,,"/>
+<approved hash="113,1,117.389,157.254,LEVELSHIFT2,,,,,"/>
+<approved hash="113,1,129.54,144.78,NC35,,,,,"/>
 </errors>
 </schematic>
 </drawing>
