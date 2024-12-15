@@ -198,7 +198,7 @@
 <circle x="95" y="75" radius="3" width="0.2" layer="41"/>
 <circle x="5" y="5" radius="3" width="0.2" layer="41"/>
 <circle x="95" y="5" radius="3" width="0.2" layer="41"/>
-<text x="3" y="40" size="1.27" layer="25" rot="R90" align="center">Bellini Prototype 00 v1.0</text>
+<text x="3" y="40" size="1.27" layer="25" rot="R90" align="center">Bellini Prototype 01 v1.0</text>
 <hole x="5" y="75" drill="3.2"/>
 <hole x="5" y="5" drill="3.2"/>
 <hole x="95" y="5" drill="3.2"/>
